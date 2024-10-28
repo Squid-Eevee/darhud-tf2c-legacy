@@ -526,7 +526,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../hud/cart_blocked"
+			"image"			"../darhud/payload/cart_blocked"
 			"scaleImage"	"1"	
 			
 			"if_multiple_trains"

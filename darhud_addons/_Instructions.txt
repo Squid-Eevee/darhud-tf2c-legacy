@@ -14,6 +14,7 @@ Centered Scoreboard requires two separate files, so both need to be moved here.
 
 Button Colours and Menu Themes:
 It is recommended to keep a personal backup of these files if you have your own configuration so they can easily be carried over between updates.
+These files are to be placed in darhud_addons/theme.
 These files require a full game restart to take effect.
 
 Open Fortress Charge Meters:

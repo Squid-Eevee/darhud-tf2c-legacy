@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials\darhud\base_blue.vmt"
+	
+	insert
+	{
+		"$distancealpha"	"1"
+		"$baseTexture"	"darhud\ctf\compass_noarrow_mask"
+	}
+}

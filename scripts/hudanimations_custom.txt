@@ -1,0 +1,370 @@
+// Cart Alarm Pulse
+event HudCartAlarmPulse
+{
+	Animate	EscortItemImageAlert		Alpha		"255"		Linear 0.0 0.075
+	Animate	EscortItemImageAlert		Alpha		"0"			Linear 0.125 0.075
+	
+	RunEvent HudCartAlarmPulseLoop	0.25
+}
+
+event HudCartAlarmPulseLoop
+{
+	RunEvent HudCartAlarmPulse 0.0
+}
+
+event HudCartAlarmPulseStop
+{
+	StopEvent HudCartAlarmPulse 0.0
+	StopEvent HudCartAlarmPulseLoop 0.0
+}
+
+//==========================================================================================================================
+// CROSSHAIR ANIMATION
+//--------------------------------------------------------------------------------------------------------------------------
+// event DamagedPlayer
+// {
+// 	Animate CustomCrosshair		FgColor     "Hitmarker"		Linear 	0.0 	0.00001
+// 	Animate CustomCrosshair		FgColor     "Crosshair"		Linear 	0.10 	0.10001
+// }
+
+//==========================================================================================================================
+// SPY DISGUISE
+//--------------------------------------------------------------------------------------------------------------------------
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged		0.0
+	Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
+}
+
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged		0.0
+	Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
+}
+
+//===========================================
+
+// Show the Overtime panel
+event OvertimeShow
+{
+	Animate OvertimeLabel				Alpha		"255"			Linear 0.0 0.1	
+	Animate OvertimeBG					Alpha		"255"			Linear 0.0 0.1	
+}
+
+//==========================================================================================================================
+// HEALTH ANIMATION
+//--------------------------------------------------------------------------------------------------------------------------
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage Alpha	"255"	Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage Alpha	"0"		Linear 0.2 0.4
+
+	Animate	PlayerStatusHealthImageOverheal 	Alpha		"255"			Linear 0.0 0.0
+	
+	Animate	PlayerHealthValue					FgColor		"HealthGain" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 			FgColor		"HealthGain" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator 	FgColor		"HealthGain" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel 	FgColor		"HealthGain" Accel 0.0 0.0
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse		0.0
+	StopEvent HudHealthBonusPulseLoop	0.0
+	
+	Animate	PlayerStatusHealthImageOverheal	Alpha		"0"			Linear 0.0 0.0
+	
+	Animate	PlayerHealthValue				FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 			FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator 	FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel 	FgColor		"WhitHealthNormale" Accel 0.0 0.0
+}
+
+//===========================================
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"			Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"				Linear 0.125 0.075
+	
+	Animate	PlayerHealthValue					FgColor		"HealthLow"	Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 			FgColor		"HealthLow" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator 	FgColor		"HealthLow" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel 	FgColor		"HealthLow" Accel 0.0 0.0
+	
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 		0.0
+	StopEvent HudHealthDyingPulseLoop	0.0
+	
+	Animate	PlayerHealthValue					FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 			FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator 	FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel 	FgColor		"HealthNormal" Accel 0.0 0.0
+}
+//==========================================================================================================================
+// UBERCHARGE ANIMATION
+//--------------------------------------------------------------------------------------------------------------------------
+//Health Bonus Pulse
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	FgColor		"UberForeground"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"HealthGain"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter 	FgColor		"UberForeground"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"HealthGain"		Linear 0.3 0.4
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeLabel 	FgColor		"UberForeground"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"UberForeground"		Linear 0.0 0.0001
+}
+
+event HudSnapShotReminderIn
+{
+	Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ScreenshotPanel		Position	"c-83 25"	Spline 0.001 0.2
+}
+
+event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
+{
+	Animate ReplayReminder		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ReplayReminder		Position	"c-83 25"	Spline 0.001 0.2
+}
+
+event HudReplayReminderIn2	// Puts the panel below the snapshot panel
+{
+	Animate ReplayReminder		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ReplayReminder		Position	"c-83 65"	Spline 0.001 0.2
+}
+//==================================================================================
+
+event RDPositiveScorePulse { }
+event RDNegativeScorePulse { }
+
+//===========================================
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-225 r220"	Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"220 220"		Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide	0.7
+}
+
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+}
+
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
+}
+//==================================================================================
+
+//i might do something with these later so i'm adding them here for now
+//just need a bug to be fixed if possible
+event "HudDOMLeadUnassigned"
+{
+	StopEvent HudDOMLeadRed		0
+	StopEvent HudDOMLeadBlue	0
+	StopEvent HudDOMLeadGreen	0
+	StopEvent HudDOMLeadYellow	0
+
+	SetVisible AlertRedBG 	 0 0
+	SetVisible AlertBlueBG 	 0 0
+	SetVisible AlertGreenBG  0 0
+	SetVisible AlertYellowBG 0 0
+	
+	Animate AlertRedBG 		FgColor		"255 255 255 255"   Linear 0 0
+	Animate AlertBlueBG 	FgColor     "255 255 255 255"   Linear 0 0
+	Animate AlertGreenBG    FgColor     "255 255 255 255"   Linear 0 0
+	Animate AlertYellowBG   FgColor     "255 255 255 255"   Linear 0 0
+}
+
+event "HudDOMLeadAlert"
+{
+	
+	//======================
+	Animate AlertRedBG 		FgColor		"255 0 0 255"   Linear 0.1 0.1
+	Animate AlertBlueBG 	FgColor     "255 0 0 255"   Linear 0.1 0.1
+	Animate AlertGreenBG    FgColor     "255 0 0 255"   Linear 0.1 0.1
+	Animate AlertYellowBG   FgColor     "255 0 0 255"   Linear 0.1 0.1
+
+
+	//======================
+	Animate	AlertRedBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	AlertRedBG 	Alpha		"255"		Linear 0.3 0.1
+
+	Animate	AlertRedBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	AlertRedBG 	Alpha		"255"		Linear 0.7 0.1
+
+	Animate	AlertRedBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	AlertRedBG 	Alpha		"255"		Linear 1.1 0.1
+	
+	//======================
+	Animate	AlertBlueBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	AlertBlueBG 	Alpha		"255"		Linear 0.3 0.1
+
+	Animate	AlertBlueBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	AlertBlueBG 	Alpha		"255"		Linear 0.7 0.1
+
+	Animate	AlertBlueBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	AlertBlueBG 	Alpha		"255"		Linear 1.1 0.1
+	
+	//======================
+	Animate	AlertGreenBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	AlertGreenBG 	Alpha		"255"		Linear 0.3 0.1
+
+	Animate	AlertGreenBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	AlertGreenBG 	Alpha		"255"		Linear 0.7 0.1
+
+	Animate	AlertGreenBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	AlertGreenBG 	Alpha		"255"		Linear 1.1 0.1
+	
+	//======================
+	Animate	AlertYellowBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	AlertYellowBG 	Alpha		"255"		Linear 0.3 0.1
+
+	Animate	AlertYellowBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	AlertYellowBG 	Alpha		"255"		Linear 0.7 0.1
+
+	Animate	AlertYellowBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	AlertYellowBG 	Alpha		"255"		Linear 1.1 0.1
+}
+
+event "HudDOMLeadRed"
+{
+	Animate	AlertRedBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	AlertRedBG 	Alpha		"255"		Linear 0.3 0.1
+
+	Animate	AlertRedBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	AlertRedBG 	Alpha		"255"		Linear 0.7 0.1
+
+	Animate	AlertRedBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	AlertRedBG 	Alpha		"255"		Linear 1.1 0.1
+	
+	StopEvent HudDOMLeadBlue	0
+	StopEvent HudDOMLeadGreen   0
+	StopEvent HudDOMLeadYellow  0
+	
+	StopEvent HudDOMLeadBlueLoop	0
+	StopEvent HudDOMLeadGreenLoop   0
+	StopEvent HudDOMLeadYellowLoop  0
+	
+	SetVisible AlertBlueBG 	 0 0
+	SetVisible AlertGreenBG  0 0
+	SetVisible AlertYellowBG 0 0
+	SetVisible AlertRedBG 	 1 0
+	
+	RunEvent HudDOMLeadRedLoop	1.5
+}
+
+event "HudDOMLeadBlue"
+{
+	Animate	AlertBlueBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	AlertBlueBG 	Alpha		"255"		Linear 0.3 0.1
+
+	Animate	AlertBlueBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	AlertBlueBG 	Alpha		"255"		Linear 0.7 0.1
+
+	Animate	AlertBlueBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	AlertBlueBG 	Alpha		"255"		Linear 1.1 0.1
+	
+	StopEvent HudDOMLeadRed		0
+	StopEvent HudDOMLeadGreen   0
+	StopEvent HudDOMLeadYellow  0
+	
+	StopEvent HudDOMLeadRedLoop		0
+	StopEvent HudDOMLeadGreenLoop   0
+	StopEvent HudDOMLeadYellowLoop  0
+	
+	SetVisible AlertRedBG 	 0 0
+	SetVisible AlertGreenBG  0 0
+	SetVisible AlertYellowBG 0 0
+	SetVisible AlertBlueBG 	1 0
+	
+	RunEvent HudDOMLeadBlueLoop	1.5
+}
+
+event "HudDOMLeadGreen"
+{
+	Animate	AlertGreenBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	AlertGreenBG 	Alpha		"255"		Linear 0.3 0.1
+	
+	Animate	AlertGreenBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	AlertGreenBG 	Alpha		"255"		Linear 0.7 0.1
+	
+	Animate	AlertGreenBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	AlertGreenBG 	Alpha		"255"		Linear 1.1 0.1
+	
+	StopEvent HudDOMLeadRed		0
+	StopEvent HudDOMLeadBlue    0
+	StopEvent HudDOMLeadYellow  0
+	
+	StopEvent HudDOMLeadRedLoop		0
+	StopEvent HudDOMLeadBlueLoop    0
+	StopEvent HudDOMLeadYellowLoop  0
+	
+	SetVisible AlertRedBG 	 0 0
+	SetVisible AlertBlueBG 	 0 0
+	SetVisible AlertYellowBG 0 0
+	SetVisible	AlertGreenBG  1 0
+}
+
+event "HudDOMLeadYellow"
+{
+	Animate	AlertYellowBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	AlertYellowBG 	Alpha		"255"		Linear 0.3 0.1
+	
+	Animate	AlertYellowBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	AlertYellowBG 	Alpha		"255"		Linear 0.7 0.1
+	
+	Animate	AlertYellowBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	AlertYellowBG 	Alpha		"255"		Linear 1.1 0.1
+	
+	StopEvent HudDOMLeadRed		0
+	StopEvent HudDOMLeadBlue    0
+	StopEvent HudDOMLeadGreen   0
+	
+	StopEvent HudDOMLeadRedLoop		0
+	StopEvent HudDOMLeadBlueLoop    0
+	StopEvent HudDOMLeadGreenLoop  	0
+	
+	SetVisible AlertRedBG 	 0 0
+	SetVisible AlertBlueBG 	 0 0
+	SetVisible AlertGreenBG  0 0
+	SetVisible	AlertYellowBG 1 0
+}

@@ -5992,7 +5992,7 @@ Scheme
 			"bordertype"		"scalable_image"
 			"backgroundtype"	"2"
 			
-			"image"			"../darhud/counter_reverse_shadow"
+			"image"			"../darhud/counter_shadow"
 		}
 
 

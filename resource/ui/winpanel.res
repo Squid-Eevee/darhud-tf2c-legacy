@@ -328,10 +328,10 @@
 		"fieldName"			"WinReasonLabel"
 		"font"				"ScoreboardVerySmallShadow"
 		"fgcolor_override"	"GeneralLabel"
-		"xpos"				"0"
+		"xpos"				"3"
 		"ypos"				"r104"
 		"zpos"				"1"
-		"wide"				"300"
+		"wide"				"294"
 		"tall"				"10"
 		"autoResize"			"0"
 		"pinCorner"			"0"
@@ -348,10 +348,10 @@
 		"fieldName"			"DetailsLabel"
 		"font"				"ScoreboardVerySmallShadow"
 		"fgcolor_override"	"GeneralLabel"
-		"xpos"				"0"
+		"xpos"				"3"
 		"ypos"				"r94"
 		"zpos"				"1"
-		"wide"				"300"
+		"wide"				"294"
 		"tall"				"10"
 		"autoResize"			"0"
 		"pinCorner"			"0"
@@ -437,6 +437,21 @@
 		"fillcolor"		"GeneralLabel"
 		"PaintBackgroundType"	"0"
 	}
+	"Player1Avatar"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"		"Player1Avatar"
+		"xpos"			"22"
+		"ypos"			"r58"
+		"zpos"			"3"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
+		"color_outline"		"52 48 45 255"
+	}
 	"Player1Badge"
 	{
 		"ControlName"	"CTFBadgePanel"
@@ -453,21 +468,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-	}
-	"Player1Avatar"
-	{
-		"ControlName"		"CAvatarImagePanel"
-		"fieldName"		"Player1Avatar"
-		"xpos"			"22"
-		"ypos"			"r58"
-		"zpos"			"3"
-		"wide"			"14"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
-		"color_outline"		"52 48 45 255"
 	}
 	"Player1Name"
 	{	
@@ -533,7 +533,21 @@
 		"brighttext"		"0"
 	}
 
-
+	"Player2Avatar"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"		"Player2Avatar"
+		"xpos"			"22"
+		"ypos"			"r41"
+		"zpos"			"3"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
+		"color_outline"		"52 48 45 255"
+	}
 	"Player2Badge"
 	{
 		"ControlName"	"CTFBadgePanel"
@@ -550,21 +564,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-	}
-	"Player2Avatar"
-	{
-		"ControlName"		"CAvatarImagePanel"
-		"fieldName"		"Player2Avatar"
-		"xpos"			"22"
-		"ypos"			"r41"
-		"zpos"			"3"
-		"wide"			"14"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
-		"color_outline"		"52 48 45 255"
 	}
 	"Player2Name"
 	{	
@@ -630,7 +629,21 @@
 		"brighttext"		"0"
 	}
 
-
+	"Player3Avatar"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"		"Player3Avatar"
+		"xpos"			"22"
+		"ypos"			"r24"
+		"zpos"			"3"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
+		"color_outline"		"52 48 45 255"
+	}
 	"Player3Badge"
 	{
 		"ControlName"	"CTFBadgePanel"
@@ -647,21 +660,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-	}
-	"Player3Avatar"
-	{
-		"ControlName"		"CAvatarImagePanel"
-		"fieldName"		"Player3Avatar"
-		"xpos"			"22"
-		"ypos"			"r24"
-		"zpos"			"3"
-		"wide"			"14"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
-		"color_outline"		"52 48 45 255"
 	}
 	"Player3Name"
 	{	

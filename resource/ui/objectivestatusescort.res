@@ -424,7 +424,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../hud/cart_arrow_left"
+			"image"			"../darhud/payload/cart_arrow_left"
 			"scaleImage"	"1"	
 			
 			"if_multiple_trains"

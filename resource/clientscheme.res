@@ -3,7 +3,7 @@
 #base "../darhud_addons/gry_colors.res"
 #base "../darhud_addons/hue42_colors.res"
 #base "../darhud_addons/plm_colors.res"
-#base "../darhud_addons/customcolors.res"
+#base "../darhud_addons/theme/customcolors.res"
 #base "../darhud_addons/default_close_captions_clientscheme.res"
 #base "../darhud_addons/of_charge_meters.res"
 
@@ -5985,6 +5985,14 @@ Scheme
 			
 			"image"		"../darhud/square_white"
 			"color"		"50 0 0 255"
+		}
+		
+		UberRateBonusBorder
+		{
+			"bordertype"		"scalable_image"
+			"backgroundtype"	"2"
+			
+			"image"			"../darhud/counter_reverse_shadow"
 		}
 
 

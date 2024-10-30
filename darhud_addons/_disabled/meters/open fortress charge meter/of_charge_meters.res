@@ -1,9 +1,5 @@
 Scheme
 {
-	Colors
-	{
-		"MeterBackground"	"0 0 0 0"
-	}
 	Borders
 	{
 		ButtonDepressedBorder

@@ -37,7 +37,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CalloutLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallShadow"
 		"xpos"			"15"
 		"ypos"			"15"
 		"zpos"			"2"

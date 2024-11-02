@@ -496,6 +496,8 @@
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
+		"TeamGreen"		"HUDGreenTeamSolid"
+		"TeamYellow"		"HUDYellowTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 

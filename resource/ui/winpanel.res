@@ -452,23 +452,6 @@
 		"scaleImage"		"1"	
 		"color_outline"		"52 48 45 255"
 	}
-	"Player1Badge"
-	{
-		"ControlName"	"CTFBadgePanel"
-		"fieldName"		"Player1Badge"
-		"pin_to_sibling" "Player1Avatar"
-		"pin_corner_to_sibling" "PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" "PIN_CENTER_LEFT"
-		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"25"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-	}
 	"Player1Name"
 	{	
 		"ControlName"		"CExLabel"
@@ -548,23 +531,6 @@
 		"scaleImage"		"1"	
 		"color_outline"		"52 48 45 255"
 	}
-	"Player2Badge"
-	{
-		"ControlName"	"CTFBadgePanel"
-		"fieldName"		"Player2Badge"
-		"pin_to_sibling" "Player2Avatar"
-		"pin_corner_to_sibling" "PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" "PIN_CENTER_LEFT"
-		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"25"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-	}
 	"Player2Name"
 	{	
 		"ControlName"		"CExLabel"
@@ -643,23 +609,6 @@
 		"image"			""
 		"scaleImage"		"1"	
 		"color_outline"		"52 48 45 255"
-	}
-	"Player3Badge"
-	{
-		"ControlName"	"CTFBadgePanel"
-		"fieldName"		"Player3Badge"
-		"pin_to_sibling" "Player3Avatar"
-		"pin_corner_to_sibling" "PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" "PIN_CENTER_LEFT"
-		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"25"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
 	}
 	"Player3Name"
 	{	

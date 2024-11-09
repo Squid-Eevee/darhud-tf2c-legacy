@@ -2,7 +2,7 @@
 #base "../darhud_addons/gry_colors.res"
 #base "../darhud_addons/hue42_colors.res"
 #base "../darhud_addons/plm_colors.res"
-#base "../darhud_addons/customcolors.res"
+#base "../darhud_addons/theme/customcolors.res"
 //
 // TRACKER SCHEME RESOURCE FILE
 //

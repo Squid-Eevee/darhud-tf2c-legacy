@@ -759,6 +759,9 @@
 		"icon_wide"			"16"
 
 		"text_xpos"			"33"
+
+		"fade_in_time"	"0"
+		"fade_out_time"	"0.1"
 	}
 
 	HudHintDisplay

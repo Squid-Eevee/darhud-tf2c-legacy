@@ -856,12 +856,6 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
-			"image"					"../hud/color_panel_brown"
-			"src_corner_height"		"65"				// pixels inside the image
-			"src_corner_width"		"65"
-			"draw_corner_width"		"20"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"20"	
 		} 
 		AdvCheckButtonDefault
 		{

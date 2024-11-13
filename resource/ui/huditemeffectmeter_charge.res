@@ -72,7 +72,8 @@
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../darhud/icons/charge"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
+		"drawcolor"		"CounterIcon"
 	}
 	"ItemEffectMeterLabel"
 	{

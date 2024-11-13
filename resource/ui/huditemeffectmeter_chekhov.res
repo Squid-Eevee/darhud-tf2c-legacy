@@ -4,9 +4,9 @@
 {
 	"Icon"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"Icon"
-		"pin_to_sibling" "ItemEffectMeterCount"
+		"pin_to_sibling"	"ItemEffectMeterCount"
 		"pin_corner_to_sibling" "PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" "PIN_CENTER_LEFT"
 		"xpos"			"2"
@@ -17,7 +17,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../darhud/icons/kritz"
-		"drawcolor"		"CounterIcon"
-		"scaleImage"	"0"		
+		"fgcolor_override"	"CounterIcon"
+		"scaleImage"		"0"
 	}
 }

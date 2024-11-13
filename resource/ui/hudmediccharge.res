@@ -295,7 +295,7 @@
 	
 	"InvulnClusterIcon"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"InvulnClusterIcon"
 		"pin_to_sibling"	"Background"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
@@ -308,12 +308,13 @@
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../darhud/icons/invuln"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
+		"drawcolor"		"CounterIcon"
 	}
 	
 	"KritzClusterIcon"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"KritzClusterIcon"
 		"pin_to_sibling"	"Background"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
@@ -326,7 +327,8 @@
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../darhud/icons/kritz"
-		"scaleImage"	"1"	
+		"scaleImage"		"1"
+		"drawcolor"		"CounterIcon"
 	}
 	
 	"ResistIcon"

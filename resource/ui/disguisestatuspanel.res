@@ -48,7 +48,7 @@
 		"fieldName"		"SpyIcon"
 		"xpos"			"-6"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"3"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
@@ -186,7 +186,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"10"
+		"xpos"			"4"
 		"ypos"			"-8"
 		"zpos"			"2"
 		"wide"			"52"
@@ -198,7 +198,7 @@
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HealthWarning"
 		"TextColor"		"HealthNormal"
-	}	
+	}
 	"SpywalkLabel"
 	{	
 		"ControlName"	"Label"

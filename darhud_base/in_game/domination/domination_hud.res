@@ -38,10 +38,11 @@
 		
 		"if_generic"
 		{
-			"xpos"			"c-83"
+			"xpos"			"c-94"
 			"xpos_minmode"	"c-63"
-			"wide"			"78"
 			"wide_minmode"	"60"
+			"image"			"../darhud/dom/tdm_score_blue"
+			"image_minmode"	"../darhud/counter_blue"
 		}
 		"if_dom_4team"
 		{
@@ -111,8 +112,9 @@
 		
 		"if_generic"
 		{
-			"wide"			"78"
 			"wide_minmode"	"60"
+			"image"			"../darhud/dom/tdm_score_reverse_red"
+			"image_minmode"	"../darhud/counter_reverse_red"
 		}
 		"if_dom_4team"
 		{

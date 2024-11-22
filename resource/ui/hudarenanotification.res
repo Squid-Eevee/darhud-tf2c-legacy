@@ -80,6 +80,7 @@
 		"wrap"			"0"
 		"labelText"		""
 		"textAlignment"		"center"
+		"fgcolor_override"	"ObjectiveLabel"
 	}
 
 	"BalanceLabelTip"
@@ -98,6 +99,7 @@
 		"enabled"		"1"
 		"labelText"		"%notificationtip%"
 		"textAlignment"	"center"
+		"fgcolor_override"	"ObjectiveLabel"
 	}
 	"SwitchImage"
 	{

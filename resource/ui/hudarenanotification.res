@@ -68,8 +68,6 @@
 		"font"			"HudFontSmallBold"
 		"xpos"			"0"
 		"ypos"			"0"
-		"ypos_hidef"	"23"
-		"ypos_lodef"	"20"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"20"

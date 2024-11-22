@@ -55,6 +55,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_teamswitch_attackers"
 		"textAlignment"	"center"
+		"fgcolor_override"	"ObjectiveLabel"
 	}
 	"AlertImage"
 	{

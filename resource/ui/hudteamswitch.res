@@ -46,8 +46,6 @@
 		"font"			"HudFontSmallBold"
 		"xpos"			"0"
 		"ypos"			"0"
-		"ypos_hidef"		"23"
-		"ypos_lodef"		"20"
 		"zpos"			"1"
 		"wide"			"f0"	[$WIN32]
 		"tall"			"18"
@@ -57,6 +55,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"center"
+		"fgcolor_override"	"ObjectiveLabel"
 	}
 	"SwitchLabel"
 	{	
@@ -65,8 +64,6 @@
 		"font"			"TFFontMedium"
 		"xpos"			"0"
 		"ypos"			"16"
-		"ypos_hidef"		"40"
-		"ypos_lodef"		"36"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"10"
@@ -76,6 +73,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_teambalanced"
 		"textAlignment"	"center"
+		"fgcolor_override"	"ObjectiveLabel"
 	}
 	"SwitchImage"
 	{

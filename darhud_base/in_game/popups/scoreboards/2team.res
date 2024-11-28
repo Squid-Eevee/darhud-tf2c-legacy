@@ -1129,7 +1129,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"	"ClassImage"
-		"xpos"		"c-300"
+		"xpos"		"c-308"
 		"ypos"		"r92"
 		"zpos"		"10"
 		"wide"		"92"

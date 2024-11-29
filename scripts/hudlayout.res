@@ -892,13 +892,13 @@
 	
 	StatPanel
 	{
-		"fieldName"				"StatPanel"
-		"visible"				"0"
-		"enabled"				"0"
-		"xpos"					"9999"
-		"ypos"				"0"
-		"wide"					"0"
-		"tall"					"0"
+		"fieldName"	"StatPanel"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"c-135"
+		"ypos"		"270"
+		"wide"		"272"
+		"tall"		"120"
 	}
 	
 	FreezePanel

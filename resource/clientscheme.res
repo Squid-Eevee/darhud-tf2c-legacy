@@ -3733,20 +3733,6 @@ Scheme
 			
 			"image"					"../darhud/square_spectator"
 		}
-		TFFatLineBorderRedBGOpaque
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"../darhud/square_red"
-		}
-		TFFatLineBorderRedBGOpaque_Store
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"../darhud/square_red"
-		}
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
@@ -3755,6 +3741,13 @@ Scheme
 			"image"					"../darhud/square_red"
 		}
 		TFFatLineBorderRedBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_red"
+		}
+		TFFatLineBorderRedBGOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"

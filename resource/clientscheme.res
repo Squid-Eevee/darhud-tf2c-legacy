@@ -2471,11 +2471,21 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"9"
-				"tall_hidef"	"10"
-				"tall_lodef"	"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
+			}
+		}
+		TFFontMediumShadow
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"9"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
 			}
 		}
 

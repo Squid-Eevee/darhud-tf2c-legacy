@@ -40,7 +40,7 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"289"
-		"tall"			"309"
+		"tall"			"139"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"			"OuterShadowBorder"

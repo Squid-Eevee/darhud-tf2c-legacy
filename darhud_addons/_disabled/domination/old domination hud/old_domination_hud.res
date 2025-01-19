@@ -549,6 +549,15 @@
 		"font"					"HudFontSmallBold"
 		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"				"ObjectiveShadow"
+		
+		"if_generic"
+		{
+			"visible"	"0"
+		}
+		"if_generic_4team"
+		{
+			"visible"	"0"
+		}
 	}
 	"ScoreRedLabel"
 	{
@@ -775,6 +784,15 @@
 		"font"					"HudFontSmallBold"
 		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"				"ObjectiveShadow"
+		
+		"if_generic"
+		{
+			"visible"	"0"
+		}
+		"if_generic_4team"
+		{
+			"visible"	"0"
+		}
 	}
 	"ScoreGreenLabel"
 	{
@@ -971,6 +989,15 @@
 		"font"					"HudFontSmallBold"
 		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"				"ObjectiveShadow"
+		
+		"if_generic"
+		{
+			"visible"	"0"
+		}
+		"if_generic_4team"
+		{
+			"visible"	"0"
+		}
 	}
 	
 	"ScoreYellowLabel"
@@ -1167,6 +1194,15 @@
 		"font"					"HudFontSmallBold"
 		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"				"ObjectiveShadow"
+		
+		"if_generic"
+		{
+			"visible"	"0"
+		}
+		"if_generic_4team"
+		{
+			"visible"	"0"
+		}
 	}
 	"PlayingTo"
 	{

@@ -446,6 +446,27 @@
 		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"				"ObjectiveLabel"
 	}
+	"ScoreBlueMultLabelShadow"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"				"ScoreBlueMultLabelShadow"
+		"pin_to_sibling"			"ScoreBlueMultLabel"
+		"xpos"					"0"
+		"xpos_minmode"			"-1"
+		"ypos"					"-2"
+		"ypos_minmode"			"-1"
+		"zpos"					"4"
+		"wide"					"22"
+		"tall"					"26"
+		"tall_minmode"			"16"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"%bluemult%"
+		"textAlignment"			"center"
+		"font"					"HudFontSmallBold"
+		"font_minmode"			"HudFontSmallestBold"
+		"fgcolor"				"ObjectiveShadow"
+	}
 	"ScoreRedLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -567,6 +588,7 @@
 		"zpos"					"4"
 		"wide"					"22"
 		"tall"					"26"
+		"tall_minmode"			"16"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"%redmult%"
@@ -578,6 +600,8 @@
 		"if_dom_4team"
 		{
 			"xpos"					"-8"
+			"xpos_minmode"			"-3"
+			"ypos_minmode"			"0"
 			"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 		}
@@ -587,6 +611,27 @@
 			"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 		}
+	}
+	"ScoreRedMultLabelShadow"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"				"ScoreRedMultLabelShadow"
+		"pin_to_sibling"			"ScoreRedMultLabel"
+		"xpos"					"0"
+		"xpos_minmode"			"-1"
+		"ypos"					"-2"
+		"ypos_minmode"			"-1"
+		"zpos"					"4"
+		"wide"					"22"
+		"tall"					"26"
+		"tall_minmode"			"16"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"%redmult%"
+		"textAlignment"			"center"
+		"font"					"HudFontSmallBold"
+		"font_minmode"			"HudFontSmallestBold"
+		"fgcolor"				"ObjectiveShadow"
 	}
 	"ScoreGreenLabel"
 	{
@@ -683,6 +728,7 @@
 		"zpos"					"4"
 		"wide"					"22"
 		"tall"					"26"
+		"tall_minmode"			"16"
 		"visible"				"0"
 		"enabled"				"1"
 		"labelText"				"%greenmult%"
@@ -699,6 +745,27 @@
 		{
 			"visible"		"1"
 		}
+	}
+	"ScoreGreenMultLabelShadow"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"				"ScoreGreenMultLabelShadow"
+		"pin_to_sibling"			"ScoreGreenMultLabel"
+		"xpos"					"0"
+		"xpos_minmode"			"-1"
+		"ypos"					"-2"
+		"ypos_minmode"			"-1"
+		"zpos"					"4"
+		"wide"					"22"
+		"tall"					"26"
+		"tall_minmode"			"16"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"%greenmult%"
+		"textAlignment"			"center"
+		"font"					"HudFontSmallBold"
+		"font_minmode"			"HudFontSmallestBold"
+		"fgcolor"				"ObjectiveShadow"
 	}
 	
 	"ScoreYellowLabel"
@@ -784,8 +851,8 @@
 	}
 	"ScoreYellowMultLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ScoreYellowMultLabel"
+		"ControlName"				"CExLabel"
+		"fieldName"				"ScoreYellowMultLabel"
 		"pin_to_sibling" 			"ScoreYellowBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
@@ -796,13 +863,14 @@
 		"zpos"					"4"
 		"wide"					"22"
 		"tall"					"26"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"%yellowmult%"
-		"textAlignment"	"center"
-		"font"			"HudFontSmallBold"
-		"font_minmode"	"HudFontSmallestBold"
-		"fgcolor"		"ObjectiveLabel"
+		"tall_minmode"			"16"
+		"visible"				"0"
+		"enabled"				"1"
+		"labelText"				"%yellowmult%"
+		"textAlignment"			"center"
+		"font"					"HudFontSmallBold"
+		"font_minmode"			"HudFontSmallestBold"
+		"fgcolor"				"ObjectiveLabel"
 		
 		"if_dom_4team"
 		{
@@ -812,6 +880,27 @@
 		{
 			"visible"		"1"
 		}
+	}
+	"ScoreYellowMultLabelShadow"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"				"ScoreYellowMultLabelShadow"
+		"pin_to_sibling"			"ScoreYellowMultLabel"
+		"xpos"					"0"
+		"xpos_minmode"			"-1"
+		"ypos"					"-2"
+		"ypos_minmode"			"-1"
+		"zpos"					"4"
+		"wide"					"22"
+		"tall"					"26"
+		"tall_minmode"			"16"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"%yellowmult%"
+		"textAlignment"			"center"
+		"font"					"HudFontSmallBold"
+		"font_minmode"			"HudFontSmallestBold"
+		"fgcolor"				"ObjectiveShadow"
 	}
 	"PlayingTo"
 	{

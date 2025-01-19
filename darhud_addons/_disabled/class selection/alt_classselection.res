@@ -935,7 +935,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"EditLoadoutButton"
 		"xpos"			"r244"
-		"xpos_minmode"	"c220"
+		"xpos_minmode"	"c213"
 		"ypos"			"r35"
 		"zpos"			"6"
 		"wide"			"188"

@@ -579,6 +579,8 @@
 		"if_dom_4team"
 		{
 			"xpos"					"3"
+			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 			"pin_corner_to_sibling_minmode"	"PIN_CENTER_RIGHT"
 			"pin_to_sibling_corner_minmode"	"PIN_CENTER_RIGHT"
 			"xpos_minmode"				"-5"

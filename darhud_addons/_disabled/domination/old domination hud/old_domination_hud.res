@@ -982,7 +982,7 @@
 		"wide"					"22"
 		"tall"					"26"
 		"tall_minmode"			"16"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"labelText"				"%greenmult%"
 		"textAlignment"			"center"
@@ -990,13 +990,9 @@
 		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"				"ObjectiveShadow"
 		
-		"if_generic"
+		"if_dom_4team"
 		{
-			"visible"	"0"
-		}
-		"if_generic_4team"
-		{
-			"visible"	"0"
+			"visible"	"1"
 		}
 	}
 	
@@ -1187,7 +1183,7 @@
 		"wide"					"22"
 		"tall"					"26"
 		"tall_minmode"			"16"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"labelText"				"%yellowmult%"
 		"textAlignment"			"center"
@@ -1195,13 +1191,9 @@
 		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"				"ObjectiveShadow"
 		
-		"if_generic"
+		"if_dom_4team"
 		{
-			"visible"	"0"
-		}
-		"if_generic_4team"
-		{
-			"visible"	"0"
+			"visible"	"1"
 		}
 	}
 	"PlayingTo"

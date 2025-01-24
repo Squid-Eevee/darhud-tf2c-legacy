@@ -2,7 +2,9 @@
 #base "../darhud_addons/gry_colors.res"
 #base "../darhud_addons/hue42_colors.res"
 #base "../darhud_addons/plm_colors.res"
+#base "../darhud_addons/of_charge_meters.res"
 #base "../darhud_addons/theme/customcolors.res"
+#base "../darhud_addons/default_close_captions_clientscheme.res"
 //
 // TRACKER SCHEME RESOURCE FILE
 //

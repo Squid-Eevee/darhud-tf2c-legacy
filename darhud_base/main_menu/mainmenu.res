@@ -198,6 +198,26 @@
 		"scroll_width"		"3"
 		"border"			"MainMenuAdvBGBorder"
 	}
+	"ServerlistFiltersPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ServerlistFiltersPanel"
+		"xpos"				"380"
+		"xpos_minmode"		"c-47"
+		"ypos"				"340"
+		"zpos"				"3"
+		"wide"				"138"
+		"tall"				"100"
+		"visible"			"1"
+		"enabled"			"1"
+		"server_width"		"152"
+		"players_width"		"24"
+		"ping_width"		"16"
+		"map_width"			"120"
+		"scroll_width"		"1"
+		"bordervisible"		"0"
+		"bgcolor_override"	"0 0 0 0"
+	}
 	
 	"FriendlistPanel"
 	{

@@ -90,14 +90,14 @@
 	{
 		"ControlName"			"CTFButton"
 		"fieldName"			"ReloadButton"
-		"xpos"				"250"
+		"xpos"				"6"
 		"ypos"				"6"
 		"zpos"				"7"
 		"wide"				"14"
 		"tall"				"14"
 		"visible"			"1"
 		"enabled"			"1"
-		"command"			"tf2c_updateserverlist"
+		"command"			"reloadservers"
 		"labelText"			""
 		"border_default"		"NoBorder"
 		"border_armed"		"NoBorder"
@@ -135,20 +135,40 @@
 	
 	"ServerList"
 	{
-		"ControlName"		"SectionedListPanel"
+		"ControlName"	"PanelListPanel"
 		"fieldName"		"ServerList"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"1"
-		"wide"			"260"
+		"wide"			"270"
 		"tall"			"140"
-		"font"			"TF2CMenuButton"
-		"autoResize"		"0"
+		"proportionalToParent"	"1"
+		"font"			"Link"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"linespacing"		"12"
-		"tabPosition"		"0"
+		"linespacing"	"12"
+		"tabPosition"	"0"
+		"slider_y_offset" "4"
+
+		"ScrollBar"
+		{
+			"wide"		"6"
+			"nobuttons"	"1"
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+			"UpButton"
+			{
+				"visible" "0"
+			}
+			"DownButton"
+			{
+				"visible" "0"
+			}
+		}
 	}
 	
 	"ConnectButton"
@@ -175,5 +195,38 @@
 		"border_armed"				"MainMenuAdvSquareButtonArmed"
 		"border_depressed"			"MainMenuAdvSquareButtonDepressed"
 		"border_disabled" 			"MainMenuAdvSquareButtonDisabled"
+	}
+	
+	"FilterButton"
+	{
+		"ControlName"	"CTFButton"
+		"fieldName"		"FilterButton"
+		"xpos"			"250"
+		"ypos"			"6"
+		"zpos"			"7"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"command"		"togglefilters"
+		"labelText"		""
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"border_depressed"	"NoBorder"
+		"tooltip"		"#TF_Menu_FilterServerList"
+
+		"SubImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SubImage"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"14"
+			"tall"				"14"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"main_menu/icons/icon_filter"
+			"scaleImage"		"1"
+		}
 	}
 }

@@ -2248,5 +2248,43 @@
 			"width"		"64"
 			"height"	"64"
 		}
+
+		///////////// 2.2.0 //////////////
+		"anchor"
+		{
+				"dfile"	"HUD/d_images_220"
+				"dnegfile"	"HUD/dneg_images_220"
+				"x"		"0"
+				"y"		"0"
+				"width"		"55"
+				"height"	"32"
+		}
+		"earthquake"
+		{
+				"dfile"	"HUD/d_images_220"
+				"dnegfile"	"HUD/dneg_images_220"
+				"x"		"0"
+				"y"		"33"
+				"width"		"85"
+				"height"	"32"
+		}
+		"canehook"
+		{
+				"dfile"	"HUD/d_images_220"
+				"dnegfile"	"HUD/dneg_images_220"
+				"x"		"0"
+				"y"		"66"
+				"width"		"93"
+				"height"	"32"
+		}
+		"taunt_soldier"
+		{
+				"dfile"	"HUD/d_images_tip"
+				"dnegfile"	"HUD/dneg_images_tip"
+				"x"		"512"
+				"y"		"128"
+				"width"		"63"
+				"height"	"32"
+		}
 	}	
 }

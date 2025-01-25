@@ -32,5 +32,24 @@
 		"tabPosition"	"0"
 		"bgcolor_override"		"OptionsBackground"
 		"PaintBackgroundType"	"0"
+		"slider_y_offset"	"4"
+
+		"ScrollBar"
+		{
+			"wide"		"8"
+			"nobuttons"	"1"
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+			"UpButton"
+			{
+				"visible" "0"
+			}
+			"DownButton"
+			{
+				"visible" "0"
+			}
+		}
 	}
 }

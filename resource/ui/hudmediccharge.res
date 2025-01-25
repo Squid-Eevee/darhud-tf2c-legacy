@@ -348,4 +348,23 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"0"
 	}
+
+	"NaderClusterIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NaderClusterIcon"
+		"pin_to_sibling"	"Background"
+		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
+		"xpos"			"-5"
+		"ypos"			"-2"
+		"wide"			"22"
+		"tall"			"22"
+		"visible"		"0"
+		"visible_minmode"	"0"
+		"enabled"		"1"
+		"image"			"../darhud/icons/invuln_shield"
+		"scaleImage"	"1"
+		"drawcolor"	"CounterIcon"
+	}
 }

@@ -951,6 +951,24 @@
 				"width"		"64"
 				"height"	"32"
 		}
+		"speedcane"
+		{
+				"dfile"	"HUD/d_images_tf2c"
+				"dnegfile"	"HUD/dneg_images_tf2c"
+				"x"		"272"
+				"y"		"32"
+				"width"		"96"
+				"height"	"32"
+		}
+		"cyclops"
+		{
+				"dfile"	"HUD/d_images_tf2c"
+				"dnegfile"	"HUD/dneg_images_tf2c"
+				"x"		"272"
+				"y"		"64"
+				"width"		"96"
+				"height"	"32"
+		}
 		"taunt_pyro"
 		{
 				"dfile"	"HUD/d_images_tip"

@@ -539,7 +539,7 @@
 			"tall"				"16"
 			"visible"			"1"
 			"enabled"			"1"
-			"image"				"glyph_muted"
+			"image"				"main_menu/icons/icon_mute"
 			"scaleImage"		"1"
 		}
 	}
@@ -605,7 +605,7 @@
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_browse"
+			"image"			"main_menu/icons/icon_magnifier"
 			"scaleImage"		"1"
 		}
 	}
@@ -691,7 +691,7 @@
 			"tall"			"19"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_achievements"
+			"image"			"main_menu/icons/icon_badge"
 			"scaleImage"		"1"
 		}
 	}
@@ -761,7 +761,7 @@
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_create"
+			"image"			"main_menu/icons/icon_plus"
 			"scaleImage"		"1"
 		}
 	}
@@ -831,7 +831,7 @@
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_items"
+			"image"			"main_menu/icons/icon_backpack"
 			"scaleImage"		"1"
 		}
 		
@@ -909,7 +909,7 @@
 			"tall"				"18"
 			"visible"			"1"
 			"enabled"			"1"
-			"image"				"glyph_options"
+			"image"				"main_menu/icons/icon_gear"
 			"scaleImage"		"1"
 		}
 	}
@@ -974,7 +974,7 @@
 			"tall"				"20"
 			"visible"			"1"
 			"enabled"			"1"
-			"image"				"glyph_configure"
+			"image"				"main_menu/icons/icon_wrench"
 			"scaleImage"		"1"
 		}
 	}
@@ -1062,7 +1062,7 @@
 			"tall"				"12"
 			"visible"			"1"
 			"enabled"			"1"
-			"image"				"glyph_quit"
+			"image"				"main_menu/icons/icon_quit"
 			"scaleImage"		"1"
 		}
 
@@ -1146,7 +1146,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_stats"
+			"image"			"main_menu/icons/icon_graph"
 			"scaleImage"	"1"
 		}
 		
@@ -1223,7 +1223,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_audio"
+			"image"			"main_menu/icons/icon_audio"
 			"scaleImage"	"1"
 		}
 		"SubCheckImage"
@@ -1290,7 +1290,7 @@
 		"navUp"				"OptionsDialogButton"
 		"navDown"		"ServerBrowserButton"
 		"navLeft"			"MusicToggleCheck"
-		"navRight"			"BlogToggleCheck"
+		"navRight"			"BlogButton"
 		
 		"SubImage"
 		{
@@ -1302,7 +1302,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_random"
+			"image"			"main_menu/icons/icon_random"
 			"scaleImage"	"1"
 		}
 		
@@ -1333,10 +1333,10 @@
 		}
 	}
 	
-	"BlogToggleCheck"
+	"BlogButton"
 	{
-		"ControlName"		"CTFCvarToggleCheckButton"
-		"fieldName"			"BlogToggleCheck"
+		"ControlName"		"CTFButton"
+		"fieldName"			"BlogButton"
 		"pin_to_sibling"		"RandomMusicButton"
 		"xpos"				"-24"
 		"ypos"				"0"
@@ -1346,7 +1346,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			""
-		"cvar_name"			"tf2c_mainmenu_showblog"
+		"cvar_name"			"openblog"
 		"autochange"		"1"
 		"inverted"			"1"
 		"textAlignment"		"center"
@@ -1376,13 +1376,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_tv"
-			"scaleImage"	"1"
-		}
-
-		"SubCheckImage"
-		{
-			"image"			"glyph_disabled"
+			"image"			"main_menu/icons/icon_link"
 			"scaleImage"	"1"
 		}
 
@@ -1397,11 +1391,11 @@
 			"pin_to_sibling"	"StatsButton"
 		}
 	}
-	"BlogToggleCheckShadow"
+	"BlogShadow"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"			"BlogToggleCheckShadow"
-		"pin_to_sibling"		"BlogToggleCheck"
+		"fieldName"			"BlogShadow"
+		"pin_to_sibling"		"BlogButton"
 		"xpos"				"0"
 		"ypos"				"-3"
 		"zpos"				"9"
@@ -1418,7 +1412,7 @@
 	{
 		"ControlName"		"CTFCvarToggleCheckButton"
 		"fieldName"			"ServerListToggleCheck"
-		"pin_to_sibling"		"BlogToggleCheck"
+		"pin_to_sibling"		"BlogButton"
 		"xpos"				"-21"
 		"ypos"				"0"
 		"zpos"				"10"
@@ -1444,7 +1438,7 @@
 		"tooltip"			"#TF_Menu_ServerListPanel"
 		
 		"navUp"				"OptionsDialogButton"
-		"navLeft"			"BlogToggleCheck"
+		"navLeft"			"BlogButton"
 		"navRight"			"FriendsListToggleCheck"
 		
 		"SubImage"
@@ -1457,7 +1451,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_server"
+			"image"			"main_menu/icons/icon_servers"
 			"scaleImage"	"1"
 		}
 
@@ -1475,7 +1469,7 @@
 		"if_inlevel"
 		{
 			"navDown"		"ResumeButton"
-			"pin_to_sibling"		"BlogToggleCheck"
+			"pin_to_sibling"		"BlogButton"
 		}
 	}
 	"ServerListToggleCheckShadow"
@@ -1538,7 +1532,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_chat"
+			"image"			"main_menu/icons/icon_people"
 			"scaleImage"	"1"
 		}
 		

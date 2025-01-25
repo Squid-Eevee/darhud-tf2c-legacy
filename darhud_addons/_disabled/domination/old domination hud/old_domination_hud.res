@@ -8,15 +8,18 @@
 		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"f0"
-		"tall"				"55"
+		"tall"				"82"
 		"visible"			"1"
 		"enabled"			"1"
 
-		"delta_item_end_y"		"75"
+		"delta_item_start_y"	"45"
+		"delta_item_end_y"		"45"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 255 0 255"
-		"delta_lifetime"		"2.0"
-		"delta_item_font"		"HudFontMediumBold"
+		"delta_lifetime"			"2.0"
+		"delta_item_font"			"HudFontSmallBold"
+		"delta_item_font_small"		"HudFontSmallBold"
+		"timer_offset"			"0"
 	}
 	
 	"ScoreBlueBG"
@@ -41,6 +44,7 @@
 			"xpos_minmode"	"c-63"
 			"wide"			"78"
 			"wide_minmode"	"60"
+			"image"			"../darhud/counter_blue"
 		}
 		"if_dom_4team"
 		{
@@ -53,6 +57,7 @@
 			"wide"			"78"
 			"xpos_minmode"	"c-124"
 			"wide_minmode"	"60"
+			"image"			"../darhud/counter_blue"
 		}
 	}
 	"ScoreBlueBGShadow"
@@ -130,6 +135,7 @@
 		{
 			"wide"			"78"
 			"wide_minmode"	"60"
+			"image"			"../darhud/counter_reverse_red"
 		}
 		"if_dom_4team"
 		{
@@ -238,6 +244,7 @@
 			"wide"			"78"
 			"wide_minmode"	"60"
 			"visible"		"1"
+			"image"			"../darhud/counter_reverse_green"
 		}
 	}
 	"ScoreGreenBGShadow"
@@ -287,6 +294,7 @@
 		{
 			"wide"		"83"
 			"wide_minmode"	"65"
+			"image"			"../darhud/counter_reverse_white"
 		}
 	}
 
@@ -317,6 +325,7 @@
 			"wide"			"78"
 			"wide_minmode"	"60"
 			"visible"		"1"
+			"image"			"../darhud/counter_reverse_yellow"
 		}
 	}
 	"ScoreYellowBGShadow"
@@ -373,20 +382,15 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"				"ScoreBlueLabel"
-		"pin_to_sibling"			"ScoreBlueBG"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
-		"xpos"					"3"
-		"ypos"					"3"
+		"xpos"					"c-64"
+		"ypos"					"2"
 		"zpos"					"4"
 		"wide"					"67"
 		"tall"					"25"
 		"textAlignment"			"center"
-		
-		"pin_corner_to_sibling_minmode"	"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner_minmode"	"PIN_CENTER_RIGHT"
-		"xpos_minmode"				"-5"
-		"ypos_minmode"				"0"
+
+		"xpos_minmode"				"c-42"
+		"ypos_minmode"				"4"
 		"wide_minmode"				"35"
 		"tall_minmode"				"23"
 		"textAlignment_minmode"		"east"
@@ -400,20 +404,31 @@
 		
 		"if_generic"
 		{
-			"pin_corner_to_sibling_minmode"	"PIN_CENTER_TOP"
-			"pin_to_sibling_corner_minmode"	"PIN_CENTER_TOP"
+			"pin_to_sibling"					"ScoreBlueBG"
+			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 			"textAlignment_minmode"	"center"
-			"xpos"			"5"
+			"xpos"			"3"
+			"ypos"			"2"
 			"xpos_minmode"	"3"
 			"wide_minmode"	"48"
 		}
 		"if_generic_4team"
 		{
-			"pin_corner_to_sibling_minmode"	"PIN_CENTER_TOP"
-			"pin_to_sibling_corner_minmode"	"PIN_CENTER_TOP"
+			"pin_to_sibling"			"ScoreBlueBG"
+			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 			"textAlignment_minmode"	"center"
+			"xpos"			"3"
 			"xpos_minmode"	"3"
+			"ypos"			"2"
+			"ypos_minmode"	"1"
 			"wide_minmode"	"48"
+		}
+		"if_dom_4team"
+		{
+			"xpos"			"c-150"
+			"xpos_minmode"	"c-103"
 		}
 	}
 	"ScoreBlueLabelShadow"
@@ -554,20 +569,15 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"				"ScoreRedLabel"
-		"pin_to_sibling"			"ScoreRedBG"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
-		"xpos"					"-3"
-		"ypos"					"3"
+		"xpos"					"c-3"
+		"ypos"					"2"
 		"zpos"					"4"
 		"wide"					"67"
 		"tall"					"25"
 		"textAlignment"			"center"
 		
-		"pin_corner_to_sibling_minmode"	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner_minmode"	"PIN_CENTER_LEFT"
-		"xpos_minmode"			"-5"
-		"ypos_minmode"			"0"
+		"xpos_minmode"			"c8"
+		"ypos_minmode"			"4"
 		"wide_minmode"			"35"
 		"tall_minmode"			"23"
 		"textAlignment_minmode"	"west"
@@ -581,34 +591,34 @@
 		
 		"if_generic"
 		{
-			"pin_corner_to_sibling_minmode"	"PIN_CENTER_TOP"
-			"pin_to_sibling_corner_minmode"	"PIN_CENTER_TOP"
+			"pin_to_sibling"				"ScoreRedBG"
+			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 			"textAlignment_minmode"	"center"
 			"xpos"			"-5"
+			"ypos"			"2"
 			"xpos_minmode"	"-3"
 			"wide_minmode"	"48"
 		}
 		"if_generic_4team"
 		{
-			"pin_corner_to_sibling_minmode"	"PIN_CENTER_TOP"
-			"pin_to_sibling_corner_minmode"	"PIN_CENTER_TOP"
+			"pin_to_sibling"				"ScoreRedBG"
+			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 			"textAlignment_minmode"	"center"
-			"xpos"	"3"
+			"xpos"			"3"
 			"xpos_minmode"	"3"
+			"ypos"			"2"
+			"ypos_minmode"	"1"
 			"wide_minmode"	"48"
 		}
 		"if_dom_4team"
 		{
-			"xpos"					"3"
-			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
-			"pin_corner_to_sibling_minmode"	"PIN_CENTER_RIGHT"
-			"pin_to_sibling_corner_minmode"	"PIN_CENTER_RIGHT"
-			"xpos_minmode"				"-5"
-			"ypos_minmode"				"0"
-			"wide_minmode"				"35"
-			"tall_minmode"				"23"
-			"textAlignment_minmode"		"east"
+			"xpos"					"c-64"
+			"xpos_minmode"			"c-42"
+			"wide_minmode"			"35"
+			"tall_minmode"			"23"
+			"textAlignment_minmode"	"east"
 		}
 	}
 	"ScoreRedLabelShadow"
@@ -780,20 +790,15 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"				"ScoreGreenLabel"
-		"pin_to_sibling"			"ScoreGreenBG"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
-		"xpos"					"-3"
-		"ypos"					"3"
+		"xpos"					"c-3"
+		"ypos"					"2"
 		"zpos"					"4"
 		"wide"					"67"
 		"tall"					"25"
 		"textAlignment"			"center"
 		
-		"pin_corner_to_sibling_minmode"	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner_minmode"	"PIN_CENTER_LEFT"
-		"xpos_minmode"			"-5"
-		"ypos_minmode"			"0"
+		"xpos_minmode"			"c8"
+		"ypos_minmode"			"4"
 		"wide_minmode"			"35"
 		"tall_minmode"			"23"
 		"textAlignment_minmode"	"west"
@@ -811,10 +816,14 @@
 		}
 		"if_generic_4team"
 		{
-			"pin_corner_to_sibling_minmode"	"PIN_CENTER_TOP"
-			"pin_to_sibling_corner_minmode"	"PIN_CENTER_TOP"
+			"pin_to_sibling"			"ScoreGreenBG"
+			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 			"textAlignment_minmode"	"center"
+			"xpos"			"0"
 			"xpos_minmode"	"-3"
+			"ypos"			"2"
+			"ypos_minmode"	"1"
 			"wide_minmode"	"48"
 			"visible"		"1"
 		}
@@ -986,20 +995,15 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"				"ScoreYellowLabel"
-		"pin_to_sibling"			"ScoreYellowBG"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
-		"xpos"					"-3"
-		"ypos"					"3"
+		"xpos"					"c83"
+		"ypos"					"2"
 		"zpos"					"4"
 		"wide"					"67"
 		"tall"					"25"
 		"textAlignment"			"center"
 		
-		"pin_corner_to_sibling_minmode"	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner_minmode"	"PIN_CENTER_LEFT"
-		"xpos_minmode"			"-5"
-		"ypos_minmode"			"0"
+		"xpos_minmode"			"c68"
+		"ypos_minmode"			"4"
 		"wide_minmode"			"35"
 		"tall_minmode"			"23"
 		"textAlignment_minmode"	"west"
@@ -1017,10 +1021,14 @@
 		}
 		"if_generic_4team"
 		{
-			"pin_corner_to_sibling_minmode"	"PIN_CENTER_TOP"
-			"pin_to_sibling_corner_minmode"	"PIN_CENTER_TOP"
+			"pin_to_sibling"				"ScoreYellowBG"
+			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 			"textAlignment_minmode"	"center"
+			"xpos"			"0"
 			"xpos_minmode"	"-3"
+			"ypos"			"2"
+			"ypos_minmode"	"1"
 			"wide_minmode"	"48"
 			"visible"		"1"
 		}

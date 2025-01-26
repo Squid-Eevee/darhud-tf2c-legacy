@@ -903,39 +903,5 @@ Scheme
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
-		///
-		LoadoutTeamButtonDefault
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"teambutton_border"
-			"src_corner_height"		"0"				// pixels inside the image
-			"src_corner_width"		"0"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-		}
-		LoadoutTeamButtonArmed
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"teambutton_border_armed"
-			"src_corner_height"		"0"				// pixels inside the image
-			"src_corner_width"		"0"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-		}
-		LoadoutTeamButtonDepressed
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"teambutton_border_depressed"
-			"src_corner_height"		"0"				// pixels inside the image
-			"src_corner_width"		"0"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-		}
 	}
 }

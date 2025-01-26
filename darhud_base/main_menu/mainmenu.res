@@ -1639,7 +1639,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_alert"
+			"image"			"main_menu/icons/icon_alert"
 			"scaleImage"	"1"
 		}
 	}

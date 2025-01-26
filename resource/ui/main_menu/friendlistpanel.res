@@ -6,7 +6,7 @@
 		"fieldName"			"FriendlistPanel"
 		"xpos"				"380"
 		"xpos_minmode"		"c-47"
-		"ypos"				"135"
+		"ypos"				"111"
 		"zpos"				"3"
 		"wide"				"138"
 		"tall"				"203"

@@ -17,8 +17,8 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 255 0 255"
 		"delta_lifetime"		"2.0"
-		"delta_item_font"		"HudFontSmallBold"
-		"delta_item_font_small"		"HudFontSmallBold"
+		"delta_item_font"		"HudFontSmallBoldShadow"
+		"delta_item_font_small"		"HudFontSmallBoldShadow"
 		"timer_offset"			"0"
 	}
 	

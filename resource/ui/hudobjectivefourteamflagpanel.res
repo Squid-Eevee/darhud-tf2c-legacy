@@ -46,12 +46,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueBG"
-		"xpos"			"c-148"
-		"xpos_minmode"	"c-81"
+		"xpos"			"c-135"
+		"xpos_minmode"	"c-91"
 		"ypos"			"r53"
 		"ypos_minmode"	"r95"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -76,7 +76,7 @@
 		"xpos"			"0"
 		"ypos"			"-3"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -155,7 +155,7 @@
 		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -182,7 +182,7 @@
 		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"7"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -206,12 +206,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedBG"
-		"xpos"			"c98"
+		"xpos"			"c75"
 		"xpos_minmode"	"c31"
 		"ypos"			"r53"
 		"ypos_minmode"	"r95"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -236,7 +236,7 @@
 		"xpos"			"0"
 		"ypos"			"-3"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -316,7 +316,7 @@
 		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -344,7 +344,7 @@
 		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"7"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -371,7 +371,7 @@
 		"xpos"			"c-65"
 		"ypos"			"r53"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -396,7 +396,7 @@
 		"xpos"			"0"
 		"ypos"			"-3"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -470,7 +470,7 @@
 		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -497,7 +497,7 @@
 		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"7"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -521,10 +521,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"YellowBG"
-		"xpos"			"c15"
+		"xpos"			"c5"
 		"ypos"			"r53"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -549,7 +549,7 @@
 		"xpos"			"0"
 		"ypos"			"-3"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -624,7 +624,7 @@
 		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -652,7 +652,7 @@
 		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"7"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -687,37 +687,6 @@
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
 	}		
-	
-	"CarriedImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CarriedImage"
-		"xpos"			"cs-0.5"
-		"ypos"			"r135"
-		"zpos"			"2"
-		"wide"			"60"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_carried_red"
-		"scaleImage"	"1"
-		
-		"if_hybrid"
-		{
-			"ypos"			"r150"
-		}
-		
-		"if_hybrid_single"
-		{
-			"ypos"			"r150"
-		}
-		
-		"if_specialdelivery"
-		{
-			"ypos"		"r150"
-			"visible"	"1"
-		}
-	}
 	
 	"PlayingTo"
 	{
@@ -781,10 +750,10 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"cs-0.5"
-		"ypos"			"r95"
+		"ypos"			"r110"
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"60"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		
@@ -838,10 +807,41 @@
 		"fgcolor"		"TanLight"
 	}
 	
-	"SpecCarriedImage"
+	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
+		"xpos"			"cs-0.5"
+		"ypos"			"r100"
+		"zpos"			"2"
+		"wide"			"60"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_carried_red"
+		"scaleImage"	"1"
+		
+		"if_hybrid"
+		{
+			"ypos"			"r150"
+		}
+		
+		"if_hybrid_single"
+		{
+			"ypos"			"r150"
+		}
+		
+		"if_specialdelivery"
+		{
+			"ypos"		"r150"
+			"visible"	"1"
+		}
+	}
+	
+	"SpecCarriedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SpecCarriedImage"
 		"xpos"			"cs-0.5"
 		"ypos"			"r100"
 		"zpos"			"2"

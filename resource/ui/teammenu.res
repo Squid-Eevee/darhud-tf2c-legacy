@@ -114,8 +114,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"#TF_BlueTeam_Name"
-		"textAlignment"	"center"
+		"labelText"		"&1"
+		"textAlignment"	"south-east"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
@@ -123,7 +123,7 @@
 		"team"				"3"		// team blue
 		"associated_model"	"bluedoor"
 		"hover"				"2.0"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontSmallestBold"
 		
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -137,6 +137,24 @@
 		"NavRight"		"teambutton2"
 		"NavUp"			"CancelButton"
 		"NavDown"		"teambutton3"
+	}
+	
+	"BLULabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"BLULabel"
+		"pin_to_sibling"	"teambutton0"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"4"
+		"wide"		"100"
+		"tall"		"60"
+		"mouseinputenabled"	"0"
+		"labelText"	"#TF_BlueTeam_Name"
+		"font"		"HudFontMediumBold"
+		"textAlignment"	"center"
+		"visible"	"1"
+		"enabled"	"1"
 	}
 
 	"teambutton1"
@@ -153,8 +171,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"4"
-		"labelText"		"#TF_RedTeam_Name"
-		"textAlignment"	"center"
+		"labelText"		"&2"
+		"textAlignment"	"south-east"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
@@ -162,7 +180,7 @@
 		"team"				"2"		// team red
 		"associated_model"	"reddoor"	
 		"hover"				"2.0"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontSmallestBold"
 		
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -176,6 +194,24 @@
 		"NavRight"		"teambutton0"
 		"NavUp"			"CancelButton"
 		"NavDown"		"teambutton3"
+	}
+	
+	"REDLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"REDLabel"
+		"pin_to_sibling"	"teambutton1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"4"
+		"wide"		"100"
+		"tall"		"60"
+		"mouseinputenabled"	"0"
+		"labelText"	"#TF_RedTeam_Name"
+		"font"		"HudFontMediumBold"
+		"textAlignment"	"center"
+		"visible"	"1"
+		"enabled"	"1"
 	}
 
 	"teambutton2"
@@ -192,14 +228,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"?"
-		"textAlignment"	"center"
+		"labelText"		"&3"
+		"textAlignment"	"south-east"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFontSmallestBold"
 		
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -217,6 +253,24 @@
 		"NavRight"		"teambutton1"
 		"NavUp"			"CancelButton"
 		"NavDown"		"teambutton3"
+	}
+	
+	"RandomLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"RandomLabel"
+		"pin_to_sibling"	"teambutton2"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"4"
+		"wide"		"50"
+		"tall"		"60"
+		"mouseinputenabled"	"0"
+		"labelText"	"?"
+		"font"		"HudFontMediumBold"
+		"textAlignment"	"center"
+		"visible"	"1"
+		"enabled"	"1"
 	}
 	
 	"teambutton3"
@@ -278,7 +332,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"cancelmenu"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallestBold"
 		
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"

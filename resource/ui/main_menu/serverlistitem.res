@@ -10,7 +10,6 @@
         "proportionalToParent"	"1"
         "visible"			"1"
         "enabled"			"1"
-        "border"			"MainMenuAdvBGBorderAlpha"
         "font"				"MenuMainTitle"
         "bgcolor_override"	"36 33 32 255"
     }

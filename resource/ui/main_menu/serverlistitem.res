@@ -38,7 +38,7 @@
     {
         "ControlName"		"CExLabel"
         "fieldName"			"PingLabel"
-        "xpos"				"6"
+        "xpos"				"0"
         "ypos"				"r11"
         "zpos"				"5"
         "wide"				"16"
@@ -49,9 +49,33 @@
         "visible"			"1"
         "enabled"			"1"
         "labelText"			"%ping%"
-        "textAlignment"		"west"
-        "fgcolor"			"White"
+        "textAlignment"		"center"
+        "fgcolor"			"TanDark"
         "font"				"FontStoreOriginalPrice"
+    }
+
+    "PlayerCountLabel"
+    {
+        "ControlName"		"CExLabel"
+        "fieldName"			"PlayerCountLabel"
+        "xpos"				"0"
+        "ypos"				"0"
+        "zpos"				"5"
+        "wide"				"32"
+        "tall"				"10"
+        "proportionalToParent"	"1"
+        "autoResize"		"0"
+        "pinCorner"			"0"
+        "visible"			"1"
+        "enabled"			"1"
+        "labelText"			"%playercount%"
+        "textAlignment"		"center"
+        "fgcolor"			"HudOffWhite"
+        "font"				"FontStoreOriginalPrice"
+
+        "pin_to_sibling"    "PingLabel"
+        "pin_corner_to_sibling" "pin_topleft"
+        "pin_to_sibling_corner" "pin_topright"
     }
 
     "MapNameLabel"
@@ -69,40 +93,16 @@
         "visible"			"1"
         "enabled"			"1"
         "labelText"			"%mapname%"
-        "textAlignment"		"west"
+        "textAlignment"		"center"
         "fgcolor"			"White"
         "font"				"FontStoreOriginalPrice"
         "auto_wide_tocontents"  "1"
 
-        "pin_to_sibling"    "PingLabel"
+        "pin_to_sibling"    "PlayerCountLabel"
         "pin_corner_to_sibling" "pin_topleft"
         "pin_to_sibling_corner" "pin_topright"
     }
 
-
-    "PlayerCountLabel"
-    {
-        "ControlName"		"CExLabel"
-        "fieldName"			"PlayerCountLabel"
-        "xpos"				"6"
-        "ypos"				"0"
-        "zpos"				"5"
-        "wide"				"120"
-        "tall"				"10"
-        "proportionalToParent"	"1"
-        "autoResize"		"0"
-        "pinCorner"			"0"
-        "visible"			"1"
-        "enabled"			"1"
-        "labelText"			"%playercount%"
-        "textAlignment"		"west"
-        "fgcolor"			"HudOffWhite"
-        "font"				"FontStoreOriginalPrice"
-
-        "pin_to_sibling"    "MapNameLabel"
-        "pin_corner_to_sibling" "pin_topleft"
-        "pin_to_sibling_corner" "pin_topright"
-    }
 
     "ConnectButton"
     {
@@ -122,14 +122,11 @@
         "labelText" 		"#TF_ServerList_Connect"
         "textAlignment"		"center"
         "font"				"ItemFontNameSmall"
-		
-		"defaultFgColor_override"		"ButtonLabelMM"
-		"armedFgColor_override"		"ButtonArmedLabelMM"
-		"depressedFgColor_override"	"ButtonDepressedLabelMM"
-		"disabledFgColor_override"		"ButtonDisabledLabelMM"
-		"border_default"				"MainMenuAdvSquareButtonDefault"
-		"border_armed"				"MainMenuAdvSquareButtonArmed"
-		"border_depressed"			"MainMenuAdvSquareButtonDepressed"
-		"border_disabled" 			"MainMenuAdvSquareButtonDisabled"
+        "defaultFgColor_override"		"TanDarker"
+        "armedFgColor_override"			"TanLight"
+        "depressedFgColor_override"		"TanDarker"
+        "image_drawcolor"		"TanDarker"
+        "image_armedcolor"			"TanLight"
+        "image_depressedcolor"		"TanLight"
     }
 }

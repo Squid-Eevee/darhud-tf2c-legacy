@@ -39,7 +39,7 @@
 		"tall_minmode"	"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_briefcase"
+		"image"			"../darhud/ctf/briefcase"
 		"scaleImage"	"1"
 		
 		"if_mvm"

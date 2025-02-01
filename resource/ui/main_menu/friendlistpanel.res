@@ -111,5 +111,13 @@
 		"autohide_scrollbar"	"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"BackgroundDefault"
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 	}
 }

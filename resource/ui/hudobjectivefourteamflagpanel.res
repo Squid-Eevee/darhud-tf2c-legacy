@@ -111,11 +111,11 @@
 		"if_hybrid_double"
 		{
 			"pin_to_sibling"	""
-			"xpos"			"c-130"
+			"xpos"			"c-100"
 			"ypos"			"r53"
 			
-			"xpos_minmode"	"c-42"
-			"ypos_minmode"	"r95"
+			"xpos_minmode"	"c-100"
+			"ypos_minmode"	"r53"
 		}
 		"if_specialdelivery"
 		{
@@ -280,8 +280,10 @@
 		"if_hybrid_double"
 		{
 			"pin_to_sibling"	""
-			"xpos"			"c65"
-			"ypos"			"r130"
+			"xpos"			"c-50"
+			"ypos"			"r53"
+			
+			"xpos_minmode"	"c-50"
 		}
 		"if_specialdelivery"
 		{
@@ -440,10 +442,10 @@
 		"if_hybrid_double"
 		{
 			"pin_to_sibling"	""
-			"xpos"			"c-65"
+			"xpos"			"c0"
 			"ypos"			"r53"
 			
-			"xpos_minmode"	"c-42"
+			"xpos_minmode"	"c0"
 		}
 		"if_specialdelivery"
 		{
@@ -600,10 +602,10 @@
 		"if_hybrid_double"
 		{
 			"pin_to_sibling"	""
-			"xpos"			"c15"
+			"xpos"			"c50"
 			"ypos"			"r53"
 			
-			"xpos_minmode"	"c0"
+			"xpos_minmode"	"c50"
 		}
 		"if_specialdelivery"
 		{
@@ -690,6 +692,10 @@
 		{
 			"ypos"	"r110"
 		}
+		"if_hybrid_double"
+		{
+			"ypos"	"r70"
+		}
 		"if_vip"
 		{
 			"ypos"	"r94"
@@ -720,11 +726,15 @@
 		
 		"if_hybrid"
 		{
-			"ypos"	"r100"
+			"ypos"	"r90"
 		}
 		"if_hybrid_single"
 		{
 			"ypos"	"r123"
+		}
+		"if_hybrid_double"
+		{
+			"ypos"	"r55"
 		}
 		"if_vip"
 		{

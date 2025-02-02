@@ -1,10 +1,5 @@
-"Patch"
+"UnlitGeneric"
 {
-	include "materials\darhud\base_green.vmt"
-	
-	insert
-	{
-		"$distancealpha"	"1"
-		"$baseTexture"	"darhud\ctf\compass_noarrow_mask"
-	}
+	"$vertexalpha"	"0"
+	"$alpha"	"0"
 }

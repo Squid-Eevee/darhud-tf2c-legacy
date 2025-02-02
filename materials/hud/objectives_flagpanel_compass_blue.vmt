@@ -1,18 +1,11 @@
-"Patch"
+"UnlitGeneric"
 {
-	include "materials\darhud\base_blue.vmt"
-	
-	insert
-	{
-		"$distancealpha"	"1"
-		"$baseTexture"        "darhud\ctf\compass_mask"
-		
-		$glow 1
-		$glowcolor "{50 50 50}"
-		$glowalpha 0.75
-		$glowstart 0.03
-		$glowend 1
-		$glowy -.0375
-		$glowx 0
-	}
+	"$basetexture"		"darhud/ctf/compass_blue"
+    "$translucent"		"1"
+    "$alpha"			"1"
+    "$vertexalpha"		"1"
+    "$vertexcolor"		"1"
+    "$no_fullbright"	"1"
+    "$ignorez"			"1"
+    "%keywords"			"tf"
 }

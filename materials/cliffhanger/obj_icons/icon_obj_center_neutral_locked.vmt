@@ -4,6 +4,6 @@
 	
 	insert
 	{
-		"$baseTexture" "cliffhanger\obj_icons\cliffhanger\icon_obj_center_neutral_locked"
+		"$baseTexture" "darhud/obj_icons/cliffhanger/icon_obj_center_neutral_locked"
 	}
 }

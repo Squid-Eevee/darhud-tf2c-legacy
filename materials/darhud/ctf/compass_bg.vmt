@@ -4,8 +4,8 @@
 	
 	insert
 	{
-		"$basetexture"			"darhud/ctf/compass_bg_mask"
-		"$alpha"				"1"
-		"$color"			"{50 50 50}"
+		"$basetexture"		"darhud/ctf/compass_bg_mask"
+		"$alpha"			"1"
+		"$color"			"{96 96 96}"
 	}
 }

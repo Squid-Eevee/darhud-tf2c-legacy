@@ -9,8 +9,6 @@
 	"$ignorez" 1
 	"%keywords" "tf"
 	
-	"$color"	"{236 227 203}"
-	
 	// and a drop shadow
 	$glow 1
 	$glowcolor "{0 0 0}"

@@ -23,7 +23,7 @@
 		"enabled" "1"
 		"xpos"	"r227"
 		"xpos_minmode" "c133"
-		"ypos"	"r101"
+		"ypos"	"r100"
 		"zpos"			"1"
 		"wide"	"125"
 		"tall"	"100"

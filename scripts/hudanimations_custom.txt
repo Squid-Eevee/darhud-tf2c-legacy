@@ -80,7 +80,7 @@ event HudHealthBonusPulseStop
 	Animate	PlayerHealthValue				FgColor		"HealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValue 			FgColor		"HealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor		"HealthNormal" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel 	FgColor		"WhitHealthNormale" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel 	FgColor		"HealthNormal" Accel 0.0 0.0
 }
 
 //===========================================
@@ -135,8 +135,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"UberForeground"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"UberForeground"		Linear 0.0 0.0001
+	Animate	ChargeLabel 		FgColor		"UberForeground"		Linear 0.0 0.0001
+	Animate	ChargeMeter 		FgColor		"UberForeground"		Linear 0.0 0.0001
 }
 
 event HudSnapShotReminderIn
@@ -194,177 +194,16 @@ event HudSpyDisguiseFadeOut
 }
 //==================================================================================
 
-//i might do something with these later so i'm adding them here for now
-//just need a bug to be fixed if possible
-event "HudDOMLeadUnassigned"
+event FlagOutline
 {
-	StopEvent HudDOMLeadRed		0
-	StopEvent HudDOMLeadBlue	0
-	StopEvent HudDOMLeadGreen	0
-	StopEvent HudDOMLeadYellow	0
+	RunEvent FlagOutlineHide 0.0
+	Animate OutlineImage	Alpha		"255"			Linear 0.1 0.2
+	
+	Animate OutlineImage	Position	"c-200 c-200"		Linear 0.1 0.2
+	Animate OutlineImage	Size		"400 400"		Linear 0.1 0.2
 
-	SetVisible AlertRedBG 	 0 0
-	SetVisible AlertBlueBG 	 0 0
-	SetVisible AlertGreenBG  0 0
-	SetVisible AlertYellowBG 0 0
+	Animate OutlineImage	Position	"c-50 r143"		Linear 0.7 0.2
+	Animate OutlineImage	Size		"100 100"		Linear 0.7 0.2
 	
-	Animate AlertRedBG 		FgColor		"255 255 255 255"   Linear 0 0
-	Animate AlertBlueBG 	FgColor     "255 255 255 255"   Linear 0 0
-	Animate AlertGreenBG    FgColor     "255 255 255 255"   Linear 0 0
-	Animate AlertYellowBG   FgColor     "255 255 255 255"   Linear 0 0
-}
-
-event "HudDOMLeadAlert"
-{
-	
-	//======================
-	Animate AlertRedBG 		FgColor		"255 0 0 255"   Linear 0.1 0.1
-	Animate AlertBlueBG 	FgColor     "255 0 0 255"   Linear 0.1 0.1
-	Animate AlertGreenBG    FgColor     "255 0 0 255"   Linear 0.1 0.1
-	Animate AlertYellowBG   FgColor     "255 0 0 255"   Linear 0.1 0.1
-
-
-	//======================
-	Animate	AlertRedBG 	Alpha		"0"			Linear 0.1 0.1
-	Animate	AlertRedBG 	Alpha		"255"		Linear 0.3 0.1
-
-	Animate	AlertRedBG 	Alpha		"0"			Linear 0.5 0.1
-	Animate	AlertRedBG 	Alpha		"255"		Linear 0.7 0.1
-
-	Animate	AlertRedBG 	Alpha		"0"			Linear 0.9 0.1
-	Animate	AlertRedBG 	Alpha		"255"		Linear 1.1 0.1
-	
-	//======================
-	Animate	AlertBlueBG 	Alpha		"0"			Linear 0.1 0.1
-	Animate	AlertBlueBG 	Alpha		"255"		Linear 0.3 0.1
-
-	Animate	AlertBlueBG 	Alpha		"0"			Linear 0.5 0.1
-	Animate	AlertBlueBG 	Alpha		"255"		Linear 0.7 0.1
-
-	Animate	AlertBlueBG 	Alpha		"0"			Linear 0.9 0.1
-	Animate	AlertBlueBG 	Alpha		"255"		Linear 1.1 0.1
-	
-	//======================
-	Animate	AlertGreenBG 	Alpha		"0"			Linear 0.1 0.1
-	Animate	AlertGreenBG 	Alpha		"255"		Linear 0.3 0.1
-
-	Animate	AlertGreenBG 	Alpha		"0"			Linear 0.5 0.1
-	Animate	AlertGreenBG 	Alpha		"255"		Linear 0.7 0.1
-
-	Animate	AlertGreenBG 	Alpha		"0"			Linear 0.9 0.1
-	Animate	AlertGreenBG 	Alpha		"255"		Linear 1.1 0.1
-	
-	//======================
-	Animate	AlertYellowBG 	Alpha		"0"			Linear 0.1 0.1
-	Animate	AlertYellowBG 	Alpha		"255"		Linear 0.3 0.1
-
-	Animate	AlertYellowBG 	Alpha		"0"			Linear 0.5 0.1
-	Animate	AlertYellowBG 	Alpha		"255"		Linear 0.7 0.1
-
-	Animate	AlertYellowBG 	Alpha		"0"			Linear 0.9 0.1
-	Animate	AlertYellowBG 	Alpha		"255"		Linear 1.1 0.1
-}
-
-event "HudDOMLeadRed"
-{
-	Animate	AlertRedBG 	Alpha		"0"			Linear 0.1 0.1
-	Animate	AlertRedBG 	Alpha		"255"		Linear 0.3 0.1
-
-	Animate	AlertRedBG 	Alpha		"0"			Linear 0.5 0.1
-	Animate	AlertRedBG 	Alpha		"255"		Linear 0.7 0.1
-
-	Animate	AlertRedBG 	Alpha		"0"			Linear 0.9 0.1
-	Animate	AlertRedBG 	Alpha		"255"		Linear 1.1 0.1
-	
-	StopEvent HudDOMLeadBlue	0
-	StopEvent HudDOMLeadGreen   0
-	StopEvent HudDOMLeadYellow  0
-	
-	StopEvent HudDOMLeadBlueLoop	0
-	StopEvent HudDOMLeadGreenLoop   0
-	StopEvent HudDOMLeadYellowLoop  0
-	
-	SetVisible AlertBlueBG 	 0 0
-	SetVisible AlertGreenBG  0 0
-	SetVisible AlertYellowBG 0 0
-	SetVisible AlertRedBG 	 1 0
-	
-	RunEvent HudDOMLeadRedLoop	1.5
-}
-
-event "HudDOMLeadBlue"
-{
-	Animate	AlertBlueBG 	Alpha		"0"			Linear 0.1 0.1
-	Animate	AlertBlueBG 	Alpha		"255"		Linear 0.3 0.1
-
-	Animate	AlertBlueBG 	Alpha		"0"			Linear 0.5 0.1
-	Animate	AlertBlueBG 	Alpha		"255"		Linear 0.7 0.1
-
-	Animate	AlertBlueBG 	Alpha		"0"			Linear 0.9 0.1
-	Animate	AlertBlueBG 	Alpha		"255"		Linear 1.1 0.1
-	
-	StopEvent HudDOMLeadRed		0
-	StopEvent HudDOMLeadGreen   0
-	StopEvent HudDOMLeadYellow  0
-	
-	StopEvent HudDOMLeadRedLoop		0
-	StopEvent HudDOMLeadGreenLoop   0
-	StopEvent HudDOMLeadYellowLoop  0
-	
-	SetVisible AlertRedBG 	 0 0
-	SetVisible AlertGreenBG  0 0
-	SetVisible AlertYellowBG 0 0
-	SetVisible AlertBlueBG 	1 0
-	
-	RunEvent HudDOMLeadBlueLoop	1.5
-}
-
-event "HudDOMLeadGreen"
-{
-	Animate	AlertGreenBG 	Alpha		"0"			Linear 0.1 0.1
-	Animate	AlertGreenBG 	Alpha		"255"		Linear 0.3 0.1
-	
-	Animate	AlertGreenBG 	Alpha		"0"			Linear 0.5 0.1
-	Animate	AlertGreenBG 	Alpha		"255"		Linear 0.7 0.1
-	
-	Animate	AlertGreenBG 	Alpha		"0"			Linear 0.9 0.1
-	Animate	AlertGreenBG 	Alpha		"255"		Linear 1.1 0.1
-	
-	StopEvent HudDOMLeadRed		0
-	StopEvent HudDOMLeadBlue    0
-	StopEvent HudDOMLeadYellow  0
-	
-	StopEvent HudDOMLeadRedLoop		0
-	StopEvent HudDOMLeadBlueLoop    0
-	StopEvent HudDOMLeadYellowLoop  0
-	
-	SetVisible AlertRedBG 	 0 0
-	SetVisible AlertBlueBG 	 0 0
-	SetVisible AlertYellowBG 0 0
-	SetVisible	AlertGreenBG  1 0
-}
-
-event "HudDOMLeadYellow"
-{
-	Animate	AlertYellowBG 	Alpha		"0"			Linear 0.1 0.1
-	Animate	AlertYellowBG 	Alpha		"255"		Linear 0.3 0.1
-	
-	Animate	AlertYellowBG 	Alpha		"0"			Linear 0.5 0.1
-	Animate	AlertYellowBG 	Alpha		"255"		Linear 0.7 0.1
-	
-	Animate	AlertYellowBG 	Alpha		"0"			Linear 0.9 0.1
-	Animate	AlertYellowBG 	Alpha		"255"		Linear 1.1 0.1
-	
-	StopEvent HudDOMLeadRed		0
-	StopEvent HudDOMLeadBlue    0
-	StopEvent HudDOMLeadGreen   0
-	
-	StopEvent HudDOMLeadRedLoop		0
-	StopEvent HudDOMLeadBlueLoop    0
-	StopEvent HudDOMLeadGreenLoop  	0
-	
-	SetVisible AlertRedBG 	 0 0
-	SetVisible AlertBlueBG 	 0 0
-	SetVisible AlertGreenBG  0 0
-	SetVisible	AlertYellowBG 1 0
+	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
 }

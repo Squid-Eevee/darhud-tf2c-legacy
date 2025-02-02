@@ -1,69 +1,51 @@
-"Resource/UI/HudObjectiveFlagPanel.res"
+"Resource/UI/HudObjectiveFourTeamFlagPanel.res"
 {	
 	"ObjectiveStatusFlagPanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusFlagPanel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ObjectiveStatusFlagPanel"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"0"
+		"wide"		"f0"
+		"tall"		"480"
+		"visible"	"1"
+		"enabled"	"1"
 		
 		"if_hybrid"
 		{
-			"zpos"			"-1"
+			"zpos"	"-1"
 		}
 	}
 	"4TeamBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"4TeamBG"
-		"xpos"			"c-160"
-		"ypos"			"r75"
-		"zpos"			"1"
-		"wide"			"320"
-		"tall"			"80"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_4team_base"
-		"scaleImage"	"1"	
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
+		"visible"	"0"
+		"enabled"	"0"
 	}
 	
 	"BlueBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueBG"
-		"xpos"			"c-135"
-		"xpos_minmode"	"c-115"
-		"ypos"			"r53"
+		"xpos"			"c-170"
+		"ypos"			"r61"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
+		"wide"			"80"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../darhud/counter_blue"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
+		
+		"xpos_minmode"	"c-115"
+		"ypos_minmode"	"r50"
+		"wide_minmode"	"50"
+		"tall_minmode"	"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -71,26 +53,26 @@
 	}
 	"BlueBGShadow"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueBGShadow"
 		"pin_to_sibling"	"BlueBG"
 		"xpos"			"0"
 		"ypos"			"-3"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
+		"wide"			"80"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../darhud/counter_shadow"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
+		
+		"wide_minmode"	"50"
+		"tall_minmode"	"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -98,49 +80,48 @@
 	}
 	"BlueFlag"
 	{
-		"ControlName"	"CTFFlagStatus"
-		"fieldName"		"BlueFlag"
-		"pin_to_sibling"	"BlueBG"
-		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
-		"xpos"			"0"
-		"ypos"			"3"
-		"ypos_minmode"	"0"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
-		"wide_minmode"	"40"
-		"tall_minmode"	"40"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"					"CTFFlagStatus"
+		"fieldName"					"BlueFlag"
+		"pin_to_sibling"				"BlueBG"
+		"pin_corner_to_sibling"		"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"		"PIN_CENTER_LEFT"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"5"
+		"wide"						"50"
+		"tall"						"50"
+		"visible"					"1"
+		"enabled"					"1"
+		
+		"pin_corner_to_sibling_minmode"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner_minmode"	"PIN_CENTER_TOP"
+		"wide_minmode"				"40"
+		"tall_minmode"				"40"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_hybrid_single"
 		{
-			"xpos"		"cs-0.5"
-			"ypos"		"r110"
 			"pin_to_sibling"	""
+			"xpos"			"cs-0.5"
+			"ypos"			"r110"
 		}
-		
 		"if_hybrid_double"
 		{
-			"xpos"			"c-130"
-			"xpos_minmode"	"c-42"
-			"ypos"			"r53"
-			"ypos_minmode"	"r95"
 			"pin_to_sibling"	""
-			"pin_to_sibling_minmode"	""
+			"xpos"			"c-130"
+			"ypos"			"r53"
+			
+			"xpos_minmode"	"c-42"
+			"ypos_minmode"	"r95"
 		}
-
 		"if_specialdelivery"
 		{
-			"xpos"		"cs-0.5"
-			"ypos"		"r60"
 			"pin_to_sibling"	""
+			"xpos"			"cs-0.5"
+			"ypos"			"r60"
 			"wide"			"70"
 			"tall"			"70"
 		}
@@ -151,23 +132,26 @@
 	}
 	"BlueScore"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BlueScore"
-		"pin_to_sibling"	"BlueBG"
-		"xpos"			"0"
-		"ypos"			"1"
-		"zpos"			"8"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%bluescore%"
-		"font"			"HudFontMediumBigBold"
-		"font_minmode"	"HudFontMediumBold"
-		"fgcolor"		"TanLight"
+		"ControlName"					"CExLabel"
+		"fieldName"					"BlueScore"
+		"pin_to_sibling"				"BlueBG"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"xpos"						"0"
+		"ypos"						"1"
+		"zpos"						"8"
+		"wide"						"50"
+		"tall"						"34"
+		"textAlignment"				"center"
+		"labelText"					"%bluescore%"
+		"font"						"HudFontMediumBold"		
+		"visible"					"1"
+		"enabled"					"1"
+		"fgcolor"					"ObjectiveLabel"
+		
+		"pin_corner_to_sibling_minmode"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner_minmode"	"PIN_TOPLEFT"
+		"tall_minmode"				"23"
 		
 		"if_hybrid"
 		{
@@ -183,27 +167,25 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"pin_to_sibling" "BlueScore"
-		"xpos"			"0"
+		"pin_to_sibling"	"BlueScore"
+		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"7"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
+		"wide"			"50"
+		"tall"			"34"
+		"textAlignment"	"center"
+		"labelText"		"%bluescore%"
+		"font"			"HudFontMediumBold"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%bluescore%"
-		"font"			"HudFontMediumBigBold"
-		"font_minmode"	"HudFontMediumBold"
 		"fgcolor"		"ObjectiveShadow"
+		
+		"tall_minmode"	"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -212,26 +194,27 @@
 
 	"RedBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"RedBG"
-		"xpos"			"c-65"
-		"xpos_minmode"	"c-55"
-		"ypos"			"r53"
+		"xpos"			"c-85"
+		"ypos"			"r61"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
+		"wide"			"80"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../darhud/counter_red"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
+		
+		"xpos_minmode"	"c-55"
+		"ypos_minmode"	"r50"
+		"wide_minmode"	"50"
+		"tall_minmode"	"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -239,26 +222,26 @@
 	}
 	"RedBGShadow"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"RedBGShadow"
 		"pin_to_sibling"	"RedBG"
 		"xpos"			"0"
 		"ypos"			"-3"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"25"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
+		"wide"			"80"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../darhud/counter_shadow"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
+		
+		"wide_minmode"	"50"
+		"tall_minmode"	"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -266,51 +249,46 @@
 	}
 	"RedFlag"
 	{
-		"ControlName"	"CTFFlagStatus"
-		"fieldName"		"RedFlag"
-		"pin_to_sibling"	"RedBG"
-		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
-		"xpos"			"0"
-		"ypos"			"3"
-		"ypos_minmode"	"0"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
-		"wide_minmode"	"40"
-		"tall_minmode"	"40"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"					"CTFFlagStatus"
+		"fieldName"					"RedFlag"
+		"pin_to_sibling"				"RedBG"
+		"pin_corner_to_sibling"		"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"		"PIN_CENTER_LEFT"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"5"
+		"wide"						"50"
+		"tall"						"50"
+		"visible"					"1"
+		"enabled"					"1"
+		
+		"pin_corner_to_sibling_minmode"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner_minmode"	"PIN_CENTER_TOP"
+		"wide_minmode"				"40"
+		"tall_minmode"				"40"
 				
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_hybrid_single"
 		{
-			"xpos"		"cs-0.5"
-			"ypos"		"r110"
 			"pin_to_sibling"	""
+			"xpos"			"cs-0.5"
+			"ypos"			"r120"
 		}
-		
 		"if_hybrid_double"
 		{
-			"xpos"			"c80"
-			"xpos_minmode"	"c2"
-			"ypos"			"r53"
-			"ypos_minmode"	"r95"
 			"pin_to_sibling"	""
-			"pin_to_sibling_minmode"	""
+			"xpos"			"c65"
+			"ypos"			"r130"
 		}
-
 		"if_specialdelivery"
 		{
 			"pin_to_sibling"	""
-			"wide"			"0"
-			"tall"			"0"
+			"xpos"			"cs-0.5"
+			"ypos"			"r90"
 		}
-		
 		"if_no_flags"
 		{
 			"visible"	"0"
@@ -318,62 +296,59 @@
 	}
 	"RedScore"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"RedScore"
-		"pin_to_sibling"	"RedBG"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		"xpos"			"0"
-		"ypos"			"1"
-		"zpos"			"8"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%redscore%"
-		"font"			"HudFontMediumBigBold"
-		"font_minmode"	"HudFontMediumBold"
-		"fgcolor"		"TanLight"		
+		"ControlName"					"CExLabel"
+		"fieldName"					"RedScore"
+		"pin_to_sibling"				"RedBG"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"xpos"						"0"
+		"ypos"						"1"
+		"zpos"						"8"
+		"wide"						"50"
+		"tall"						"34"
+		"textAlignment"				"center"	
+		"labelText"					"%redscore%"
+		"font"						"HudFontMediumBold"
+		"visible"					"1"
+		"enabled"					"1"
+		"fgcolor"					"ObjectiveLabel"
+		
+		"pin_corner_to_sibling_minmode"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner_minmode"	"PIN_TOPLEFT"
+		"tall_minmode"				"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}	
-		
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"pin_to_sibling" "RedScore"
-		"xpos"			"0"
+		"pin_to_sibling"	"RedScore"
+		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"7"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"50"
+		"tall"			"34"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontMediumBigBold"
-		"font_minmode"	"HudFontMediumBold"
-		"fgcolor"		"ObjectiveShadow"		
+		"font"			"HudFontMediumBold"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"ObjectiveShadow"
+		
+		"tall_minmode"	"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -382,25 +357,26 @@
 
 	"GreenBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"GreenBG"
 		"xpos"			"c5"
-		"ypos"			"r53"
+		"ypos"			"r61"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
+		"wide"			"80"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../darhud/counter_reverse_green"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
+		
+		"ypos_minmode"	"r50"
+		"wide_minmode"	"50"
+		"tall_minmode"	"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -408,26 +384,26 @@
 	}
 	"GreenBGShadow"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"GreenBGShadow"
 		"pin_to_sibling"	"GreenBG"
 		"xpos"			"0"
 		"ypos"			"-3"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
+		"wide"			"80"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../darhud/counter_reverse_shadow"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
+		
+		"wide_minmode"	"50"
+		"tall_minmode"	"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -435,47 +411,45 @@
 	}
 	"GreenFlag"
 	{
-		"ControlName"	"CTFFlagStatus"
-		"fieldName"		"GreenFlag"
-		"pin_to_sibling"	"GreenBG"
-		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
-		"xpos"			"0"
-		"ypos"			"3"
-		"ypos_minmode"	"0"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
-		"wide_minmode"	"40"
-		"tall_minmode"	"40"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"					"CTFFlagStatus"
+		"fieldName"					"GreenFlag"
+		"pin_to_sibling"				"GreenBG"
+		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"5"
+		"wide"						"50"
+		"tall"						"50"
+		"visible"					"1"
+		"enabled"					"1"
+		
+		"pin_corner_to_sibling_minmode"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner_minmode"	"PIN_CENTER_TOP"
+		"wide_minmode"				"40"
+		"tall_minmode"				"40"
 				
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"	"c-80"
 		}
-		
 		"if_hybrid_double"
 		{
-			"xpos"			"c-65"
-			"xpos_minmode"	"c-42"
-			"ypos"			"r53"
 			"pin_to_sibling"	""
-			"pin_to_sibling_minmode"	""
+			"xpos"			"c-65"
+			"ypos"			"r53"
+			
+			"xpos_minmode"	"c-42"
 		}
-
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
 			"pin_to_sibling"	""
+			"ypos"			"r100"
 		}
-		
 		"if_no_flags"
 		{
 			"visible"	"0"
@@ -483,59 +457,57 @@
 	}
 	"GreenScore"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"GreenScore"
-		"pin_to_sibling"	"GreenBG"
-		"xpos"			"0"
-		"ypos"			"1"
-		"zpos"			"8"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%greenscore%"
-		"font"			"HudFontMediumBigBold"
-		"font_minmode"	"HudFontMediumBold"
-		"fgcolor"		"TanLight"
+		"ControlName"				"CExLabel"
+		"fieldName"				"GreenScore"
+		"pin_to_sibling"			"GreenBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"xpos"					"0"
+		"ypos"					"1"
+		"zpos"					"8"
+		"wide"					"50"
+		"tall"					"34"
+		"textAlignment"			"center"	
+		"labelText"				"%greenscore%"
+		"font"					"HudFontMediumBold"
+		"visible"				"1"
+		"enabled"				"1"
+		"fgcolor"				"ObjectiveLabel"
+		
+		"tall_minmode"			"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 	"GreenScoreShadow"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"GreenScoreShadow"
-		"pin_to_sibling" "GreenScore"
-		"xpos"			"0"
+		"pin_to_sibling"	"GreenScore"
+		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"7"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"50"
+		"tall"			"34"
 		"textAlignment"	"center"	
 		"labelText"		"%greenscore%"
-		"font"			"HudFontMediumBigBold"
-		"font_minmode"	"HudFontMediumBold"
+		"font"			"HudFontMediumBold"
+		"visible"		"1"
+		"enabled"		"1"
 		"fgcolor"		"ObjectiveShadow"
+		
+		"tall_minmode"	"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -544,26 +516,27 @@
 
 	"YellowBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"YellowBG"
-		"xpos"			"c75"
-		"xpos_minmode"	"c65"
-		"ypos"			"r53"
+		"xpos"			"c90"
+		"ypos"			"r61"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
+		"wide"			"80"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../darhud/counter_reverse_yellow"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
+		
+		"xpos_minmode"	"c65"
+		"ypos_minmode"	"r50"
+		"wide_minmode"	"50"
+		"tall_minmode"	"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -571,26 +544,26 @@
 	}
 	"YellowBGShadow"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"YellowBGShadow"
 		"pin_to_sibling"	"YellowBG"
 		"xpos"			"0"
 		"ypos"			"-3"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
+		"wide"			"80"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../darhud/counter_reverse_shadow"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
+		
+		"wide_minmode"	"50"
+		"tall_minmode"	"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -598,46 +571,45 @@
 	}
 	"YellowFlag"
 	{
-		"ControlName"	"CTFFlagStatus"
-		"fieldName"		"YellowFlag"
-		"pin_to_sibling"	"YellowBG"
-		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
-		"xpos"			"0"
-		"ypos"			"3"
-		"ypos_minmode"	"0"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
-		"wide_minmode"	"40"
-		"tall_minmode"	"40"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"					"CTFFlagStatus"
+		"fieldName"					"YellowFlag"
+		"pin_to_sibling"				"YellowBG"
+		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"5"
+		"wide"						"50"
+		"tall"						"50"
+		"visible"					"1"
+		"enabled"					"1"
+		
+		"pin_corner_to_sibling_minmode"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner_minmode"	"PIN_CENTER_TOP"
+		"wide_minmode"				"40"
+		"tall_minmode"				"40"
 				
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"	"c-80"
 		}
-		
 		"if_hybrid_double"
 		{
-			"xpos"			"c15"
-			"xpos_minmode"	"c0"
-			"ypos"			"r53"
 			"pin_to_sibling"	""
+			"xpos"			"c15"
+			"ypos"			"r53"
+			
+			"xpos_minmode"	"c0"
 		}
-
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
 			"pin_to_sibling"	""
+			"ypos"			"r100"
 		}
-		
 		"if_no_flags"
 		{
 			"visible"	"0"
@@ -645,87 +617,159 @@
 	}
 	"YellowScore"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"YellowScore"
-		"pin_to_sibling"	"YellowBG"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		"xpos"			"0"
-		"ypos"			"1"
-		"zpos"			"8"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%yellowscore%"
-		"font"			"HudFontMediumBigBold"
-		"font_minmode"	"HudFontMediumBold"
-		"fgcolor"		"TanLight"
+		"ControlName"				"CExLabel"
+		"fieldName"				"YellowScore"
+		"pin_to_sibling"			"YellowBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"xpos"					"0"
+		"ypos"					"1"
+		"zpos"					"8"
+		"wide"					"50"
+		"tall"					"34"
+		"textAlignment"			"center"	
+		"labelText"				"%yellowscore%"
+		"font"					"HudFontMediumBold"
+		"visible"				"1"
+		"enabled"				"1"
+		"fgcolor"				"ObjectiveLabel"
+		
+		"tall_minmode"			"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
 	"YellowScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"YellowScoreShadow"
 		"pin_to_sibling"	"YellowScore"
-		"xpos"			"0"
+		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"7"
-		"wide"			"60"
-		"tall"			"26"
-		"wide_minmode"	"50"
-		"tall_minmode"	"23"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"50"
+		"tall"			"34"
 		"textAlignment"	"center"	
 		"labelText"		"%yellowscore%"
-		"font"			"HudFontMediumBigBold"
-		"font_minmode"	"HudFontMediumBold"
+		"font"			"HudFontMediumBold"
+		"visible"		"1"
+		"enabled"		"1"
 		"fgcolor"		"ObjectiveShadow"
+		
+		"tall_minmode"	"23"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-															
+	}
+
+	"CaptureFlag"
+	{
+		"ControlName"		"CTFArrowPanel"
+		"fieldName"		"CaptureFlag"
+		"xpos"			"cs-0.5"
+		"ypos"			"r120"
+		"zpos"			"5"
+		"wide"			"60"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		"if_hybrid"
+		{
+			"ypos"	"r110"
+		}
+		"if_vip"
+		{
+			"ypos"	"r94"
+			"wide"	"50"
+			"tall"	"50"
+		}
+		"if_specialdelivery"
+		{
+			"ypos"	"r94"
+			"wide"	"50"
+			"tall"	"50"
+		}
+	}
+	
+	"CarriedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CarriedImage"
+		"xpos"			"cs-0.5"
+		"ypos"			"r105"
+		"zpos"			"6"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_carried_red"
+		"scaleImage"	"1"
+		
+		"if_hybrid"
+		{
+			"ypos"	"r100"
+		}
+		"if_hybrid_single"
+		{
+			"ypos"	"r123"
+		}
+		"if_vip"
+		{
+			"ypos"	"r123"
+		}
+	}
+	"SpecCarriedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SpecCarriedImage"
+		"xpos"			"cs-0.5"
+		"ypos"			"r100"
+		"zpos"			"6"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_carried_red"
+		"scaleImage"	"1"
+		
+		"if_specialdelivery"
+		{
+			"ypos"		"r123"
+			"visible"	"1"
+		}
+	}
+
 	"OutlineImage"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OutlineImage"
 		"xpos"			"c-50"
-		"ypos"			"r127"	[$WIN32]
-		"ypos"			"r148"	[$X360]
+		"ypos"			"r127"
 		"zpos"			"9"
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_carried_outline"
-		"scaleImage"	"1"	
-	}		
+		"image"			"../darhud/ctf/briefcase_outline"
+		"scaleImage"		"1"
+	}
 	
 	"PlayingTo"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"cs-0.5"
 		"ypos"			"r20"
@@ -736,27 +780,22 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"FontStorePrice"
 		"fgcolor"		"GeneralLabel"
-		
 		"border"			"ScoreLimitBorder"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-			
 	"PlayingToBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-75"
 		"ypos"			"r31"
@@ -766,47 +805,15 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
-		}
-	}
-
-	"CaptureFlag"
-	{
-		"ControlName"	"CTFArrowPanel"
-		"fieldName"		"CaptureFlag"
-		"xpos"			"cs-0.5"
-		"ypos"			"r110"
-		"zpos"			"5"
-		"wide"			"60"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		
-		"if_hybrid"
-		{
-			"ypos"			"r110"
-			"ypos_minmode"	"r110"
-		}
-
-		"if_vip"
-		{
-			"xpos"			"c-30"
-			"wide"			"60"
-			"tall"			"60"
-		}
-		"if_specialdelivery"
-		{
-			"ypos"		"r110"
 		}
 	}
 
@@ -824,7 +831,6 @@
 		"image"			"marked_for_death"
 		"scaleImage"	"1"
 	}
-
 	"PoisonTimeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -842,79 +848,17 @@
 		"fgcolor"		"TanLight"
 	}
 	
-	"CarriedImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CarriedImage"
-		"xpos"			"cs-0.5"
-		"ypos"			"r100"
-		"zpos"			"2"
-		"wide"			"60"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_carried_red"
-		"scaleImage"	"1"
-		
-		"if_hybrid"
-		{
-			"ypos"			"r150"
-		}
-		
-		"if_hybrid_single"
-		{
-			"ypos"			"r150"
-		}
-		
-		"if_specialdelivery"
-		{
-			"ypos"		"r150"
-			"visible"	"1"
-		}
-	}
-	
-	"SpecCarriedImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SpecCarriedImage"
-		"xpos"			"cs-0.5"
-		"ypos"			"r100"
-		"zpos"			"2"
-		"wide"			"60"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_carried_red"
-		"scaleImage"	"1"
-		
-		"if_hybrid"
-		{
-			"ypos"			"r150"
-		}
-		
-		"if_hybrid_single"
-		{
-			"ypos"			"r150"
-		}
-		
-		"if_specialdelivery"
-		{
-			"ypos"		"r150"
-			"visible"	"1"
-		}
-	}
-	
 	"mid"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"mid"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"wide"			"1"
 		"tall"			"480"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../darhud/square_white"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 	}
 }

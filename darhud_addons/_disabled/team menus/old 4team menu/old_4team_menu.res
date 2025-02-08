@@ -400,14 +400,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"#TF_Spectate"
-		"textAlignment"	"center"
+		"labelText"		"&6"
+		"textAlignment"	"south-east"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"	
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontSmallestBold"
 		
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -422,6 +422,24 @@
 		//0-BLU 1-RED 2-GRN 3-YLW 4-Random 5-Spectate
 		"NavUp"			"teambutton4"
 		"NavDown"		"CancelButton"
+	}
+	
+	"TeamMenuSpectate"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"TeamMenuSpectate"
+		"pin_to_sibling"	"teambutton5"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"4"
+		"wide"		"260"
+		"tall"		"25"
+		"mouseinputenabled"	"0"
+		"labelText"	"#TF_Spectate"
+		"font"		"HudFontMediumSmallBold"
+		"textAlignment"	"center"
+		"visible"	"1"
+		"enabled"	"1"
 	}
 	
 	"CancelButton"
@@ -590,26 +608,290 @@
 	
 	"bluedoor"
 	{
-		"visible"		"0"
-		"enabled"		"0"
-	}	
+		"ControlName"	"CModelPanel"
+		"fieldName"		"bluedoor"
+		"xpos"			"c-130"
+		"ypos"			"c-78"
+		"zpos"			"5"		
+		"wide"			"100"
+		"tall"			"60"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fov"			"20"
+		"mouseinputenabled"	"0"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/Ui_4team_blue.mdl"
+			"skin"		"0"
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "25"
+			"origin_y" "0"
+			"origin_z" "0"
+			
+			"animation"
+			{
+				"name"			"idle_enabled"
+				"sequence"		"idle"
+				"default"		"1"
+			}
+
+			"animation"
+			{
+				"name"			"idle_disabled"
+				"sequence"		"fullidle"
+			}			
+			
+			"animation"
+			{
+				"name"			"enter_enabled"
+				"sequence"		"hoveropen"
+			}
+			
+			"animation"
+			{
+				"name"			"enter_disabled"
+				"sequence"		"fullidle"
+			}
+				
+			"animation"
+			{
+				"name"			"exit_enabled"
+				"sequence"		"hoverclose"
+			}
+			
+			"animation"
+			{
+				"name"			"exit_disabled"
+				"sequence"		"fullidle"
+			}
+			
+			"animation"
+			{
+				"name"			"hover_disabled"
+				"sequence"		"fullhover"
+			}
+		}
+	}
 	
 	"reddoor"
 	{
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"	"CModelPanel"
+		"fieldName"		"reddoor"
+		"xpos"			"c30"
+		"ypos"			"c-78"
+		"zpos"			"5"		
+		"wide"			"100"
+		"tall"			"60"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fov"			"20"
+		"mouseinputenabled"	"0"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/Ui_4team_red.mdl"
+			"skin"		"0"
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "25"
+			"origin_y" "0"
+			"origin_z" "0"
+			
+			"animation"
+			{
+				"name"			"idle_enabled"
+				"sequence"		"idle"
+				"default"		"1"
+			}
+
+			"animation"
+			{
+				"name"			"idle_disabled"
+				"sequence"		"fullidle"
+			}			
+			
+			"animation"
+			{
+				"name"			"enter_enabled"
+				"sequence"		"hoveropen"
+			}
+			
+			"animation"
+			{
+				"name"			"enter_disabled"
+				"sequence"		"fullidle"
+			}
+				
+			"animation"
+			{
+				"name"			"exit_enabled"
+				"sequence"		"hoverclose"
+			}
+			
+			"animation"
+			{
+				"name"			"exit_disabled"
+				"sequence"		"fullidle"
+			}
+			
+			"animation"
+			{
+				"name"			"hover_disabled"
+				"sequence"		"fullhover"
+			}
+		}
 	}
 	
 	"greendoor"
 	{
-		"visible"		"0"
-		"enabled"		"0"
-	}	
+		"ControlName"	"CModelPanel"
+		"fieldName"		"greendoor"
+		"xpos"			"c-130"
+		"ypos"			"c-13"
+		"zpos"			"5"		
+		"wide"			"100"
+		"tall"			"60"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fov"			"20"
+		"mouseinputenabled"	"0"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/Ui_4team_green.mdl"
+			"skin"		"0"
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "25"
+			"origin_y" "0"
+			"origin_z" "0"
+			
+			"animation"
+			{
+				"name"			"idle_enabled"
+				"sequence"		"idle"
+				"default"		"1"
+			}
+
+			"animation"
+			{
+				"name"			"idle_disabled"
+				"sequence"		"fullidle"
+			}			
+			
+			"animation"
+			{
+				"name"			"enter_enabled"
+				"sequence"		"hoveropen"
+			}
+			
+			"animation"
+			{
+				"name"			"enter_disabled"
+				"sequence"		"fullidle"
+			}
+				
+			"animation"
+			{
+				"name"			"exit_enabled"
+				"sequence"		"hoverclose"
+			}
+			
+			"animation"
+			{
+				"name"			"exit_disabled"
+				"sequence"		"fullidle"
+			}
+			
+			"animation"
+			{
+				"name"			"hover_disabled"
+				"sequence"		"fullhover"
+			}
+		}
+	}
 	
 	"yellowdoor"
 	{
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"	"CModelPanel"
+		"fieldName"		"yellowdoor"
+		"xpos"			"c30"
+		"ypos"			"c-13"
+		"zpos"			"5"		
+		"wide"			"100"
+		"tall"			"60"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fov"			"20"
+		"mouseinputenabled"	"0"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/Ui_4team_yellow.mdl"
+			"skin"		"0"
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "25"
+			"origin_y" "0"
+			"origin_z" "0"
+			
+			"animation"
+			{
+				"name"			"idle_enabled"
+				"sequence"		"idle"
+				"default"		"1"
+			}
+
+			"animation"
+			{
+				"name"			"idle_disabled"
+				"sequence"		"fullidle"
+			}			
+			
+			"animation"
+			{
+				"name"			"enter_enabled"
+				"sequence"		"hoveropen"
+			}
+			
+			"animation"
+			{
+				"name"			"enter_disabled"
+				"sequence"		"fullidle"
+			}
+				
+			"animation"
+			{
+				"name"			"exit_enabled"
+				"sequence"		"hoverclose"
+			}
+			
+			"animation"
+			{
+				"name"			"exit_disabled"
+				"sequence"		"fullidle"
+			}
+			
+			"animation"
+			{
+				"name"			"hover_disabled"
+				"sequence"		"fullhover"
+			}
+		}
 	}
 	
 	"team_random"

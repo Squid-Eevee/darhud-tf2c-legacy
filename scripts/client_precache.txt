@@ -77,6 +77,7 @@ precache
 	
 	// new model for team being full
 	// i might get away with removing the other team menu models since this hud doesn't use them but i don't want to take any chances
+	// it's weird because i can replace the door model with the civilian just fine despite his model not being specified here
 	"model"			"models/vgui/UI_team_full.mdl"
 
 }

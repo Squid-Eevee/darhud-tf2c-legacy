@@ -241,7 +241,7 @@
 		"fieldName"			"AvatarBG"
 		"xpos"				"105"
 		"xpos_minmode"		"c-322"
-		"ypos"				"125"
+		"ypos"				"118"
 		"zpos"				"5"
 		"wide"				"50"
 		"tall"				"50"
@@ -263,7 +263,7 @@
 		"fieldName"			"AvatarImage"
 		"xpos"				"110"
 		"xpos_minmode"		"c-317"
-		"ypos"				"130"
+		"ypos"				"123"
 		"zpos"				"6"
 		"wide"				"40"
 		"tall"				"40"
@@ -289,7 +289,7 @@
 		"fieldName"			"WelcomeBG"
 		"xpos"				"85"
 		"xpos_minmode"		"c-342"
-		"ypos"				"127"
+		"ypos"				"120"
 		"zpos"				"4"
 		"wide"				"290"
 		"tall"				"45"
@@ -301,7 +301,6 @@
 		
 		"if_inlevel"
 		{
-			"ypos"			"120"
 			"tall"			"20"
 		}
 	}
@@ -312,7 +311,7 @@
 		"fieldName"			"WelcomeLabel"
 		"xpos"				"160"
 		"xpos_minmode"		"c-267"
-		"ypos"				"131"
+		"ypos"				"125"
 		"zpos"				"5"
 		"wide"				"190"
 		"tall"				"20"
@@ -344,7 +343,7 @@
 		"fieldName"			"NicknameLabel"
 		"xpos"				"160"
 		"xpos_minmode"		"c-267"
-		"ypos"				"133"
+		"ypos"				"126"
 		"zpos"				"6"
 		"wide"				"190"
 		"tall"				"50"

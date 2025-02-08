@@ -624,7 +624,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/vgui/Ui_4team_blue.mdl"
+			"modelname"	"models/vgui/Ui_team_full.mdl"
 			"skin"		"0"
 			"angles_x" "0"
 			"angles_y" "180"
@@ -696,7 +696,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/vgui/Ui_4team_red.mdl"
+			"modelname"	"models/vgui/Ui_team_full.mdl"
 			"skin"		"0"
 			"angles_x" "0"
 			"angles_y" "180"
@@ -768,7 +768,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/vgui/Ui_4team_green.mdl"
+			"modelname"	"models/vgui/Ui_team_full.mdl"
 			"skin"		"0"
 			"angles_x" "0"
 			"angles_y" "180"
@@ -840,7 +840,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/vgui/Ui_4team_yellow.mdl"
+			"modelname"	"models/vgui/Ui_team_full.mdl"
 			"skin"		"0"
 			"angles_x" "0"
 			"angles_y" "180"

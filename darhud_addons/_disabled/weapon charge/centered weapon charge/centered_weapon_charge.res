@@ -5,11 +5,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"cs-0.5"
+		"xpos"			"c-28"
 		"xpos_minmode"	"cs-0.5"
-		"ypos"			"c46"
+		"ypos"			"c75"
 		"zpos"			"3"
-		"wide"			"57"
+		"wide"			"58"
 		"tall"			"10"	
 	}	
 
@@ -20,8 +20,8 @@
 		"font"			"Default"
 		"xpos"			"2"
 		"ypos"			"2"
-		"wide"			"51"
-		"tall"			"5"				
+		"wide"			"52"
+		"tall"			"3"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -35,15 +35,15 @@
 	
 	"ChargeMeterBG"
 	{
-		"wide"		"55"
-		"tall"		"8"
+		"wide"		"56"
+		"tall"		"6"
 		"visible"	"1"
 	}
 	
 	"ChargeMeterBGShadow"
 	{
-		"wide"		"55"
-		"tall"		"8"
+		"wide"		"56"
+		"tall"		"6"
 		"visible"	"1"
 	}
 }

@@ -462,7 +462,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/vgui/Ui_team01_blue.mdl"
+			"modelname"	"models/vgui/Ui_team_full.mdl"
 			"skin"		"0"
 			"angles_x" "0"
 			"angles_y" "180"
@@ -534,7 +534,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/vgui/Ui_team01_red.mdl"
+			"modelname"	"models/vgui/Ui_team_full.mdl"
 			"skin"		"0"
 			"angles_x" "0"
 			"angles_y" "180"

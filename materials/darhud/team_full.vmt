@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"darhud/team_full"
+	"$model" "1"
+    "$translucent"		"1"
+    "%keywords"			"tf"
+}

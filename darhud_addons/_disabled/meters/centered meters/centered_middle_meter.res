@@ -3,16 +3,30 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"xpos"			"cs-0.5"
-		"ypos"			"r157"
+		"xpos"			"c-43"
+		"ypos"			"r148"
 		"xpos_minmode"	"cs-0.5"
 	}
-	// "ItemEffectMeterBG"
-	// {
-		// "visible"		"0"
-	// }
-	// "ItemEffectMeterBGShadow"
-	// {
-		// "visible"		"0"
-	// }
+	
+	"ItemEffectMeterBG"
+	{
+		"tall"			"8"
+	}
+
+	"ItemEffectMeterBGShadow"
+	{
+		"tall"			"8"
+	}
+	
+	"ItemEffectMeterLabel"
+	{
+		"ypos"					"2"
+		"tall"					"5"
+		"font"					"FontStorePriceSmall"
+	}
+
+	"ItemEffectMeter"
+	{
+		"tall"					"5"
+	}
 }

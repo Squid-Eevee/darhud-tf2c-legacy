@@ -86,6 +86,8 @@
 	//this literally does nothing lmao
 	//i'm certain this button is entirely placebo
 	//you're far better off just changing tf2c_serverlist_updatefrequency
+	//if it Does do something it should at least Look like it's doing something
+	//make the little spinner appear or some shit idk
 	"ReloadButton"
 	{
 		"ControlName"			"CTFButton"

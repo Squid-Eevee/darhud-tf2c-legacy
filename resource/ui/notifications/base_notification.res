@@ -15,6 +15,7 @@
 		"enabled"		"1"
 		"image"			"../hud/score_panel_blue_bg"
 		"scaleImage"	"1"
+		"alpha"			"192"
 	}
 	
 	"Notification_Icon"	

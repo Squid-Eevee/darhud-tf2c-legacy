@@ -8,7 +8,7 @@
 		"ypos"			"275"
 		"zpos"			"0"
 		"wide"			"100"
-		"tall"			"75"
+		"tall"			"74"
 		"visible"		"0"
 		"enabled"		"1"
 		"roundedcorners"	"0"

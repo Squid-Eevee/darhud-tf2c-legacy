@@ -1,5 +1,6 @@
 #base "../darhud_addons/hue24_colors.res"
 #base "../darhud_addons/gry_colors.res"
+#base "../darhud_addons/colorblind_grn_colors.res"
 #base "../darhud_addons/hue42_colors.res"
 #base "../darhud_addons/plm_colors.res"
 
@@ -69,7 +70,7 @@ Scheme
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
 		Frame.BgColor					"160 160 160 128"
-		Frame.OutOfFocusBgColor			"160 160 160 32"
+		Frame.OutOfFocusBgColor		"160 160 160 32"
 		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
@@ -122,7 +123,7 @@ Scheme
 		ProgressBar.BgColor				"TransparentBlack"
 
 		PropertySheet.TextColor			"White"
-		PropertySheet.SelectedTextColor	"White"
+		PropertySheet.SelectedTextColor		"White"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
 		RadioButton.TextColor			"DullWhite"
@@ -133,49 +134,49 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"Orange"
 
-		ScrollBar.Wide					17
+		ScrollBar.Wide	8
 
-		ScrollBarButton.FgColor				"White"
-		ScrollBarButton.BgColor				"Blank"
+		ScrollBarButton.FgColor			"White"
+		ScrollBarButton.BgColor			"Blank"
 		ScrollBarButton.ArmedFgColor		"White"
 		ScrollBarButton.ArmedBgColor		"Blank"
 		ScrollBarButton.DepressedFgColor	"White"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor				"Blank"			// nob color
-		ScrollBarSlider.BgColor				"255 255 255 64"	// slider background color
+		ScrollBarSlider.FgColor				"White"	// nob color
+		ScrollBarSlider.BgColor				"0 0 0 64"	// slider background color
 
-		SectionedListPanel.HeaderTextColor	"White"
-		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"DullWhite"
-		SectionedListPanel.BrightTextColor	"White"
-		SectionedListPanel.BgColor			"TransparentBlack"
-		SectionedListPanel.SelectedTextColor			"Black"
+		SectionedListPanel.HeaderTextColor				"White"
+		SectionedListPanel.HeaderBgColor				"Blank"
+		SectionedListPanel.DividerColor					"Black"
+		SectionedListPanel.TextColor					"DullWhite"
+		SectionedListPanel.BrightTextColor				"White"
+		SectionedListPanel.BgColor						"TransparentBlack"
+		SectionedListPanel.SelectedTextColor				"Black"
 		SectionedListPanel.SelectedBgColor				"Orange"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
+		SectionedListPanel.OutOfFocusSelectedBgColor		"255 155 0 128"
 
 		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"180 180 180 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
+		Slider.TextColor				"180 180 180 255"
+		Slider.TrackColor				"31 31 31 255"
+		Slider.DisabledTextColor1		"117 117 117 255"
+		Slider.DisabledTextColor2		"30 30 30 255"
 
-		TextEntry.TextColor			"White"
-		TextEntry.BgColor			"TransparentBlack"
-		TextEntry.CursorColor		"White"
-		TextEntry.DisabledTextColor	"DullWhite"
-		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"Black"
-		TextEntry.SelectedBgColor	"Orange"
+		TextEntry.TextColor				"White"
+		TextEntry.BgColor					"TransparentBlack"
+		TextEntry.CursorColor				"White"
+		TextEntry.DisabledTextColor			"DullWhite"
+		TextEntry.DisabledBgColor			"Blank"
+		TextEntry.SelectedTextColor			"Black"
+		TextEntry.SelectedBgColor			"Orange"
 		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
-		TextEntry.FocusEdgeColor	"0 0 0 196"
+		TextEntry.FocusEdgeColor			"0 0 0 196"
 
 		ToggleButton.SelectedTextColor	"White"
 
-		Tooltip.TextColor			"0 0 0 196"
-		Tooltip.BgColor				"Orange"
+		Tooltip.TextColor	"0 0 0 196"
+		Tooltip.BgColor	"Orange"
 
 		TreeView.BgColor			"TransparentBlack"
 
@@ -186,10 +187,10 @@ Scheme
 		MainMenu.ArmedTextColor		"White"
 		
 		MainMenu.ArmedTextColor		"White"
-		MainMenu.DepressedTextColor	"192 186 80 255"
+		MainMenu.DepressedTextColor		"192 186 80 255"
 		MainMenu.MenuItemHeight		"16"
 		MainMenu.Inset				"32"
-		MainMenu.Backdrop			"0 0 0 156"
+		MainMenu.Backdrop				"0 0 0 156"
 
 		Console.TextColor			"White"
 		Console.DevTextColor		"White"
@@ -199,7 +200,7 @@ Scheme
 		NewGame.SelectionColor		"Orange"
 		NewGame.DisabledColor		"128 128 128 196"
 
-		TFColors.ChatTextYellow		"White"
+		TFColors.ChatTextYellow	"White"
 		TFColors.ChatTextTeamBlue	"153 204 255 255"
 		TFColors.ChatTextTeamRed	"255 63 53 255"
 		TFColors.ChatTextTeamGreen	"153 255 153 255"

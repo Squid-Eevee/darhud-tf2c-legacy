@@ -98,7 +98,7 @@
 			"tall"					"16"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"capture_icon_white"
+			"image"					""../darhud/arena/player_icon
 			"scaleImage"				"1"
 		}
 		"playerimageshadow"
@@ -113,7 +113,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"capture_icon_white"
+			"image"			""../darhud/arena/player_icon
 			"drawcolor"	"ObjectiveShadow"
 			"scaleImage"	"1"
 		}
@@ -230,7 +230,7 @@
 			"tall"					"16"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"capture_icon_white"
+			"image"					""../darhud/arena/player_icon
 			"scaleImage"				"1"
 			"if_fourteams"
 			{
@@ -249,7 +249,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"capture_icon_white"
+			"image"			""../darhud/arena/player_icon
 			"drawcolor"	"ObjectiveShadow"
 			"scaleImage"	"1"
 		}
@@ -353,7 +353,7 @@
 			"tall"					"16"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"capture_icon_white"
+			"image"					""../darhud/arena/player_icon
 			"scaleImage"				"1"
 		}
 		"playerimageshadow"
@@ -368,7 +368,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"capture_icon_white"
+			"image"			""../darhud/arena/player_icon
 			"drawcolor"	"ObjectiveShadow"
 			"scaleImage"	"1"
 		}
@@ -472,7 +472,7 @@
 			"tall"					"16"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"capture_icon_white"
+			"image"					""../darhud/arena/player_icon
 			"scaleImage"				"1"
 		}
 		"playerimageshadow"
@@ -487,7 +487,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"capture_icon_white"
+			"image"			""../darhud/arena/player_icon
 			"drawcolor"	"ObjectiveShadow"
 			"scaleImage"	"1"
 		}

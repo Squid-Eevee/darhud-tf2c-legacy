@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-	}		
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -59,15 +59,31 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"10"
+		"xpos"			"0"
 		"ypos"			"12"
 		"zpos"			"5"
-		"wide"			"32"
+		"wide"			"28"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
+		"font"			"ChatFont"
+		"fgcolor"		"HealthNormal"
+	}
+	"PlayerStatusHealthValueRejuv"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueRejuv"
+		"xpos"			"0"
+		"ypos"			"12"
+		"zpos"			"5"
+		"wide"			"28"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
 		"font"			"ChatFont"
 		"fgcolor"		"HealthNormal"
 	}

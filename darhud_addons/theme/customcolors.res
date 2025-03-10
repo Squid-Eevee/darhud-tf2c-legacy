@@ -49,7 +49,7 @@ Scheme
 		//Counter
 		"CounterValue"	"235 226 202 255"
 		"CounterShadow"	"0 0 0 240"
-		"CounterIcon"		"235 226 202 255" //Also used for the jetpack icon
+		"CounterIcon"		"235 226 202 255"
 
 		//Objectives
 		"ObjectiveLabel"	"235 226 202 255"
@@ -60,7 +60,8 @@ Scheme
 		"KillfeedKill"	"235 235 235 255"
 		"KillfeedNormal"	"25 25 25 240"
 
-
+		//Chat
+		"ChatBackground"	"0 0 0 255"	//the alpha value doesn't seem to do anything to the chat window itself but this colour is shared with the chat filters window, which is fixed at 50% opacity for readability
 
 		//Menus
 

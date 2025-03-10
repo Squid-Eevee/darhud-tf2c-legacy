@@ -13,9 +13,20 @@
 		"enabled"		"1"
 		"roundedcorners"	"0"
 		"bordervisible"	"0"
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 		"PaintBackgroundType" "0"
 		"bgcolor_override"	"0 0 0 128"
+	}
+	
+	"background"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"background"
+		"zpos"		"-10"
+		"wide"		"f0"
+		"tall"		"f0"
+		"bgcolor_override"	"ChatBackground"
+		"alpha"		"128"
 	}
 
 	"joinleave_button"

@@ -16,7 +16,7 @@
 		"bordervisible"	"1"
 		"paintbackground"	"1"
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"ChatBackground"
 	}
 
 	ChatInputLine

@@ -10,8 +10,13 @@
 		"ypos"			"r205"
 		"wide"	 		"280"
 		"tall"	 		"120"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"roundedcorners"	"0"
+		"bordervisible"	"1"
+		"paintbackground"	"1"
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"20 20 20 255"
+		"bgcolor_override"	"0 0 0 255"
 	}
 
 	ChatInputLine

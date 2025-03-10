@@ -64,6 +64,7 @@ event HudHealthBonusPulse
 	
 	Animate	PlayerHealthValue					FgColor		"HealthGain" Accel 0.0 0.0
 	Animate PlayerStatusHealthValue 			FgColor		"HealthGain" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueRejuv		FgColor		"HealthGain" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor		"HealthGain" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel 	FgColor		"HealthGain" Accel 0.0 0.0
 
@@ -77,8 +78,9 @@ event HudHealthBonusPulseStop
 	
 	Animate	PlayerStatusHealthImageOverheal	Alpha		"0"			Linear 0.0 0.0
 	
-	Animate	PlayerHealthValue				FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate	PlayerHealthValue					FgColor		"HealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValue 			FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueRejuv 		FgColor		"HealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor		"HealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel 	FgColor		"HealthNormal" Accel 0.0 0.0
 }
@@ -93,6 +95,7 @@ event HudHealthDyingPulse
 	
 	Animate	PlayerHealthValue					FgColor		"HealthLow"	Accel 0.0 0.0
 	Animate PlayerStatusHealthValue 			FgColor		"HealthLow" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueRejuv 		FgColor		"HealthLow" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor		"HealthLow" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel 	FgColor		"HealthLow" Accel 0.0 0.0
 	
@@ -106,6 +109,7 @@ event HudHealthDyingPulseStop
 	
 	Animate	PlayerHealthValue					FgColor		"HealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValue 			FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueRejuv 		FgColor		"HealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor		"HealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel 	FgColor		"HealthNormal" Accel 0.0 0.0
 }

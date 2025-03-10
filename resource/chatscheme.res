@@ -3,6 +3,7 @@
 #base "../darhud_addons/colorblind_grn_colors.res"
 #base "../darhud_addons/hue42_colors.res"
 #base "../darhud_addons/plm_colors.res"
+#base "../darhud_addons/theme/customcolors.res"
 
 ///////////////////////////////////////////////////////////
 // Tracker scheme resource file

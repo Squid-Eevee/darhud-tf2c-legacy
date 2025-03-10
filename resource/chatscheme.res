@@ -25,8 +25,8 @@ Scheme
 		"White"				"255 255 255 255"
 		"OffWhite"			"255 255 255 255"
 		"DullWhite"			"142 142 142 255"
-		"Orange"			"255 155 0 255"
-		"TransparentBlack"		"0 0 0 128"
+		"Orange"				"255 155 0 255"
+		"TransparentBlack"	"0 0 0 128"
 		"Black"				"0 0 0 255"
 		"Green"				"63 185 73 255"
 
@@ -41,20 +41,20 @@ Scheme
 	{
 		// vgui_controls color specifications
 		Border.Bright					"200 200 200 196"	// the lit side of a control
-		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
+		Border.Dark					"40 40 40 196"		// the dark/unlit side of a control
 		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"White"
-		Button.BgColor					"Blank"
+		Button.BgColor				"Blank"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Blank"				[$WIN32]
+		Button.ArmedBgColor			"Blank"
 		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"Blank"
-		Button.FocusBorderColor			"Black"
+		Button.DepressedBgColor		"Blank"
+		Button.FocusBorderColor		"Black"
 		
 		CheckButton.TextColor			"OffWhite"
 		CheckButton.SelectedTextColor	"White"
-		CheckButton.BgColor				"TransparentBlack"
+		CheckButton.BgColor			"TransparentBlack"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"White"				// color of the check itself
@@ -66,43 +66,43 @@ Scheme
 
 		"Chat.TypingText"		"White"
 
-		Frame.TitleTextInsetX			16
+		Frame.TitleTextInsetX				16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"160 160 160 128"
-		Frame.OutOfFocusBgColor		"160 160 160 32"
-		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
+		Frame.BgColor						"160 160 160 128"
+		Frame.OutOfFocusBgColor			"160 160 160 32"
+		Frame.FocusTransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime			"0.3"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"50 50 50 196"
-		FrameGrip.Color2				"0 0 0 196"
-		FrameTitleButton.FgColor		"200 200 200 196"
-		FrameTitleButton.BgColor		"Blank"
+		FrameGrip.Color1					"50 50 50 196"
+		FrameGrip.Color2					"0 0 0 196"
+		FrameTitleButton.FgColor			"200 200 200 196"
+		FrameTitleButton.BgColor			"Blank"
 		FrameTitleButton.DisabledFgColor	"255 255 255 192"
 		FrameTitleButton.DisabledBgColor	"Blank"
-		FrameSystemButton.FgColor		"Blank"
-		FrameSystemButton.BgColor		"Blank"
-		FrameSystemButton.Icon			""
-		FrameSystemButton.DisabledIcon	""
+		FrameSystemButton.FgColor			"Blank"
+		FrameSystemButton.BgColor			"Blank"
+		FrameSystemButton.Icon				""
+		FrameSystemButton.DisabledIcon		""
 		FrameTitleBar.Font				"UiBold"
 		FrameTitleBar.Font				"DefaultLarge"
 		FrameTitleBar.TextColor			"White"
-		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"255 255 255 192"
-		FrameTitleBar.DisabledBgColor	"Blank"
+		FrameTitleBar.BgColor				"Blank"
+		FrameTitleBar.DisabledTextColor		"255 255 255 192"
+		FrameTitleBar.DisabledBgColor		"Blank"
 
 		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"DullWhite"
-		Label.TextColor					"White"
-		Label.TextBrightColor				"White"
-		Label.SelectedTextColor				"White"
-		Label.BgColor					"TransparentBlack"
-		Label.DisabledFgColor1			"117 117 117 255"
-		Label.DisabledFgColor2			"30 30 30 255"
+		Label.TextDullColor		"DullWhite"
+		Label.TextColor			"White"
+		Label.TextBrightColor		"White"
+		Label.SelectedTextColor	"White"
+		Label.BgColor				"TransparentBlack"
+		Label.DisabledFgColor1		"117 117 117 255"
+		Label.DisabledFgColor2		"30 30 30 255"
 
-		ListPanel.TextColor					"White"
+		ListPanel.TextColor				"White"
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
@@ -110,17 +110,17 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
 		ListPanel.EmptyListInfoTextColor	"White"
 
-		Menu.TextColor					"White"
-		Menu.BgColor					"160 160 160 64"
-		Menu.ArmedTextColor				"Black"
-		Menu.ArmedBgColor				"Orange"
-		Menu.TextInset					"6"
+		Menu.TextColor		"White"
+		Menu.BgColor			"160 160 160 64"
+		Menu.ArmedTextColor	"Black"
+		Menu.ArmedBgColor		"Orange"
+		Menu.TextInset		"6"
 
-		Panel.FgColor					"Blank"
-		Panel.BgColor					"DullWhite"
+		Panel.FgColor	"Blank"
+		Panel.BgColor	"DullWhite"
 
-		ProgressBar.FgColor				"White"
-		ProgressBar.BgColor				"TransparentBlack"
+		ProgressBar.FgColor	"White"
+		ProgressBar.BgColor	"TransparentBlack"
 
 		PropertySheet.TextColor			"White"
 		PropertySheet.SelectedTextColor		"White"
@@ -129,10 +129,10 @@ Scheme
 		RadioButton.TextColor			"DullWhite"
 		RadioButton.SelectedTextColor	"White"
 
-		RichText.TextColor				"White"
-		RichText.BgColor				"TransparentBlack"
-		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"Orange"
+		RichText.TextColor		"White"
+		RichText.BgColor			"TransparentBlack"
+		RichText.SelectedTextColor	"Black"
+		RichText.SelectedBgColor	"Orange"
 
 		ScrollBar.Wide	8
 
@@ -200,11 +200,11 @@ Scheme
 		NewGame.SelectionColor		"Orange"
 		NewGame.DisabledColor		"128 128 128 196"
 
-		TFColors.ChatTextYellow	"White"
-		TFColors.ChatTextTeamBlue	"153 204 255 255"
-		TFColors.ChatTextTeamRed	"255 63 53 255"
-		TFColors.ChatTextTeamGreen	"153 255 153 255"
-		TFColors.ChatTextTeamYellow	"255 178 0 255"
+		"TFColors.ChatTextYellow"		"White"
+		"TFColors.ChatTextTeamBlue"	"153 204 255 255"
+		"TFColors.ChatTextTeamRed"		"255 63 53 255"
+		"TFColors.ChatTextTeamGreen"	"153 255 153 255"
+		"TFColors.ChatTextTeamYellow"	"255 178 0 255"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////

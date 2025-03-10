@@ -3,7 +3,7 @@
 	"FiltersBackground"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"		"FriendlistBackground"
+		"fieldName"		"FiltersBackground"
 		"xpos"			"5"
 		"ypos"			"5"
 		"zpos"			"3"
@@ -17,7 +17,7 @@
 	"FiltersBorder"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"		"FriendlistBorder"
+		"fieldName"		"FiltersBorder"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -30,7 +30,7 @@
 	"FilterBG"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"ServerBG"
+		"fieldName"			"FilterBG"
 		"xpos"				"5"
 		"ypos"				"10"
 		"zpos"				"4"
@@ -45,7 +45,7 @@
 	"FilterLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"ServerLabel"
+		"fieldName"			"FilterLabel"
 		"xpos"				"10"
 		"ypos"				"8"
 		"zpos"				"6"
@@ -80,7 +80,7 @@
 	"OfficialButton"
 	{
 		"ControlName"		"CTFButton"
-		"fieldName"			"OfficialButton"
+		"fieldName"		"OfficialButton"
 		"xpos"			"10"
 		"ypos"			"51"
 		"zpos"			"7"

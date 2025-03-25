@@ -495,12 +495,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
-	"TeamMenuSpectate"
-	{
-		"visible"		"0"
-		"enabled"		"0"
-	}
 
 	"MenuBG"
 	{	

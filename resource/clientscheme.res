@@ -6107,6 +6107,30 @@ Scheme
 				}
 			}
 		}
+		ServerSelectBorderArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"color"					"ButtonMM"
+			"image"					"../darhud/backpack/border"
+			"src_corner_height"		"3"				// pixels inside the image
+			"src_corner_width"		"3"
+			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 		"2"
+		}
+		ServerSelectBorderDepressed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"color"					"ButtonArmedMM"
+			"image"					"../darhud/mainmenu/serverlistitem_border"
+			"src_corner_height"		"3"				// pixels inside the image
+			"src_corner_width"		"3"
+			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 		"2"
+		}
 	}
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//

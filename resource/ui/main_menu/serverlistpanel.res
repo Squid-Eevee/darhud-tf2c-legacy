@@ -83,9 +83,6 @@
 		"fgcolor"		"HeaderLabel"
 	}
 	
-	//this literally does nothing lmao
-	//i'm certain this button is entirely placebo
-	//you're far better off just changing tf2c_serverlist_updatefrequency
 	"ReloadButton"
 	{
 		"ControlName"			"CTFButton"

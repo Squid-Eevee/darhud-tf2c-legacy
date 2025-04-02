@@ -1022,7 +1022,7 @@
 		"xpos"			"-218"
 		"ypos"			"0"
 		"zpos"			"11"
-		"wide"			"34"
+		"wide"			"40"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"

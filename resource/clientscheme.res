@@ -1255,7 +1255,19 @@ Scheme
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias"	"1"
+			}
+		}
+		"HudFontMediumBoldShadow"
+		{
+			"1"
+			{
+				"name"		"TF2C Build"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"HudFontMediumSmallBold"

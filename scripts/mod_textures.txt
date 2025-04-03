@@ -771,6 +771,15 @@
 				"width"		"96"
 				"height"	"32"
 		}
+		"world"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"96"
+				"y"		"288"
+				"width"		"96"
+				"height"	"32"
+		}
 		"headshot"
 		{
 				"dfile"	"HUD/d_images"

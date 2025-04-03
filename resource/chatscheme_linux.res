@@ -226,7 +226,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Cantarell"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -234,7 +234,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Cantarell"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -242,7 +242,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Cantarell"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -251,7 +251,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Cantarell"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -260,7 +260,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Cantarell"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -363,43 +363,48 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"700"
+				"name"		"Cantarell"
+				"tall"		"16"
+				"weight"		"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Cantarell"
+				"tall"		"17"
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"15"
+				"name"		"Cantarell"
+				"tall"		"19"
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"17"
+				"name"		"Cantarell"
+				"tall"		"21"
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"22"
+				"name"		"Cantarell"
+				"tall"		"26"
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 		}
 
@@ -809,6 +814,8 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"		
+		"2"		"resource/HL2EP2.ttf"
+		"3"		"resource/neosans.ttf"
+		"4"		"resource/Cantarell.otf"
 	}
 }

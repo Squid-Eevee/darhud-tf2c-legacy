@@ -1225,6 +1225,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontMediumBigBoldShadow"
+		{
+			"1"
+			{
+				"name"		"TF2C Build"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
 		"HudFontMedium"
 		{
 			"1"

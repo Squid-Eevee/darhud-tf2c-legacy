@@ -1,5 +1,6 @@
 #base "hudlayout_tf2c.res"
 #base "../darhud_addons/default_close_captions_hudlayout.res"
+#base "../darhud_addons/statpanel.res"
 
 #base "../darhud_base/in_game/close_captions/close_captions_hudlayout.res"
 
@@ -893,12 +894,12 @@
 	StatPanel
 	{
 		"fieldName"	"StatPanel"
-		"visible"	"1"
-		"enabled"	"1"
+		"visible"	"0"
+		"enabled"	"0"
 		"xpos"		"r202"
 		"ypos"		"136"
-		"wide"		"208"
-		"tall"		"58"
+		"wide"		"0"
+		"tall"		"0"
 	}
 	
 	FreezePanel

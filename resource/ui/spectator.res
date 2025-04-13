@@ -332,5 +332,19 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
+	
+	"crosshair"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"crosshair"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"0"
+		"wide"			"1"
+		"tall"			"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"alpha"			"128"
+	}	
 }

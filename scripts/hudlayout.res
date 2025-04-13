@@ -735,7 +735,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos" "r145"
-		"ypos" "0"
+		"ypos" "-10"
 		"wide" "145"
 		"tall" "370"
 

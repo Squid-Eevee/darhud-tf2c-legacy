@@ -11,7 +11,7 @@
 		"tall"			"56"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../darhud/arena/arenaclass_spectator"
+		"image"			"../darhud/arena/arenaclass_neutral"
 		"scaleImage"		"1"
 		"teambg_0"		"../darhud/arena/arenaclass_neutral"
 		"teambg_1"		"../darhud/arena/arenaclass_spectator"

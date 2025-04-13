@@ -11,7 +11,7 @@
 		"tall"	 			"480"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../darhud/square_red"
+		"image"				"../darhud/square_neutral"
 		"scaleImage"		"1"
 		"teambg_0"			"../darhud/square_neutral"
 		"teambg_1"			"../darhud/square_spectator"

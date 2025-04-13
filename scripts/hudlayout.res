@@ -254,7 +254,7 @@
 			"x_offset"	"20"
 		}
 		
-		"medal_x_offset"		"10"
+		"medal_x_offset"		"0"
 	}
 	
 	CSpectatorTargetID
@@ -272,7 +272,7 @@
 		"x_offset" "20"
 		"y_offset" "20"
 		
-		"medal_x_offset"		"10"
+		"medal_x_offset"		"0"
 	}
 	
 	CSecondaryTargetID
@@ -292,7 +292,7 @@
 			"x_offset"	"20"
 		}
 		
-		"medal_x_offset"		"10"
+		"medal_x_offset"		"0"
 	}
 	
 	BuildingStatus_Spy

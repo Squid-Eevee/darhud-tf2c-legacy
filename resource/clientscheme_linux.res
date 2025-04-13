@@ -1,9 +1,9 @@
-//customisations
 #base "../darhud_addons/hue24_colors.res"
 #base "../darhud_addons/gry_colors.res"
 #base "../darhud_addons/colorblind_grn_colors.res"
 #base "../darhud_addons/hue42_colors.res"
 #base "../darhud_addons/plm_colors.res"
+#base "../darhud_addons/gigaleak_grn_ylw_colors.res"
 #base "../darhud_addons/of_charge_meters.res"
 #base "../darhud_addons/theme/customcolors.res"
 #base "../darhud_addons/default_close_captions_clientscheme.res"

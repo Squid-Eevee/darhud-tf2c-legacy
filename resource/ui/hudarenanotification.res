@@ -1,4 +1,4 @@
-"Resource/UI/HudArenaNotification.res"
+r"Resource/UI/HudArenaNotification.res"
 {
 	"HudArenaNotificationBG"
 	{
@@ -13,9 +13,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../darhud/square_spectator"
+		"image"			"../darhud/square_neutral"
 		"scaleImage"		"1"
-		"teambg_0"		"../darhud/square_spectator"
+		"teambg_0"		"../darhud/square_neutral"
 		"teambg_1"		"../darhud/square_spectator"
 		"teambg_2"		"../darhud/square_red"
 		"teambg_3"		"../darhud/square_blue"

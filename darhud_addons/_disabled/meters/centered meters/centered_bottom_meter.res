@@ -4,29 +4,30 @@
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"xpos"			"c-43"
-		"ypos"			"r138"
+		"ypos"			"r117"
 		"xpos_minmode"	"cs-0.5"
 	}
 	
 	"ItemEffectMeterBG"
 	{
-		"tall"			"8"
+		"tall"			"7"
 	}
 
 	"ItemEffectMeterBGShadow"
 	{
-		"tall"			"8"
+		"tall"			"7"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
-		"ypos"					"2"
-		"tall"					"5"
+		"ypos"					"1"
+		"tall"					"6"
 		"font"					"FontStorePriceSmall"
 	}
 
 	"ItemEffectMeter"
 	{
-		"tall"					"5"
+		"ypos"	"-1"
+		"tall"					"4"
 	}
 }

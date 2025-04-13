@@ -6,11 +6,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-30"
-		"xpos_minmode"	"cs-0.5"
-		"ypos"			"c64"
-		"ypos_minmode"	"c64"
-		"wide"			"63"
-		"tall"			"80"
+		"xpos_minmode"	"c-30"
+		"ypos"			"c54"
+		"ypos_minmode"	"c54"
+		"wide"			"62"
+		"tall"			"10"
 	}
 	"Background"
 	{

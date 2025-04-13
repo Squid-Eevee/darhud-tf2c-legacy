@@ -2,6 +2,7 @@
 #base "../darhud_addons/default_close_captions_hudlayout.res"
 #base "../darhud_addons/statpanel.res"
 
+#base "../darhud_base/in_game/popups/statpanel.res"
 #base "../darhud_base/in_game/close_captions/close_captions_hudlayout.res"
 
 "Resource/HudLayout.res"
@@ -890,16 +891,17 @@
 		"tall"					"215"
 	}
 	
-	StatPanel
-	{
-		"fieldName"	"StatPanel"
-		"visible"	"0"
-		"enabled"	"0"
-		"xpos"		"r202"
-		"ypos"		"136"
-		"wide"		"0"
-		"tall"		"0"
-	}
+	//Moved to darhud_base
+	// StatPanel
+	// {
+		// "fieldName"	"StatPanel"
+		// "visible"	"0"
+		// "enabled"	"0"
+		// "xpos"		"r202"
+		// "ypos"		"136"
+		// "wide"		"0"
+		// "tall"		"0"
+	// }
 	
 	FreezePanel
 	{
@@ -1492,4 +1494,3 @@
 		"enabled"	"1"
 	}
 }
-

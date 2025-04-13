@@ -66,7 +66,7 @@
 		"enabled"			"1"
 		"image"				"../darhud/scoreboard/score_middle_shadow"	
 		"scaleImage"			"1"
-		"teambg_0"			"../darhud/scoreboard/score_middle_spectator"
+		"teambg_0"			"../darhud/scoreboard/score_middle_neutral"
 		"teambg_1"			"../darhud/scoreboard/score_middle_spectator"
 		"teambg_2"			"../darhud/scoreboard/score_middle_red"
 		"teambg_3"			"../darhud/scoreboard/score_middle_blue"

@@ -2495,15 +2495,28 @@ Scheme
 			}
 		}
 
+		
 		TFFontSmall
 		{
 			"1"
 			{
 				"name"		"Cantarell"
 				"tall"		"8"
-				"weight"	"0"
-				"additive"	"1"
+				"weight"		"0"
+				"additive"	"0"
 				"antialias" 	"1"
+			}
+		}
+		TFFontSmallShadow
+		{
+			"1"
+			{
+				"name"		"Cantarell"
+				"tall"		"8"
+				"weight"		"0"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
 			}
 		}
 		TFFontMedium

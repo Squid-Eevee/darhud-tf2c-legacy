@@ -177,9 +177,9 @@
 		"enabled"			"1"
 		"tabPosition"			"0"
 		"labelText"			"#TF_Scout"
-        "textinsetx"            "100"
+        "textinsetx"            "130"
 		"textAlignment"		"west"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMediumSmallBold"
 		"Command"			"select 1"
 		"Default"			"0"
 		"scaleImage"		"1"
@@ -216,7 +216,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"-2"
+			"xpos"			"0"
 			"ypos"			"-35"
 			"zpos"			"7"
 			"wide"			"50"
@@ -250,9 +250,9 @@
 		"enabled"				"1"
 		"tabPosition"				"0"
 		"labelText"				"#TF_Soldier"
-        "textinsetx"				"100"
+        "textinsetx"				"130"
 		"textAlignment"			"west"
-		"font"					"HudFontMediumBold"
+		"font"					"HudFontMediumSmallBold"
 		"Command"				"select 3"
 		"Default"				"0"
 		"scaleImage"				"1"
@@ -289,7 +289,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"-2"
+			"xpos"			"0"
 			"ypos"			"-30"
 			"zpos"			"7"
 			"wide"			"50"
@@ -322,9 +322,9 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_Pyro"
-        "textinsetx"            "100"
+        "textinsetx"            "130"
 		"textAlignment"		"west"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMediumSmallBold"
 		"Command"			"select 7"
 		"Default"			"0"
 		"scaleImage"		"1"
@@ -361,7 +361,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"-3"
+			"xpos"			"0"
 			"ypos"			"-33"
 			"zpos"			"7"
 			"wide"			"50"
@@ -400,9 +400,9 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_Demoman"
-        "textinsetx"            "100"
+        "textinsetx"            "130"
 		"textAlignment"		"west"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMediumSmallBold"
 		"Command"			"select 4"
 		"Default"			"0"
 		"scaleImage"		"1"
@@ -439,7 +439,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"-3"
+			"xpos"			"0"
 			"ypos"			"-28"
 			"zpos"			"7"
 			"wide"			"50"
@@ -472,9 +472,9 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_HWGuy"
-        "textinsetx"            "100"
+        "textinsetx"            "130"
 		"textAlignment"		"west"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMediumSmallBold"
 		"proportionaltoparent"	"1"
 		"Command"			"select 6"
 		"Default"			"0"
@@ -545,9 +545,9 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_Engineer"
-        "textinsetx"            "100"
+        "textinsetx"            "130"
 		"textAlignment"		"west"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMediumSmallBold"
 		"Command"			"select 9"
 		"Default"			"0"
 		"font"				"MenuKeys"
@@ -625,9 +625,9 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_Medic"
-        "textinsetx"            "100"
+        "textinsetx"            "130"
 		"textAlignment"		"west"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMediumSmallBold"
 		"Command"			"select 5"
 		"Default"			"0"
 		"scaleImage"		"1"
@@ -664,7 +664,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"-2"
+			"xpos"			"0"
 			"ypos"			"-25"
 			"zpos"			"7"
 			"wide"			"50"
@@ -697,9 +697,9 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_Sniper"
-        "textinsetx"            "100"
+        "textinsetx"            "130"
 		"textAlignment"		"west"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMediumSmallBold"
 		"Command"			"select 2"
 		"Default"			"0"
 		"scaleImage"		"1"
@@ -736,7 +736,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"-5"
+			"xpos"			"-3"
 			"ypos"			"-22"
 			"zpos"			"7"
 			"wide"			"50"
@@ -769,9 +769,9 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_spy"
-        "textinsetx"            "100"
+        "textinsetx"            "130"
 		"textAlignment"		"west"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMediumSmallBold"
 		"Command"			"select 8"
 		"Default"			"0"
 		"scaleImage"		"1"
@@ -808,7 +808,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"-4"
+			"xpos"			"-1"
 			"ypos"			"-27"
 			"zpos"			"7"
 			"wide"			"50"
@@ -848,9 +848,9 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_civilian"
-        "textinsetx"            "100"
+        "textinsetx"            "130"
 		"textAlignment"		"west"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMediumSmallBold"
 		"Command"			"select 10"
 		"Default"			"0"
 		"scaleImage"		"1"
@@ -887,7 +887,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"-4"
+			"xpos"			"-2"
 			"ypos"			"-37"
 			"zpos"			"7"
 			"wide"			"50"
@@ -1342,11 +1342,11 @@
 		"pin_to_sibling"	"scout"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		"xpos"			"-5"
-		"ypos"			"-2"
+		"xpos"			"-4"
+		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1356,6 +1356,11 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	"numScoutShadow"
 	{
@@ -1366,16 +1371,21 @@
 		"ypos"			"-2"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	
 	"numSoldier"
@@ -1385,11 +1395,11 @@
 		"pin_to_sibling"	"soldier"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		"xpos"			"-5"
-		"ypos"			"-2"
+		"xpos"			"-4"
+		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1399,6 +1409,11 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	"numSoldierShadow"
 	{
@@ -1409,16 +1424,21 @@
 		"ypos"			"-2"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	
 	"numPyro"
@@ -1428,11 +1448,11 @@
 		"pin_to_sibling"	"pyro"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		"xpos"			"-5"
-		"ypos"			"-2"
+		"xpos"			"-4"
+		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1442,6 +1462,11 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	"numPyroShadow"
 	{
@@ -1452,16 +1477,21 @@
 		"ypos"			"-2"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	
 	"numDemoman"
@@ -1471,11 +1501,11 @@
 		"pin_to_sibling"	"demoman"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		"xpos"			"-5"
-		"ypos"			"-2"
+		"xpos"			"-4"
+		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1485,6 +1515,11 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	"numDemomanShadow"
 	{
@@ -1495,16 +1530,21 @@
 		"ypos"			"-2"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	
 	"numHeavy"
@@ -1514,20 +1554,25 @@
 		"pin_to_sibling"	"heavyweapons"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		"xpos"			"-5"
-		"ypos"			"-2"
+		"xpos"			"-4"
+		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"%numHeavy%"
+		"labelText"		"%numheavy%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	"numHeavyShadow"
 	{
@@ -1538,16 +1583,21 @@
 		"ypos"			"-2"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"%numHeavy%"
+		"labelText"		"%numheavy%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	
 	"numEngineer"
@@ -1557,11 +1607,11 @@
 		"pin_to_sibling"	"engineer"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		"xpos"			"-5"
-		"ypos"			"-2"
+		"xpos"			"-4"
+		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1571,6 +1621,11 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	"numEngineerShadow"
 	{
@@ -1581,16 +1636,21 @@
 		"ypos"			"-2"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	
 	"numMedic"
@@ -1600,11 +1660,11 @@
 		"pin_to_sibling"	"medic"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		"xpos"			"-5"
-		"ypos"			"-2"
+		"xpos"			"-4"
+		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1614,6 +1674,11 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	"numMedicShadow"
 	{
@@ -1624,16 +1689,21 @@
 		"ypos"			"-2"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	
 	"numSniper"
@@ -1643,11 +1713,11 @@
 		"pin_to_sibling"	"sniper"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		"xpos"			"-5"
-		"ypos"			"-2"
+		"xpos"			"-4"
+		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1657,6 +1727,11 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	"numSniperShadow"
 	{
@@ -1667,16 +1742,21 @@
 		"ypos"			"-2"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	
 	"numSpy"
@@ -1686,11 +1766,11 @@
 		"pin_to_sibling"	"spy"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		"xpos"			"-5"
-		"ypos"			"-2"
+		"xpos"			"-4"
+		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1700,6 +1780,11 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	"numSpyShadow"
 	{
@@ -1710,16 +1795,21 @@
 		"ypos"			"-2"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}
 	}
 	
 	"numCivilian"
@@ -1729,11 +1819,11 @@
 		"pin_to_sibling"	"civilian"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		"xpos"			"-5"
-		"ypos"			"-2"
+		"xpos"			"-4"
+		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"0"
@@ -1747,6 +1837,7 @@
 		"if_special_classes"
 		{
 			"visible"		"1"
+			"tall"			"35"
 		}
 	}
 	"numCivilianShadow"
@@ -1758,7 +1849,7 @@
 		"ypos"			"-2"
 		"zpos"			"8"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"0"
@@ -1771,7 +1862,8 @@
 		
 		"if_special_classes"
 		{
-			"visible"		"0"
+			"visible"		"1"
+			"tall"			"35"
 		}
 	}
 	

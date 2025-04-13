@@ -265,7 +265,6 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"330"
-		"zpos"		"2"
 		"wide"	 	"255"
 		"tall"	 	"24"
 		"priority"	"40"

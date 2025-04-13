@@ -895,10 +895,10 @@
 		"fieldName"	"StatPanel"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-135"
-		"ypos"		"250"
-		"wide"		"272"
-		"tall"		"120"
+		"xpos"		"r202"
+		"ypos"		"136"
+		"wide"		"208"
+		"tall"		"58"
 	}
 	
 	FreezePanel

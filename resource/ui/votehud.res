@@ -721,14 +721,6 @@
 			"Command"		"CallVote"
 			"Default"		"0"
 			"font"			"HudFontSmallBold"
-			
-			"armedFgColor_override"		"ButtonArmedLabelMM"
-			"selectedFgColor_override"		"ButtonArmedLabelMM"
-			"depressedFgColor_override"	"ButtonDepressedLabelMM"
-			
-			"armedBgColor_override" "ButtonArmedMM"
-			"selectedBgColor_override" "ButtonArmedMM"
-			"depressedBgColor_override" "ButtonDepressedMM"
 		}
 		"Button1"
 		{
@@ -751,14 +743,6 @@
 			"Command"		"Close"
 			"Default"		"0"
 			"font"			"HudFontSmallBold"
-
-			"armedFgColor_override"		"ButtonArmedLabelMM"
-			"selectedFgColor_override"		"ButtonArmedLabelMM"
-			"depressedFgColor_override"	"ButtonDepressedLabelMM"
-			
-			"armedBgColor_override" "ButtonArmedMM"
-			"selectedBgColor_override" "ButtonArmedMM"
-			"depressedBgColor_override" "ButtonDepressedMM"
 		}
 	}
 }

@@ -17,8 +17,7 @@
 		"ControlName"		"CTFHudVIPR"
 		"fieldName"			"RedVIPRPanel"
 		"xpos"				"c-50"
-		"ypos"				"r150"
-		"ypos_minmode"		"r140"
+		"ypos"				"r140"
 		"zpos"				"1"
 		"wide"				"400"
 		"tall"				"200"
@@ -27,28 +26,25 @@
 
 		"if_red_is_top"
 		{
-			"ypos"				"r190"
-			"ypos_minmode"		"r180"
+			"ypos"	"r180"
 		}
 	}
 	
 	"BlueVIPRPanel"
 	{
 		"ControlName"		"CTFHudVIPR"
-		"fieldName"			"BlueVIPRPanel"
-		"xpos"				"c-50"
-		"ypos"				"r150"
-		"ypos_minmode"		"r145"
-		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"1"
-		"enabled"			"1"
+		"fieldName"		"BlueVIPRPanel"
+		"xpos"			"c-50"
+		"ypos"			"r145"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
 
 		"if_blue_is_top"
 		{
-			"ypos"				"r190"
-			"ypos_minmode"		"r180"
+			"ypos"	"r180"
 		}
 	}
 	
@@ -57,8 +53,7 @@
 		"ControlName"		"CTFHudVIPR"
 		"fieldName"			"YellowVIPRPanel"
 		"xpos"				"50"
-		"ypos"				"r150"
-		"ypos_minmode"		"r140"
+		"ypos"				"r140"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -67,8 +62,7 @@
 
 		"if_yellow_is_top"
 		{
-			"ypos"				"r190"
-			"ypos_minmode"		"r164"
+			"ypos"				"r164"
 		}
 	}
 	
@@ -77,8 +71,7 @@
 		"ControlName"		"CTFHudVIPR"
 		"fieldName"			"GreenVIPRPanel"
 		"xpos"				"50"
-		"ypos"				"r150"
-		"ypos_minmode"		"r140"
+		"ypos"				"r140"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -87,8 +80,7 @@
 
 		"if_green_is_top"
 		{
-			"ypos"				"r190"
-			"ypos_minmode"		"r164"
+			"ypos"				"r164"
 		}
 	}
 }

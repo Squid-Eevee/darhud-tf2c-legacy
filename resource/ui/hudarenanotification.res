@@ -1,4 +1,4 @@
-r"Resource/UI/HudArenaNotification.res"
+"Resource/UI/HudArenaNotification.res"
 {
 	"HudArenaNotificationBG"
 	{

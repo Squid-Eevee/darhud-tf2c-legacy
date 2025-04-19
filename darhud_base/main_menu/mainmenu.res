@@ -1677,39 +1677,4 @@
 		"fgcolor"			"GeneralShadow"
 		"font"				"TF2CVersion"
 	}
-	
-	// "CreditsLabel1"
-	// {
-		// "ControlName"		"CExLabel"
-		// "fieldName"		"CreditsLabel1"
-		// "xpos"			"r168"
-		// "ypos"			"26"
-		// "wide"			"160"
-		// "tall"			"40"
-		// "autoResize"		"0"
-		// "pinCorner"		"0"
-		// "visible"		"1"
-		// "enabled"		"1"
-		// "labelText"		"DarHud by DarSitam"
-		// "textAlignment"		"north-east"
-		// "fgcolor"			"GeneralLabel"
-		// "font"				"Link"
-	// }
-	// "CreditsLabel2"
-	// {
-		// "ControlName"		"CExLabel"
-		// "fieldName"		"CreditsLabel2"
-		// "xpos"			"r168"
-		// "ypos"			"35"
-		// "wide"			"160"
-		// "tall"			"40"
-		// "autoResize"		"0"
-		// "pinCorner"		"0"
-		// "visible"		"1"
-		// "enabled"		"1"
-		// "labelText"		"Ported to TF2C by Squid Eevee"
-		// "textAlignment"		"north-east"
-		// "fgcolor"			"GeneralLabel"
-		// "font"				"Link"
-	// }
 }

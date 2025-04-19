@@ -1363,8 +1363,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			""
-		"cvar_name"			"openblog"
-		"autochange"		"1"
+		"command"			"openblog"
+		"actionsignallevel"		"2"
+		"autochange"			"1"
 		"inverted"			"1"
 		"textAlignment"		"center"
 		

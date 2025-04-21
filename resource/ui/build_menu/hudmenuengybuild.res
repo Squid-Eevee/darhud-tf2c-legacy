@@ -29,6 +29,7 @@
 		"scaleImage"	"1"
 		"teambg_0"		"../darhud/square_neutral"
 		"teambg_1"		"../darhud/square_spectator"
+		"teambg_2"		"../darhud/square_red"	
 		"teambg_3"		"../darhud/square_blue"	
 		"teambg_4"		"../darhud/square_green"
 		"teambg_5"		"../darhud/square_yellow"	

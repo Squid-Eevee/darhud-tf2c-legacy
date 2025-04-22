@@ -1159,10 +1159,10 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 
-		"xpos"			"c-350"
+		"xpos"			"c-400"
 		"ypos"			"r260"
 		"zpos"			"-10"
-		"wide"			"150"
+		"wide"			"250"
 		"tall"			"260"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1180,12 +1180,12 @@
 		{
 			"force_pos"	"1"
 
-			"angles_x" "-15"
+			"angles_x" "0"
 			"angles_y" "172"
 			"angles_z" "0"
 			"origin_x" "200"
 			"origin_y" "0"
-			"origin_z" "-95"
+			"origin_z" "-90"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
@@ -1243,6 +1243,113 @@
 			{
 				"name"		"SECONDARY2"
 				"activity"	"ACT_MP_STAND_SECONDARY2"
+			}
+		}
+
+		"customclassdata"
+		{
+			"undefined"
+			{
+			}
+			"Scout"
+			{
+				"fov"			"25"
+				"angles_x"		"-12"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"220"
+				"origin_y"		"5"
+				"origin_z"		"-85"
+			}
+			"Soldier"
+			{
+				"fov"			"25"
+				"angles_x"		"-5"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"240"
+				"origin_y"		"0"
+				"origin_z"		"-90"
+			}
+			"Pyro"
+			{
+				"fov"			"25"
+				"angles_x"		"-5"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"240"
+				"origin_y"		"0"
+				"origin_z"		"-90"
+			}
+			"Demoman"
+			{
+				"fov"			"25"
+				"angles_x"		"-13"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"240"
+				"origin_y"		"0"
+				"origin_z"		"-90"
+			}
+			"Heavy"
+			{
+				"fov"			"25"
+				"angles_x"		"-5"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"260"
+				"origin_y"		"3"
+				"origin_z"		"-98"
+			}
+			"Engineer"
+			{
+				"fov"			"25"
+				"angles_x"		"-10"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"240"
+				"origin_y"		"0"
+				"origin_z"		"-90"
+			}
+			"Medic"
+			{
+				"fov"			"25"
+				"angles_x"		"-5"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"240"
+				"origin_y"		"0"
+				"origin_z"		"-97"
+			}
+			"Sniper"
+			{
+				"fov"			"25"
+				"angles_x"		"-10"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"250"
+				"origin_y"		"0"
+				"origin_z"		"-97"
+			}
+			"Spy"
+			{
+				"fov"			"25"
+				"angles_x"		"-5"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"240"
+				"origin_y"		"0"
+				"origin_z"		"-97"
+			}
+			"Civilian"
+			{
+				"fov"			"24"
+				"angles_x"		"0"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"240"
+				"origin_y"		"0"
+				"origin_z"		"-85"
 			}
 		}
 	}

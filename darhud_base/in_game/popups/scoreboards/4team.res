@@ -1343,11 +1343,11 @@
 			}
 			"Civilian"
 			{
-				"fov"			"24"
+				"fov"			"25"
 				"angles_x"		"0"
 				"angles_y"		"160"
 				"angles_z"		"0"
-				"origin_x"		"240"
+				"origin_x"		"260"
 				"origin_y"		"0"
 				"origin_z"		"-85"
 			}

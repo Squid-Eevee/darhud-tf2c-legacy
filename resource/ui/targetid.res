@@ -60,7 +60,7 @@
 		"ypos"				"-11"
 		"zpos"				"2"
 		"proportionaltoparent"	"1"
-		"wide"				"f0"
+		"wide"				"99999"
 		"tall"	 			"2"
 		"visible"			"1"
 		"enabled"			"1"

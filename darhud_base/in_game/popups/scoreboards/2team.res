@@ -1308,7 +1308,7 @@
 			}
 			"Civilian"
 			{
-				"fov"			"24"
+				"fov"			"25"
 				"angles_x"		"0"
 				"angles_y"		"160"
 				"angles_z"		"0"

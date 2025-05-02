@@ -81,7 +81,7 @@
 		"xpos"			"5"			// align me to the left edge of the first selection
 		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"100"
+		"wide"			"230"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -103,7 +103,7 @@
 		"xpos"			"-1"			// align me to the left edge of the first selection
 		"ypos"			"-1"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"230"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"

@@ -36,6 +36,7 @@
 		"bgcolor_override"		"White"
 		"paintbackgroundtype" "2"
 		"proportionaltoparent"	"1"
+		"roundedcorners"	"0"
 	}
 	
 	"BuildingIcon"	

@@ -36,6 +36,7 @@
 		"bgcolor_override"		"15 15 15 230"
 		"paintbackgroundtype" "2"
 		"proportionaltoparent"	"1"
+		"roundedcorners"	"0"
 	}
 	
 	"NotBuiltLabel"

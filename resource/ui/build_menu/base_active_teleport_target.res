@@ -36,6 +36,7 @@
 		"bgcolor_override"		"White"
 		"paintbackgroundtype" "2"
 		"proportionaltoparent"	"1"
+		"roundedcorners"	"0"
 	}
 	
 	"BuildingIcon"	
@@ -100,7 +101,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"pin_to_sibling" "NumberBg"
-		"font"			"HudMenuNumberFont"
+		"font"			"FontStorePrice"
 		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"0"

@@ -52,6 +52,7 @@
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg"
 		"iconColor"		"ProgressOffWhite"
+		"roundedcorners"	"0"
 	}
 	
 	"BuildingIcon"	

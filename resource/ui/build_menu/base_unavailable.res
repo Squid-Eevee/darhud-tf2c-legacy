@@ -35,6 +35,7 @@
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"ProgressOffWhiteTransparent"
+		"roundedcorners"	"0"
 	}
 	
 	"CantBuildReason"
@@ -131,7 +132,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
+		"font"			"FontStorePrice"
 		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"98"

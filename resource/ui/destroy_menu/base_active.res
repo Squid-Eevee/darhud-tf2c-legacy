@@ -36,6 +36,7 @@
 		"bgcolor_override"		"15 15 15 255"
 		"paintbackgroundtype" "2"
 		"proportionaltoparent"	"1"
+		"roundedcorners"	"0"
 	}
 	
 	"DestroyIcon"	
@@ -54,7 +55,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"162 60 60 255"
 	}
 		
 	"BuildingIcon"	
@@ -100,7 +101,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"pin_to_sibling" "NumberBg"
-		"font"			"HudMenuNumberFont"
+		"font"			"FontStorePrice"
 		"fgcolor"		"Black"
 		"xpos"			"26"
 		"ypos"			"49"

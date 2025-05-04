@@ -36,6 +36,7 @@
 		"bgcolor_override"		"0 0 0 192"
 		"paintbackgroundtype" "2"
 		"proportionaltoparent"	"1"
+		"roundedcorners"	"0"
 	}
 		
 	"BuildingIcon"	
@@ -108,7 +109,7 @@
 		"pin_to_sibling_corner" "PIN_CENTER_RIGHT"
 		"fgcolor"		"RedSolid"
 		"xpos"			"3"
-		"ypos"			"0"
+		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"15"

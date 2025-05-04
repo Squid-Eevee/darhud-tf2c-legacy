@@ -2161,7 +2161,7 @@
 		"zpos"			"100"
 		"wide"			"250"
 		"tall"			"170"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"

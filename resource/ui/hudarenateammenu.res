@@ -75,6 +75,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
+		"RoundedCorners"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"autodoor"
 		"paintbackground"	"1"
@@ -111,6 +112,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
+		"RoundedCorners"	"0"
 		"command"		"jointeam spectatearena"
 		"associated_model"	"spectate"	
 		

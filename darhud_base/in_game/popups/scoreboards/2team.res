@@ -1318,6 +1318,7 @@
 			}
 		}
 	}
+	
 	"PlayerNameBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -1333,6 +1334,22 @@
 		"enabled"			"1"
 		"bgcolor_override"	"GeneralBackground"
 		"PaintBackgroundType"	"2"
+		"RoundedCorners"		"0"
+	}
+	"PlayerNameBGBorder"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"			"PlayerNameBGBorder"
+		"xpos"				"cs-0.5"
+		"ypos"				"r78"
+		"zpos"				"-1"
+		"wide"				"459"
+		"tall"				"100"
+		"autoResize"			"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"border"				"OuterShadowBorder"
 		"RoundedCorners"		"0"
 	}
 	"PlayerNameLabel"

@@ -119,6 +119,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
+		"RoundedCorners"	"0"
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
 		"associated_model"	"bluedoor"
@@ -176,6 +177,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"paintborder"		"0"
+		"RoundedCorners"	"0"
 		"command"		"jointeam red"
 		"team"				"2"		// team red
 		"associated_model"	"reddoor"	
@@ -233,6 +235,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
+		"RoundedCorners"	"0"
 		"command"		"jointeam green"
 		"team"				"4"		// team green
 		"associated_model"	"greendoor"
@@ -290,6 +293,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
+		"RoundedCorners"	"0"
 		"command"		"jointeam yellow"
 		"team"				"5"		// team yellow
 		"associated_model"	"yellowdoor"	
@@ -347,6 +351,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
+		"RoundedCorners"	"0"
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
 		"font"			"HudFontSmallestBold"
@@ -405,6 +410,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
+		"RoundedCorners"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"	
 		"font"			"HudFontSmallestBold"

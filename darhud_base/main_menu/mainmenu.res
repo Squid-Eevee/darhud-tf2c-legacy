@@ -530,7 +530,7 @@
 		}
 		
 		"navUp"					"VoteButton"
-		"navDown"				"NotificationButton"
+		"navDown"				"CommandsButton"
 		"navLeft"				"ResumeButton"
 		"navRight"				"ResumeButton"
 		
@@ -546,6 +546,117 @@
 			"enabled"			"1"
 			"image"				"main_menu/icons/icon_mute"
 			"scaleImage"		"1"
+		}
+	}
+	"CommandsButton"
+	{
+		"pin_to_sibling"	"MuteButton"
+		"pin_to_sibling_corner"	"2"
+		"ControlName"			"CTFButton"
+		"fieldName"			"CommandsButton"
+		"xpos"				"0"
+		"ypos"				"1"
+		"zpos"				"11"
+		"wide"				"24"
+		"tall"				"24"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"gamemenucommand openbenchmarkdialog"
+		"labelText"			""
+		"textAlignment"		"west"
+		"font"				"TF2CMainMenuButton"
+		
+		"border_default"		"MainMenuAdvMiniButtonDefault"
+		"border_armed"		"MainMenuAdvMiniButtonArmed"
+		"border_depressed"	"MainMenuAdvMiniButtonDepressed"
+		"border_disabled"		"MainMenuAdvMiniButtonDisabled"
+		"image_drawcolor"		"ButtonLabelMM"
+		"image_armedcolor"	"ButtonArmedLabelMM"
+		"image_depressedcolor"	"ButtonDepressedLabelMM"
+		"image_disabledcolor"	"ButtonDisabledLabelMM"
+		
+		"tooltip"				"#gameui_gamemenu_commands"
+		
+		"navUp"					"MuteButton"
+		"navDown"				"BotButton"
+		"navLeft"				"ResumeButton"
+		"navRight"				"ResumeButton"
+		
+		"if_inmenu"
+		{
+			"navLeft"		"MultiplayerGameButton"
+			"navRight"		"ServerBrowserButton"
+			"navUp"			""
+			"navDown"		""
+		}
+		
+		"SubImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SubImage"
+			"xpos"				"4"
+			"ypos"				"4"
+			"wide"				"16"
+			"tall"				"16"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"../darhud/mainmenu/console"
+			"scaleImage"		"1"
+		}
+	}
+	"BotButton"
+	{
+		"pin_to_sibling"	"CommandsButton"
+		"pin_to_sibling_corner"	"2"
+		"ControlName"			"CTFButton"
+		"fieldName"			"BotButton"
+		"xpos"				"0"
+		"ypos"				"1"
+		"zpos"				"11"
+		"wide"				"24"
+		"tall"				"24"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"gamemenucommand openchangegamedialog"
+		"labelText"			""
+		"textAlignment"		"west"
+		"font"				"TF2CMainMenuButton"
+		
+		"border_default"		"MainMenuAdvMiniButtonDefault"
+		"border_armed"		"MainMenuAdvMiniButtonArmed"
+		"border_depressed"	"MainMenuAdvMiniButtonDepressed"
+		"border_disabled"		"MainMenuAdvMiniButtonDisabled"
+		"image_drawcolor"		"ButtonLabelMM"
+		"image_armedcolor"	"ButtonArmedLabelMM"
+		"image_depressedcolor"	"ButtonDepressedLabelMM"
+		"image_disabledcolor"	"ButtonDisabledLabelMM"
+		
+		"tooltip"				"#gameui_gamemenu_botcommands"
+		
+		"navUp"					"CommandsButton"
+		"navDown"				"NotificationButton"
+		"navLeft"				"ResumeButton"
+		"navRight"				"ResumeButton"
+		
+		"SubImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SubImage"
+			"xpos"				"4"
+			"ypos"				"4"
+			"wide"				"16"
+			"tall"				"16"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"main_menu/icons/icon_bots"
+			"scaleImage"		"1"
+		}
+		
+		
+		"if_inmenu"
+		{
+			"visible"			"0"
+			"enabled"			"0"
 		}
 	}
 	
@@ -588,6 +699,7 @@
 		{
 			"default"			"1"
 			"navUp"				"QuitButton"
+			"navLeft"			"CommandsButton"
 		}
 		
 		"if_inlevel"
@@ -756,6 +868,10 @@
 		{
 			"navUp"		"MuteButton"
 		}
+		"if_inmenu"
+		{
+			"navRight"	"CommandsButton"
+		}
 		
 		"navDown"		"LoadoutButton"
 		"navLeft"		"AchievementsButton"
@@ -915,15 +1031,15 @@
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"		"SubImage"
+			"fieldName"			"SubImage"
 			"proportionaltoparent"	"1"
-			"xpos"			"6"
-			"ypos"			"cs-0.5"
-			"wide"			"18"
-			"tall"			"18"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"main_menu/icons/icon_gear"
+			"xpos"				"6"
+			"ypos"				"cs-0.5"
+			"wide"				"18"
+			"tall"				"18"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"main_menu/icons/icon_gear"
 			"scaleImage"		"1"
 		}
 	}
@@ -947,38 +1063,38 @@
 	
 	"OptionsOldButton"
 	{
-		"ControlName"		"CTFButton"
-		"fieldName"		"OptionsOldButton"
-		"pin_to_sibling"	"OptionsDialogButton"
+		"ControlName"			"CTFButton"
+		"fieldName"				"OptionsOldButton"
+		"pin_to_sibling"		"OptionsDialogButton"
 		"pin_corner_to_sibling"	"pin_center_left"
 		"pin_to_sibling_corner"	"pin_center_right"
-		"xpos"			"-40"
-		"ypos"			"0"
-		"zpos"			"12"
-		"wide"			"32"
-		"tall"			"26"
-		"visible"		"1"
-		"enabled"		"1"
-		"command"		"gamemenucommand openoptionsdialog"
-		"labelText"		""
-		"textAlignment"		"west"
-		"font"			"TF2CMainMenuButton"
+		"xpos"					"-40"
+		"ypos"					"0"
+		"zpos"					"12"
+		"wide"					"32"
+		"tall"					"26"
+		"visible"				"1"
+		"enabled"				"1"
+		"command"				"gamemenucommand openoptionsdialog"
+		"labelText"				""
+		"textAlignment"			"west"
+		"font"					"TF2CMainMenuButton"
 		
-		"border_default"	"MainMenuOldOptionsButtonDefault"
-		"border_armed"		"MainMenuOldOptionsButtonArmed"
-		"border_depressed" 	"MainMenuOldOptionsButtonDepressed"
-		"border_disabled" 	"MainMenuOldOptionsButtonDisabled"
-		"image_drawcolor"	"ButtonLabelMM"
-		"image_armedcolor"	"ButtonArmedLabelMM"
-		"image_depressedcolor"	"ButtonDepressedLabelMM"
-		"image_disabledcolor"	"ButtonDisabledLabelMM"
+		"border_default"				"MainMenuOldOptionsButtonDefault"
+		"border_armed"				"MainMenuOldOptionsButtonArmed"
+		"border_depressed" 			"MainMenuOldOptionsButtonDepressed"
+		"border_disabled" 			"MainMenuOldOptionsButtonDisabled"
+		"image_drawcolor"				"ButtonLabelMM"
+		"image_armedcolor"			"ButtonArmedLabelMM"
+		"image_depressedcolor"			"ButtonDepressedLabelMM"
+		"image_disabledcolor"			"ButtonDisabledLabelMM"
 		
-		"tooltip"		"#TF_Menu_LegacyOptions"
+		"tooltip"				"#TF_Menu_LegacyOptions"
 		
-		"navUp"			"LoadoutButton"
-		"navDown"		"QuitButton"
-		"navLeft"		"OptionsDialogButton"
-		"navRight"		"OptionsDialogButton"
+		"navUp"					"LoadoutButton"
+		"navDown"				"QuitButton"
+		"navLeft"				"OptionsDialogButton"
+		"navRight"				"OptionsDialogButton"
 		
 		"SubImage"
 		{
@@ -1031,18 +1147,18 @@
 	
 	"QuitButton"
 	{
-		"ControlName"			"CTFButton"
-		"fieldName"			"QuitButton"
-		"xpos"				"240"
+		"ControlName"				"CTFButton"
+		"fieldName"				"QuitButton"
+		"xpos"					"240"
 		"xpos_minmode"			"c-187"
-		"ypos"				"285"
-		"zpos"				"10"
-		"wide"				"115"
-		"tall"				"20"
-		"visible"			"1"
-		"enabled"			"1"
-		"command"			"newquit"
-		"labelText"			"#GameUI_GameMenu_Quit"
+		"ypos"					"285"
+		"zpos"					"10"
+		"wide"					"115"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"command"				"newquit"
+		"labelText"				"#GameUI_GameMenu_Quit"
 		"textinsetx"			"20"
 		"use_proportional_insets"	"1"
 		"textAlignment"			"west"
@@ -1054,13 +1170,13 @@
 		
 		"defaultBgColor_override"	"141 21 0 255"
 		
-		"border_default"		"MainMenuQuitButtonDefault"
+		"border_default"			"MainMenuQuitButtonDefault"
 		"border_armed"			"MainMenuQuitButtonArmed"
 		"border_depressed" 		"MainMenuQuitButtonDepressed"
-		// "image_drawcolor"		"ButtonLabelMM"
+		// "image_drawcolor"			"ButtonLabelMM"
 		// "image_armedcolor"		"ButtonArmedLabelMM"
-		// "image_depressedcolor"	"ButtonDepressedLabelMM"
-		// "image_disabledcolor"	"ButtonDisabledLabelMM"
+		// "image_depressedcolor"		"ButtonDepressedLabelMM"
+		// "image_disabledcolor"		"ButtonDisabledLabelMM"
 		
 		"xshift"				"5"
 		"yshift"				"0"
@@ -1135,6 +1251,7 @@
 		"enabled"			"1"
 		"labelText"			""
 		"command"			"newstats"
+		"labelText"			""
 		"textAlignment"		"center"
 		
 		"border_default"			"MainMenuAdvMiniButtonDefault"
@@ -1209,7 +1326,8 @@
 		"labelText"			""
 		"cvar_name"			"tf2c_mainmenu_music"
 		"autochange"			"1"
-		"inverted"			"1"
+		"inverted"			"1"	
+		"labelText"			""
 		"textAlignment"		"center"
 		
 		"border_default"			"MainMenuAdvMiniButtonDefault"
@@ -1287,7 +1405,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			""
-		"command"			"randommusic"
+		"command"			"randommusic"	
+		"labelText"			""
 		"textAlignment"		"center"
 		
 		"border_default"			"MainMenuAdvMiniButtonDefault"
@@ -1350,34 +1469,36 @@
 	"BlogButton"
 	{
 		"ControlName"		"CTFButton"
-		"fieldName"		"BlogButton"
-		"pin_to_sibling"	"RandomMusicButton"
-		"xpos"			"-24"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"command"		"openblog"
+		"fieldName"			"BlogButton"
+		"pin_to_sibling"		"RandomMusicButton"
+		"xpos"				"-24"
+		"ypos"				"0"
+		"zpos"				"10"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			""
+		"command"			"openblog"
 		"actionsignallevel"	"2"
+		"autochange"		"1"
+		"inverted"			"1"
 		"textAlignment"		"center"
 		
-		"border_default"	"MainMenuAdvMiniButtonDefault"
-		"border_armed"		"MainMenuAdvMiniButtonArmed"
-		"border_depressed"	"MainMenuAdvMiniButtonDepressed"
-		"border_disabled"	"MainMenuAdvMiniButtonDisabled"
-		"image_drawcolor"	"ButtonLabelMM"
-		"image_armedcolor"	"ButtonArmedLabelMM"
-		"image_depressedcolor"	"ButtonDepressedLabelMM"
-		"image_disabledcolor"	"ButtonDisabledLabelMM"
+		"border_default"			"MainMenuAdvMiniButtonDefault"
+		"border_armed"			"MainMenuAdvMiniButtonArmed"
+		"border_depressed"		"MainMenuAdvMiniButtonDepressed"
+		"border_disabled"			"MainMenuAdvMiniButtonDisabled"
+		"image_drawcolor"			"ButtonLabelMM"
+		"image_armedcolor"		"ButtonArmedLabelMM"
+		"image_depressedcolor"		"ButtonDepressedLabelMM"
+		"image_disabledcolor"		"ButtonDisabledLabelMM"
 		
-		"tooltip"		"#TF_Menu_BlogPanel"
+		"tooltip"			"#TF_Menu_BlogPanel"
 
-		"navUp"			"OptionsDialogButton"
-		"navLeft"		"RandomMusicButton"
-		"navRight"		"ServerListToggleCheck"
+		"navUp"				"OptionsDialogButton"
+		"navLeft"			"RandomMusicButton"
+		"navRight"			"ServerListToggleCheck"
 		
 		"SubImage"
 		{
@@ -1611,13 +1732,14 @@
 		
 		"tooltip"			"#TF_Menu_ShowNotification"
 		
-		"navUp"				"MuteButton"
+		"navUp"				"CommandsButton"
 		"navDown"			"VoteButton"
 		"navLeft"			"ServerBrowserButton"
 		"navRight"			"ServerBrowserButton"
 		
 		"if_inlevel"
 		{
+			"navUp"				"BotButton"
 			"navLeft"			"ResumeButton"
 			"navRight"			"ResumeButton"
 		}

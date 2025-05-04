@@ -10,6 +10,7 @@
 
 //default
 #base "../darhud_base/in_game/close_captions/close_captions_clientscheme.res"
+#base "customfontfiles.res"
 
 //
 // TRACKER SCHEME RESOURCE FILE

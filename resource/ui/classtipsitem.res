@@ -27,14 +27,14 @@
 			"enabled"		"1"
 			"scaleimage"	"1"
 		}
-				
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
 			"xpos"			"25"
 			"ypos"			"2"
-			"wide"			"140"
+			"wide"			"135"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"

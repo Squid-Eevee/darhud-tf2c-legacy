@@ -1686,7 +1686,7 @@
 		"RoundedCorners"		"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"pixel_eevee"
+		"image"				"command_window/pixel_eevee"
 		"scaleImage"			"1"
 		"scaleAmount"			"0.000000"
 		"tileImage"			"0"

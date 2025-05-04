@@ -1,4 +1,4 @@
-"Resource/UI/ClassSelection.res"
+"resource/ui/classselection.res"
 {
 	"class"
 	{
@@ -73,10 +73,8 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../darhud/square_neutral"
-		"scaleImage"	"1"
-		"teambg_0"		"../darhud/square_neutral"
-		"teambg_1"		"../darhud/square_spectator"
+		"image"			"../darhud/square_red"
+		"scaleImage"	"1"	
 		"teambg_2"		"../darhud/square_red"
 		"teambg_3"		"../darhud/square_blue"
 		"teambg_4"		"../darhud/square_green"
@@ -97,7 +95,7 @@
 		"xpos_minmode"		"c172"
 		"ypos"				"r40"
 		"zpos"				"6"
-		"wide"				"35"
+		"wide"				"230"
 		"tall"				"35"
 		"zpos"				"6"
 		"wide"				"50"
@@ -107,11 +105,12 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
+		"labelText"			"#TF_Random"
+        "textinsetx"            "130"
+		"textAlignment"		"west"
 		"Command"			"select 12"
 		"Default"			"1"
-		"font"				"MenuKeys"
+		"font"				"HudFontMediumSmallBold"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_random_inactive"
@@ -146,7 +145,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"-6"
+			"xpos"			"0"
 			"ypos"			"-35"
 			"zpos"			"7"
 			"wide"			"50"
@@ -155,13 +154,55 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_random_inactive"
 			"scaleImage"	"1"
-		}				
+		}
+		
+		"if_special_classes"
+		{
+				"tall"			"35"
+		}			
 	}
 		
 	"Offense"
 	{
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"	"CExLabel"
+		"fieldName"		"Offense"
+		"pin_to_sibling"	"scout"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"10"
+		"autoResize"		"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#TF_Offense"
+		"textAlignment"	"center"
+		"font"			"ItemFontNameSmall"
+		"fgcolor"		"GeneralLabel"
+	}
+	"OffenseShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"OffenseShadow"
+		"pin_to_sibling"	"Offense"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"10"
+		"autoResize"		"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#TF_Offense"
+		"textAlignment"	"center"
+		"font"			"ItemFontNameSmall"
+		"fgcolor"		"GeneralShadow"
 	}
 	"scout"
 	{
@@ -382,8 +423,45 @@
 	
 	"Defense"
 	{
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"	"CExLabel"
+		"fieldName"		"Defense"
+		"pin_to_sibling"	"demoman"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"10"
+		"autoResize"		"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#TF_Defense"
+		"textAlignment"	"center"
+		"font"			"ItemFontNameSmall"
+		"fgcolor"		"GeneralLabel"
+	}
+	"DefenseShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DefenseShadow"
+		"pin_to_sibling"	"Defense"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"10"
+		"autoResize"		"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#TF_Defense"
+		"textAlignment"	"center"
+		"font"			"ItemFontNameSmall"
+		"fgcolor"		"GeneralShadow"
 	}
 	"demoman"
 	{
@@ -606,8 +684,45 @@
 	
 	"Support"
 	{
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"	"CExLabel"
+		"fieldName"		"Support"
+		"pin_to_sibling"	"medic"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"10"
+		"autoResize"		"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#TF_Support"
+		"textAlignment"	"center"
+		"font"			"ItemFontNameSmall"
+		"fgcolor"		"GeneralLabel"
+	}
+	"SupportShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SupportShadow"
+		"pin_to_sibling"	"Support"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"10"
+		"autoResize"		"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#TF_Support"
+		"textAlignment"	"center"
+		"font"			"ItemFontNameSmall"
+		"fgcolor"		"GeneralShadow"
 	}
 
 	"medic"
@@ -829,8 +944,55 @@
 	
 	"Special"
 	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Special"
+		"pin_to_sibling"	"civilian"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"10"
+		"autoResize"		"1"
+		"pinCorner"		"2"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#TF_Special"
+		"textAlignment"	"center"
+		"font"			"ItemFontNameSmall"
+		"fgcolor"		"GeneralLabel"
+		
+		"if_special_classes"
+		{
+			"visible"	"1"
+		}
+	}
+	"SpecialShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SpecialShadow"
+		"pin_to_sibling"	"Special"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"10"
+		"autoResize"		"1"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#TF_Special"
+		"textAlignment"	"center"
+		"font"			"ItemFontNameSmall"
+		"fgcolor"		"GeneralShadow"
+		
+		"if_special_classes"
+		{
+			"visible"	"1"
+		}
 	}
 	
 	"civilian"
@@ -915,7 +1077,7 @@
 		"xpos_minmode"	"c-370"
 		"ypos"			"r35"
 		"zpos"			"6"
-		"wide"			"150"
+		"wide"			"220"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -936,11 +1098,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"r244"
+		"xpos"			"70"
 		"xpos_minmode"	"c213"
-		"ypos"			"r35"
+		"ypos"			"c-10"
 		"zpos"			"6"
-		"wide"			"188"
+		"wide"			"200"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -961,7 +1123,7 @@
 		"defaultFgColor_override" "ButtonLabel"
 		"armedFgColor_override" "ButtonLabelArmed"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "White"		
+		"selectedFgColor_override" "White"
 		
 		"paintbackground"	"1"	
 		
@@ -1060,7 +1222,7 @@
 		// "xpos"			"9999"
 	// }
 	
-	"localPlayerImage" [$WIN32]
+	"localPlayerImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
@@ -1874,12 +2036,12 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"27"
+		"xpos"			"20"
 		"xpos_minmode"	"c-420"
 		"ypos"			"0"
 		"zpos"			"1"		
-		"wide"			"360"
-		"tall"			"360"
+		"wide"			"300"
+		"tall"			"300"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1917,8 +2079,8 @@
 			"angles_y"			"180"
 			"angles_z"			"0"
 			"origin_x"			"320"
-			"origin_y"			"10"
-			"origin_z"			"-25"
+			"origin_y"			"0"
+			"origin_z"			"-30"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
@@ -1999,7 +2161,7 @@
 		"zpos"			"100"
 		"wide"			"250"
 		"tall"			"170"
-		"visible"		"0"
+		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
@@ -2100,7 +2262,7 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
+			}
 		}
-	}		
+	}
 }

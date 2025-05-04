@@ -117,9 +117,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"				"../darhud/chr_shadow"	
-		"teambg_2"			"../darhud/chr_shadow"	
-		"teambg_3"			"../darhud/chr_shadow"
+		"image"				"../darhud/chr_shadow"
 	}
 
 	"classmodelpanel"
@@ -230,17 +228,7 @@
 				"angles_z"		"0"
 				"origin_x"		"105"
 				"origin_y"		"4"
-				"origin_z"		"-82"
-			}
-			"Sniper"
-			{
-				"fov"			"25"
-				"angles_x"		"-10"
-				"angles_y"		"172"
-				"angles_z"		"0"
-				"origin_x"		"130"
-				"origin_y"		"4"
-				"origin_z"		"-97"
+				"origin_z"		"-78"
 			}
 			"Soldier"
 			{
@@ -250,37 +238,7 @@
 				"angles_z"		"0"
 				"origin_x"		"145"
 				"origin_y"		"0"
-				"origin_z"		"-90"
-			}
-			"Demoman"
-			{
-				"fov"			"23"
-				"angles_x"		"-13"
-				"angles_y"		"160"
-				"angles_z"		"0"
-				"origin_x"		"138"
-				"origin_y"		"0"
-				"origin_z"		"-93"
-			}
-			"Medic"
-			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"165"
-				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"0"
-				"origin_z"		"-96"
-			}
-			"Heavy"
-			{
-				"fov"			"18"
-				"angles_x"		"-5"
-				"angles_y"		"200"
-				"angles_z"		"0"
-				"origin_x"		"200"
-				"origin_y"		"0"
-				"origin_z"		"-95"
+				"origin_z"		"-85"
 			}
 			"Pyro"
 			{
@@ -292,15 +250,25 @@
 				"origin_y"		"-5"
 				"origin_z"		"-90"
 			}
-			"Spy"
+			"Demoman"
 			{
-				"fov"			"20"
+				"fov"			"23"
+				"angles_x"		"-13"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"138"
+				"origin_y"		"0"
+				"origin_z"		"-86"
+			}
+			"Heavy"
+			{
+				"fov"			"18"
 				"angles_x"		"-5"
 				"angles_y"		"160"
 				"angles_z"		"0"
-				"origin_x"		"160"
+				"origin_x"		"190"
 				"origin_y"		"0"
-				"origin_z"		"-95"
+				"origin_z"		"-90"
 			}
 			"Engineer"
 			{
@@ -312,6 +280,36 @@
 				"origin_y"		"-2"
 				"origin_z"		"-82"
 			}
+			"Medic"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"165"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"0"
+				"origin_z"		"-91"
+			}
+			"Sniper"
+			{
+				"fov"			"24"
+				"angles_x"		"-10"
+				"angles_y"		"172"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"0"
+				"origin_z"		"-94"
+			}
+			"Spy"
+			{
+				"fov"			"19"
+				"angles_x"		"-5"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"160"
+				"origin_y"		"0"
+				"origin_z"		"-90"
+			}
 			"Civilian"
 			{
 				"fov"			"20"
@@ -319,8 +317,8 @@
 				"angles_y"		"168"
 				"angles_z"		"0"
 				"origin_x"		"140"
-				"origin_y"		"3"
-				"origin_z"		"-82"
+				"origin_y"		"4"
+				"origin_z"		"-78"
 			}
 		}
 	}

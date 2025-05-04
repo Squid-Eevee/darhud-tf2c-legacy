@@ -380,7 +380,7 @@
 		"tall"		"60"
 		"mouseinputenabled"	"0"
 		"labelText"	"?"
-		"font"		"HudFontMediumBigBold"
+		"font"		"HudFontGiantBold"
 		"textAlignment"	"center"
 		"visible"	"1"
 		"enabled"	"1"

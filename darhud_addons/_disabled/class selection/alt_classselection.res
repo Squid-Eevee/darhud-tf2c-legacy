@@ -66,7 +66,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classBg"
 		"xpos"			"r290"
-		"xpos_minmode"	"c167"
+		"xpos_minmode"	"c140"
 		"ypos"			"cs-0.5"
 		"zpos"			"1"
 		"wide"			"240"
@@ -92,7 +92,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
 		"xpos"				"r285"
-		"xpos_minmode"		"c172"
+		"xpos_minmode"		"c145"
 		"ypos"				"r40"
 		"zpos"				"6"
 		"wide"				"230"
@@ -209,7 +209,7 @@
 		"ControlName"			"CExImageButton"
 		"fieldName"			"scout"
 		"xpos"				"r285"
-		"xpos_minmode"		"c172"
+		"xpos_minmode"		"c145"
 		"ypos"				"c-200"
 		"zpos"				"6"
 		"wide"				"230"
@@ -1099,7 +1099,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"EditLoadoutButton"
 		"xpos"			"70"
-		"xpos_minmode"	"c213"
+		"xpos_minmode"	"c-360"
 		"ypos"			"c-10"
 		"zpos"			"6"
 		"wide"			"200"
@@ -1146,7 +1146,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect1"
 		"xpos"			"r290"
-		"xpos_minmode"	"c172"
+		"xpos_minmode"	"c145"
 		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"240"
@@ -2037,7 +2037,7 @@
 		"fieldName"		"TFPlayerModel"
 		
 		"xpos"			"20"
-		"xpos_minmode"	"c-420"
+		"xpos_minmode"	"c-410"
 		"ypos"			"0"
 		"zpos"			"1"		
 		"wide"			"300"
@@ -2264,5 +2264,5 @@
 				"scaleImage"	"1"
 			}
 		}
-	}
+	}		
 }

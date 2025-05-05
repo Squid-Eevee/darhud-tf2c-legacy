@@ -1432,6 +1432,18 @@ Scheme
 					
 			}
 		}
+		"HudFontSmallestBoldShadow"
+		{
+			"1"
+			{
+				"name"		"TF2C Build"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
 		"HudMenuNumberFont"
 		{
 			"1"

@@ -96,6 +96,14 @@
 		"autohide_scrollbar"	"1"
 		"bgcolor_override"		"DialogBackground"
 		"PaintBackgroundType"	"0"
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 	}
 	
 	"listpanel_background"

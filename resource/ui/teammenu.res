@@ -357,7 +357,7 @@
 		"brighttext"	"0"
 		"RoundedCorners"	"0"
 		"command"		"cancelmenu"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallBold"
 		
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"

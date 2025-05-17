@@ -500,6 +500,25 @@
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"GeneralLabel"
 	}
+	"TeamMenuSelectShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TeamMenuSelectShadow"
+		"pin_to_sibling"	"TeamMenuSelect"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"4"
+		"wide"			"450"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_SelectATeam"
+		"textAlignment"	"center"
+		"font"			"HudFontMediumSmallBold"
+		"fgcolor"		"GeneralShadow"
+	}
 	
 	"TeamMenuAuto"
 	{

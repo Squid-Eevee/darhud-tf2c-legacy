@@ -14,7 +14,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../darhud/uber_spectator"
+		"image"			"../darhud/uber_neutral"
 		"scaleImage"	"1"	
 		"teambg_0"		"../darhud/uber_neutral"
 		"teambg_1"		"../darhud/uber_spectator"

@@ -23,7 +23,7 @@
 		"tall"			"6"
 		"wide_minmode"	"53"
 		"tall_minmode"	"6"
-		"image"			"../darhud/meter_spectator"
+		"image"			"../darhud/meter_neutral"
 		"teambg_0"		"../darhud/meter_neutral"
 		"teambg_1"		"../darhud/meter_spectator"
 		"teambg_2"		"../darhud/meter_red"

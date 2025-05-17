@@ -12,7 +12,7 @@ Scheme
 		
 		//Loadout Screen
 		"LoadoutBackground"	"31 31 31 255"
-		"LoadoutFooter"		"31 31 31 255"
+		"LoadoutFooter"		"20 20 20 255"
 		"ClassModelBackground"	"31 31 31 255"
 		
 		"DialogBackground"	"31 31 31 255"

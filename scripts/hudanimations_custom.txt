@@ -124,6 +124,9 @@ event HudMedicCharged
 	
 	Animate	ChargeMeter 	FgColor		"UberForeground"		Linear 0.0 0.1
 	Animate	ChargeMeter 	FgColor		"HealthGain"		Linear 0.3 0.4
+	
+	Animate	ChargedImage 	Alpha		"255"	Linear 0.0 0.1
+	Animate	ChargedImage 	Alpha		"0"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -141,6 +144,8 @@ event HudMedicChargedStop
 	
 	Animate	ChargeLabel 		FgColor		"UberForeground"		Linear 0.0 0.0001
 	Animate	ChargeMeter 		FgColor		"UberForeground"		Linear 0.0 0.0001
+	
+	Animate	ChargedImage 	Alpha		"0"		Linear 0.0 0.2
 }
 
 event HudSnapShotReminderIn

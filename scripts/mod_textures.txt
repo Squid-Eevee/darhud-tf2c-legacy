@@ -775,9 +775,9 @@
 		{
 				"dfile"	"HUD/d_images"
 				"dnegfile"	"HUD/dneg_images"
-				"x"		"96"
+				"x"		"116"
 				"y"		"288"
-				"width"		"96"
+				"width"		"52"
 				"height"	"32"
 		}
 		"headshot"

@@ -223,13 +223,31 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"	"Background"
-			"xpos"		"6"
+			"xpos"		"8"
 			"ypos"		"0"
-			"wide"		"40"
+			"wide"		"34"
 			"tall"		"24"
 			"visible"	"1"
 			"enabled"	"1"
-			"image"		"../darhud/square_shadow"
+			"image"				"../darhud/square_shadow"
+			"scaleImage"		"1"
+		}
+		"Shadow"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"			"Shadow"
+			"pin_to_sibling"		"Background"
+			"pin_corner_to_sibling"	"pin_topleft"
+			"pin_to_sibling_corner"	"pin_topleft"
+			"xpos"				"0"
+			"ypos"				"-23"
+			"zpos"				"2"
+			"proportionaltoparent"	"1"
+			"wide"				"34"
+			"tall"	 			"2"
+			"visible"			"1"
+			"enabled"			"1"
+			"fillcolor"			"GeneralShadow"
 		}
 		
 		"MoveableIconBG"
@@ -272,7 +290,7 @@
 			"xpos"			"0"
 			"ypos"			"16"
 			"zpos"			"1"
-			"wide"			"640"
+			"wide"			"50"
 			"tall"			"12"
 			"autoResize"		"0"
 			"pinCorner"		"0"
@@ -280,8 +298,6 @@
 			"enabled"		"1"
 			"labelText"		"%movekey%"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"MoveableSymbolIcon"
 		{

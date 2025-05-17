@@ -18,7 +18,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontSmall"
+		"delta_item_font"		"HudFontSmallShadow"
 	}
 
 	"CHudAccountPanel"
@@ -85,6 +85,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallBold"
-        "fgcolor"		"AdditionalShadow"
+	      	"fgcolor"		"AdditionalShadow"
 	}
 }

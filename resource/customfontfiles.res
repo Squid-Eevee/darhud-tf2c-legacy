@@ -26,7 +26,7 @@ Scheme
 
 		"3"
 		{
-		"font" "resource/TF2C.ttf"
+		"font" "resource/tf2c.ttf"
 		"name" "TF2C"
 		
 			"russian"
@@ -109,7 +109,7 @@ Scheme
 
 		"4" 
 		{
-		"font" "resource/TF2CSecondary.ttf"
+		"font" "resource/tf2csecondary.ttf"
 		"name" "TF2C Secondary"
 		
 			"russian"
@@ -192,7 +192,7 @@ Scheme
 
 		"5" 
 		{
-		"font" "resource/TF2CProfessor.ttf"
+		"font" "resource/tf2cprofessor.ttf"
 		"name" "TF2C Professor"
 
 			"russian"
@@ -275,7 +275,7 @@ Scheme
 
 		"6" 
 		{
-		"font" "resource/TF2CBuild.ttf"
+		"font" "resource/tf2cbuild.ttf"
 		"name" "TF2C Build"
 		
 			"russian"

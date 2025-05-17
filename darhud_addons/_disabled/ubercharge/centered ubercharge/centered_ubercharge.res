@@ -15,13 +15,17 @@
 	"Background"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"c45"
+		"xpos_minmode"			"cs-0.5"
+		"ypos"			"c20"
+		"ypos_minmode"	"c20"
 		"zpos"			"0"
 		"wide"			"53"
 		"tall"			"6"
 		"wide_minmode"	"53"
 		"tall_minmode"	"6"
-		"image"			"../darhud/meter_red"
+		"image"			"../darhud/meter_spectator"
+		"teambg_0"		"../darhud/meter_neutral"
+		"teambg_1"		"../darhud/meter_spectator"
 		"teambg_2"		"../darhud/meter_red"
 		"teambg_3"		"../darhud/meter_blue"	
 		"teambg_4"		"../darhud/meter_green"
@@ -39,13 +43,37 @@
 		"image"			"../darhud/meter_shadow"
 	}
 	
+	"ChargeLabelBg"
+	{
+		"visible"		"0"
+		"visible_minmode"	"0"
+	}
+	"ChargedImage"
+	{
+		"visible"		"0"
+		"visible_minmode"	"0"
+	}
+	"ChargeLabelBgBorder"
+	{
+		"visible"		"0"
+		"visible_minmode"	"0"
+	}
+	"ChargeLabelBgBorderShadow"
+	{
+		"visible"		"0"
+		"visible_minmode"	"0"
+	}
+	
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
+		"pin_to_sibling"	""
+		"pin_to_sibling_minmode"	""
 		"xpos"			"cs-0.5"
 		"xpos_minmode"	"cs-0.5"
-		"ypos"			"c36"
+		"ypos"			"c11"
+		"ypos_minmode"	"c11"
 		"zpos"			"1"
 		"wide"			"30"
 		"wide_minmode"	"30"
@@ -58,9 +86,11 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
+		"textAlignment_minmode"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallestBold"
+		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"		"AdditionalValue"
 	}
 	"ChargeLabelShadow"
@@ -72,6 +102,7 @@
 		"ypos"			"-1"
 		"zpos"			"0"
 		"wide"			"30"
+		"wide_minmode"			"30"
 		"tall"			"8"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -80,9 +111,11 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
+		"textAlignment_minmode"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallestBold"
+		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"		"AdditionalShadow"
 	}
 	
@@ -171,10 +204,14 @@
 		"bgcolor_override" "MeterBackground"
 		"fgcolor_override" "UberForeground"
         "pin_to_sibling"    ""
+        "pin_to_sibling_minmode"    ""
 		"xpos"			"cs-0.5"
-		"ypos"			"c46"
+		"xpos_minmode"			"cs-0.5"
+		"ypos"			"c21"
+		"ypos_minmode"	"c21"
 		"zpos"			"3"
 		"wide"			"50"
+		"wide_minmode"	"50"
 		"tall"			"4"			
 		"autoResize"	"0"
 		"pinCorner"		"0"

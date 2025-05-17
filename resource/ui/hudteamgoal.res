@@ -61,7 +61,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"GoalLabel"
-		"font"			"HudFontSmallestShadow"
+		"font"			"ScoreboardSmallShadow"
 		"xpos"			"58"
 		"ypos"			"20"
 		"zpos"			"1"

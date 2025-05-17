@@ -1418,8 +1418,8 @@
 			"file"		"darhud/building/build_alt_blue"
 			"x"			"0"
 			"y"			"0"
-			"width"		"256"
-			"height"	"64"
+			"width"		"512"
+			"height"	"128"
 		}
 
 		"obj_status_background_red"
@@ -1427,8 +1427,8 @@
 			"file"		"darhud/building/build_alt_red"
 			"x"			"0"
 			"y"			"0"
-			"width"		"256"
-			"height"	"64"
+			"width"		"512"
+			"height"	"128"
 		}
 
 		"obj_status_background_green"
@@ -1436,8 +1436,8 @@
 			"file"		"darhud/building/build_alt_green"
 			"x"			"0"
 			"y"			"0"
-			"width"		"256"
-			"height"	"64"
+			"width"		"512"
+			"height"	"128"
 		}
 
 		"obj_status_background_yellow"
@@ -1445,15 +1445,15 @@
 			"file"		"darhud/building/build_alt_yellow"
 			"x"			"0"
 			"y"			"0"
-			"width"		"256"
-			"height"	"64"
+			"width"		"512"
+			"height"	"128"
 		}
 		
 		"obj_status_background_disabled"
 		{
 			"file"		"darhud/building/build_alt_shadow"
-			"x"			"255"
-			"y"			"63"
+			"x"			"511"
+			"y"			"127"
 			"width"		"1"
 			"height"	"1"
 		}

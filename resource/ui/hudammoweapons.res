@@ -20,8 +20,10 @@
 		"teambg_3"		"../darhud/ammo_blue"
 		"teambg_4"		"../darhud/ammo_green"
 		"teambg_5"		"../darhud/ammo_yellow"
-		"vertical_offset_special"	"-130"
-		"horizontal_offset_special"	"-35"
+		"horizontal_offset_special"		"-90"
+		"vertical_offset_special"		"-170"
+		"horizontal_offset_special_minmode"	"-35"
+		"vertical_offset_special_minmode"	"-130"
 	}
 
 	"HudWeaponAmmoBGShadow"

@@ -1239,13 +1239,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"HeaderLabel"
-		}							
+		}
 		"RecordsSubBG1"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"RecordsSubBG1"
 			"xpos"			"508"
-			"ypos"			"230" //227
+			"ypos"			"230"
 			"zpos"			"2"
 			"wide"			"167"
 			"tall"			"167"
@@ -1254,7 +1254,24 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"46 42 41 255"
+			"fillcolor"		"DialogBackground"
+			"PaintBackgroundType"	"0"
+		}
+		"RecordsSubBG1Shadow"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"RecordsSubBG1Shadow"
+			"xpos"			"508"
+			"ypos"			"230"
+			"zpos"			"3"
+			"wide"			"167"
+			"tall"			"167"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"	
+			"border"		"InnerShadowBorder"
 			"PaintBackgroundType"	"0"
 		}
 		

@@ -632,8 +632,15 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"0"
-			
 			"linespacing"	"16"
+
+			"ScrollBar"
+			{
+				"Slider"
+				{
+					"ScrollLerpTime"	"0.1"
+				}
+			}
 		}
 		
 		"VoteParameterList"
@@ -651,6 +658,14 @@
 			"tabPosition"	"0"
 			"autoresize"	"0"
 			"linespacing"	"16"
+
+			"ScrollBar"
+			{
+				"Slider"
+				{
+					"ScrollLerpTime"	"0.1"
+				}
+			}
 		}
 
 		"ComboLabel"

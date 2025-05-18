@@ -72,6 +72,24 @@
 		"fgcolor"		"HeaderLabel"
 	}
 	
+	"ListBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ListBorder"
+		"xpos"			"25"
+		"ypos"			"40"
+		"zpos"			"2"
+		"wide"			"260"
+		"tall"			"235"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"border"		"InnerShadowBorder"
+		"mouseinputenabled"	"0"
+		"paintbackgroundtype"	"0"
+	}
 	"PanelListPanel"
 	{
 		"ControlName"	"CPanelListPanel"
@@ -88,6 +106,14 @@
 		"tabPosition"	"0"
 		"bgcolor_override"		"46 42 41 255"
 		"paintbackgroundtype"	"0"
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 	}
 	
 	"ExternalLabel"

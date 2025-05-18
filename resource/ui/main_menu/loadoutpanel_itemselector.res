@@ -8,7 +8,7 @@
 		"ypos"		"30"
 		"zpos"		"0"
 		"wide"		"f0"
-		"tall"		"300"
+		"tall"		"290"
 		"visible"	"1"
 		"enabled"	"1"
 		"bgcolor_override"	"LoadoutBackground"
@@ -29,8 +29,8 @@
 		"border"			""
 		
 		"item_ypos"			"42"
-		"item_xspacing"		"111"
-		"item_yspacing"		"82"
+		"item_xspacing"		"104"
+		"item_yspacing"		"75"
 		"item_xoffset"		"-275"
 		"item_xlimit"		"5"
 		"item_ylimit"		"3"
@@ -199,7 +199,7 @@
 		"ypos"				"36"
 		"zpos"				"16"
 		"wide"				"558"
-		"tall"				"245"
+		"tall"				"230"
 		"autoResize"		"3"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -207,6 +207,14 @@
 		"tabPosition"		"1"
 		"autohide_scrollbar"	"1"
 		"buffer_height"		"15"
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 	}
 	
 	"BottomLine"
@@ -214,7 +222,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BottomLine"
 		"xpos"				"2"
-		"ypos"				"280"
+		"ypos"				"270"
 		"zpos"				"2"
 		"wide"				"548"
 		"tall"				"10"
@@ -324,7 +332,7 @@
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"proportionaltoparent"	"1"
-		"ypos"			"320"
+		"ypos"			"276"
 		"zpos"			"1"
 		"wide"			"558"
 		"tall"			"15"

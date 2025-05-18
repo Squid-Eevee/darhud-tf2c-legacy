@@ -116,4 +116,11 @@
 		"fieldName"	"CapPulse"
 		"image"		"../sprites/obj_icons/icon_obj_white"
 	}
+	
+	"CapHighlightImage"
+	{
+		"ControlName"	"CControlPointIconSwoop"
+		"fieldName"	"CapHighlightImage"
+		"image"		"../sprites/obj_icons/capture_highlight"
+	}
 }

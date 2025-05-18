@@ -138,6 +138,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"0"
+		"textinsetx"		"4"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"west"
 		"disabledfgcolor2_override" "GeneralLabel"

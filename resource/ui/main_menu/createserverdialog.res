@@ -104,7 +104,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"bgcolor_override"		"46 42 41 255"
+		"bgcolor_override"		"DialogBackground"
 		"paintbackgroundtype"	"0"
 
 		"ScrollBar"

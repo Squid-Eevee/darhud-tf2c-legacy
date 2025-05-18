@@ -683,6 +683,14 @@
 		"linegap"		"1"
 		"fgcolor"		"blue"
 		"show_columns"	"0"
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 		
 		"if_vipr"
 		{
@@ -757,6 +765,14 @@
 			"ypos"	"-38"
 			"tall"	"60"
 		}
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 	}
 	
 	"MainBGGreen"
@@ -824,6 +840,14 @@
 		{
 			"ypos"	"-38"
 			"tall"	"60"
+		}
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
 		}
 	}
 	
@@ -893,6 +917,14 @@
 			"ypos"	"-38"
 			"tall"	"60"
 		}
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 	}
 	
 	//VIP stuff ahead
@@ -921,6 +953,14 @@
 		{
 			"visible"	"1"
 		}
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 	}
 	
 	"RedVIPPlayerList"
@@ -947,6 +987,14 @@
  		{
 			"visible"	"1"
  		}
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 	}
 	
 	"GreenVIPPlayerList"
@@ -972,6 +1020,14 @@
 		"if_vipr"
 		{
 			"visible"	"1"
+		}
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
 		}
 	}
 	
@@ -999,6 +1055,14 @@
  		{
 			"visible"	"1"
  		}
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 	}
 	
 	//End of VIP stuff

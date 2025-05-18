@@ -604,6 +604,14 @@
 		{
 			"tall"	"193"
 		}
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 	}
 	
 	"RedPlayerList"
@@ -629,6 +637,14 @@
 		"if_vip"
 		{
 			"tall"	"193"
+		}
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
 		}
 	}
 	
@@ -994,6 +1010,14 @@
 			"pin_to_sibling"	"MainBGVIPBlue"
 			"zpos"			"20"
  		}
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 	}
 	
 	"RedVIPPlayerList"
@@ -1033,6 +1057,14 @@
 			"pin_to_sibling"	"MainBGVIPRed"
 			"zpos"			"20"
  		}
+
+		"ScrollBar"
+		{
+			"Slider"
+			{
+				"ScrollLerpTime"	"0.1"
+			}
+		}
 	}
 	
 	"VerticalLine"

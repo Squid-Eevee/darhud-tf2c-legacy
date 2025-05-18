@@ -111,4 +111,11 @@
 		"image"			"../sprites/obj_icons/icon_obj_timer"	
 		"scaleImage"	"1"	
 	}
+	
+	"CapPulse"
+	{
+		"ControlName"	"CControlPointIconCapturePulse"
+		"fieldName"	"CapPulse"
+		"image"		"../sprites/obj_icons/icon_obj_white"
+	}
 }

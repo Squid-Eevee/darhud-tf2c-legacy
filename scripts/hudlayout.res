@@ -1112,7 +1112,7 @@
 		"ypos"					"65"
 		"ypos_lodef"				"75"
 		"wide"					"320"
-		"tall"					"100"
+		"tall"					"60"
 	}
 	HudTournament
 	{

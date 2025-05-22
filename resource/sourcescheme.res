@@ -92,6 +92,11 @@ Scheme
 		Frame.OutOfFocusBgColor			"BackgroundDefault"
 		FrameGrip.Color1				"MainMenuLabel"
 		FrameGrip.Color2				"MainMenuLabel"
+
+		FrameSystemButton.FgColor		"Blank"
+		FrameSystemButton.BgColor		"Blank"
+		FrameSystemButton.Icon			"icon_tf"
+		FrameSystemButton.DisabledIcon	"icon_tf_disabled"
 		
 		// Frame titles
 		FrameTitleButton.FgColor		"MainMenuLabel"
@@ -225,28 +230,19 @@ Scheme
 	}
 	
 	Fonts
-	{		
-		"DefaultFixedOutline"
-		{
-			"1"
-			{
-				"name"		 "Verdana"
-				"tall"		 "10"
-				"weight"	 "0"
-				"outline"	 "1"
-			}
-		}
+	{
 		"MainMenuFont"
 		{
-			"1"	[$WIN32]
+			"1"	[!$OSX]
 			{
-				"name"		"TF2C Build"
+				"name"		"TF2 Build"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
+		
 		"MenuLarge"
 		{
 			"1"	[$X360]
@@ -259,7 +255,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2C Build"
+				"name"		"TF2 Build"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -268,13 +264,91 @@ Scheme
 			}
 		}
 
-		"Default" [$OSX]
+		"Default"
+		{
+			"1"
+			{
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
+				"tall"		"16" [!$LINUX]
+				"tall"		"18" [$LINUX]
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"DefaultLarge"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+		
+		"DefaultSmall"
+		{
+			"1"
+			{
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
+				"tall"		"12" [!$POSIX]
+				"tall"		"15" [$POSIX]
+				"weight"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"DefaultVerySmall"
 		{
 			"1"
 			{
 				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+				"antialias" "1"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+				"antialias" "1"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
 			}
 		}
 
@@ -326,7 +400,7 @@ Scheme
 		}
 		
 				
-		AchievementItemTitle	[$WIN32]
+		AchievementItemTitle	[!$OSX]
 		{
 			"1"
 			{
@@ -339,7 +413,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemTitleLarge	[$WIN32]
+		AchievementItemTitleLarge	[!$OSX]
 		{
 			"1"
 			{
@@ -352,7 +426,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemDescription	[$WIN32]
+		AchievementItemDescription	[!$OSX]
 		{
 			"1"
 			{
@@ -371,8 +445,8 @@ Scheme
 	{
 		"6" 
 		{
-			"font" "resource/TF2CBuild.ttf"
-			"name" "TF2C Build"
+			"font" "resource/TF2Build.ttf"
+			"name" "TF2 Build"
 			"turkish"
 			{
 				"range" "0x0000 0x015F"
@@ -428,7 +502,7 @@ Scheme
 			"russian"
 			{
 				"range" "0x0000 0x0451"
-			}	
+			}
 		}
 	}
 }

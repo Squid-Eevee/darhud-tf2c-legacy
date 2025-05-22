@@ -147,7 +147,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SlotEquipLabel"
-		"xpos"				"-3"
+		"xpos"				"-5"
 		"ypos"				"3"
 		"zpos"				"5"
 		"wide"				"558"
@@ -166,8 +166,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SlotEquipLabelShadow"
-		"xpos"				"3"
-		"ypos"				"3"
+		"xpos"				"1"
+		"ypos"				"6"
 		"zpos"				"0"
 		"wide"				"558"
 		"tall"				"30"

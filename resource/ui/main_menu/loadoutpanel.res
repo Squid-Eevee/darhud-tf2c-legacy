@@ -95,7 +95,7 @@
 	
 	"BackgroundHeader"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -104,7 +104,9 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"TransparentStripe"
+		"image"			"../darhud/mainmenu/striped_pattern"
+		"drawcolor"		"BackgroundDefault"
+		"tileImage"		"1"
 	}
 	
 	"BackgroundHeaderBP"
@@ -180,19 +182,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassLabelShadow"
-		"xpos"				"c-273"
+		"xpos"				"c-272"
 		"ypos"				"98"
 		"zpos"				"1"
 		"wide"				"500"
 		"tall"				"30"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		"labelText"			"%classname%"
 		"textAlignment"		"west"
 		"font"				"TF2CMenuTitleBig"
-		"fgcolor"			"HudBlack"
+		"fgcolor"			"GeneralShadow"
 	}
 	
 	"TopLine"
@@ -210,7 +212,7 @@
 		"drawcolor"			"132 121 107 255"
 		"tileImage"			"1"
 		"tileVertically"	"0"
-	}	
+	}
 	
 	"classselection"
 	{

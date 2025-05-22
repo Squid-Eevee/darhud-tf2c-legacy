@@ -96,7 +96,7 @@
 		"ypos"				"r40"
 		"zpos"				"6"
 		"wide"				"230"
-		"tall"				"35"
+		"tall"				"33"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -125,6 +125,7 @@
 		"selectedFgColor_override" "White"		
 		
 		"paintbackground"	"1"
+		"roundedcorners"	"0"
 		
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
@@ -135,8 +136,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
@@ -145,11 +144,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"-35"
+			"xpos"			"1"
+			"ypos"			"-34"
 			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
+			"wide"			"48"
+			"tall"			"96"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_random_inactive"
@@ -158,8 +157,32 @@
 		
 		"if_special_classes"
 		{
-				"tall"			"35"
+				"tall"			"33"
 		}			
+	}
+	"randomShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"randomShadow"
+		"pin_to_sibling"	"random"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"230"
+		"tall"			"33"
+		"image"			"../darhud/square_shadow_corner"
+		"scaleImage"		"1"
+		"visible"		"1"
+		
+		"src_corner_width"	"1"
+		"src_corner_height"	"1"
+		"draw_corner_width"	"2"
+		"draw_corner_height" 	"2"
+		
+		"if_special_classes"
+		{
+				"tall"			"33"
+		}
 	}
 		
 	"Offense"
@@ -213,7 +236,7 @@
 		"ypos"				"c-200"
 		"zpos"				"6"
 		"wide"				"230"
-		"tall"				"40"
+		"tall"				"38"
 		"autoResize"			"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -245,6 +268,8 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"1"
+		"roundedcorners"	"0"
+		
 		"fgcolor"			"0 0 0 192"
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
@@ -272,7 +297,31 @@
 		
 		"if_special_classes"
 		{
-				"tall"			"35"
+				"tall"			"33"
+		}
+	}
+	"scoutShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"scoutShadow"
+		"pin_to_sibling"	"scout"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"230"
+		"tall"			"38"
+		"image"			"../darhud/square_shadow_corner"
+		"scaleImage"		"1"
+		"visible"		"1"
+		
+		"src_corner_width"	"1"
+		"src_corner_height"	"1"
+		"draw_corner_width"	"2"
+		"draw_corner_height" 	"2"
+		
+		"if_special_classes"
+		{
+				"tall"			"33"
 		}
 	}
 
@@ -283,10 +332,10 @@
         "pin_to_sibling"    		"scout"
         "pin_to_sibling_corner"	"2"
 		"xpos"					"0"
-		"ypos"					"2"
+		"ypos"					"4"
 		"zpos"					"6"
 		"wide"					"230"
-		"tall"					"40"
+		"tall"					"38"
 		"autoResize"				"0"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -318,6 +367,8 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"1"
+		"roundedcorners"	"0"
+		
 		"fgcolor"			"0 0 0 192"
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
@@ -345,9 +396,34 @@
 		
 		"if_special_classes"
 		{
-				"tall"			"35"
+				"tall"			"33"
 		}
 	}
+	"soldierShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"soldierShadow"
+		"pin_to_sibling"	"soldier"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"230"
+		"tall"			"38"
+		"image"			"../darhud/square_shadow_corner"
+		"scaleImage"		"1"
+		"visible"		"1"
+		
+		"src_corner_width"	"1"
+		"src_corner_height"	"1"
+		"draw_corner_width"	"2"
+		"draw_corner_height" 	"2"
+		
+		"if_special_classes"
+		{
+				"tall"			"33"
+		}
+	}
+	
 	"pyro"
 	{
 		"ControlName"		"CExImageButton"
@@ -355,10 +431,10 @@
         "pin_to_sibling"    "soldier"
         "pin_to_sibling_corner" "2"
 		"xpos"				"0"
-		"ypos"				"2"
+		"ypos"				"4"
 		"zpos"				"6"
 		"wide"				"230"
-		"tall"				"40"
+		"tall"				"38"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -390,6 +466,8 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"1"
+		"roundedcorners"	"0"
+		
 		"fgcolor"			"0 0 0 192"
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
@@ -417,7 +495,31 @@
 		
 		"if_special_classes"
 		{
-				"tall"			"35"
+				"tall"			"33"
+		}
+	}
+	"pyroShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"pyroShadow"
+		"pin_to_sibling"	"pyro"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"230"
+		"tall"			"38"
+		"image"			"../darhud/square_shadow_corner"
+		"scaleImage"		"1"
+		"visible"		"1"
+		
+		"src_corner_width"	"1"
+		"src_corner_height"	"1"
+		"draw_corner_width"	"2"
+		"draw_corner_height" 	"2"
+		
+		"if_special_classes"
+		{
+				"tall"			"33"
 		}
 	}
 	
@@ -473,7 +575,7 @@
 		"ypos"				"12"
 		"zpos"				"6"
 		"wide"				"230"
-		"tall"				"40"
+		"tall"				"38"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -505,6 +607,8 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 
 		"paintbackground"	"1"
+		"roundedcorners"	"0"
+		
 		"fgcolor"			"0 0 0 192"
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
@@ -532,9 +636,33 @@
 
 		"if_special_classes"
 		{
-				"tall"			"35"
+				"tall"			"33"
 		}
-	}	
+	}
+	"demomanShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"demomanShadow"
+		"pin_to_sibling"	"demoman"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"230"
+		"tall"			"38"
+		"image"			"../darhud/square_shadow_corner"
+		"scaleImage"		"1"
+		"visible"		"1"
+		
+		"src_corner_width"	"1"
+		"src_corner_height"	"1"
+		"draw_corner_width"	"2"
+		"draw_corner_height" 	"2"
+		
+		"if_special_classes"
+		{
+				"tall"			"33"
+		}
+	}
 	"heavyweapons"
 	{
 		"ControlName"		"CExImageButton"
@@ -542,10 +670,10 @@
 		"pin_to_sibling"    "demoman"
         "pin_to_sibling_corner" "2"
 		"xpos"				"0"
-		"ypos"				"2"
+		"ypos"				"4"
 		"zpos"				"6"
 		"wide"				"230"
-		"tall"				"40"
+		"tall"				"38"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -578,6 +706,8 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"1"
+		"roundedcorners"	"0"
+		
 		"fgcolor"			"0 0 0 192"
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
@@ -605,9 +735,34 @@
 
 		"if_special_classes"
 		{
-				"tall"			"35"
+				"tall"			"33"
 		}
 	}
+	"heavyweaponsShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"heavyweaponsShadow"
+		"pin_to_sibling"	"heavyweapons"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"230"
+		"tall"			"38"
+		"image"			"../darhud/square_shadow_corner"
+		"scaleImage"		"1"
+		"visible"		"1"
+		
+		"src_corner_width"	"1"
+		"src_corner_height"	"1"
+		"draw_corner_width"	"2"
+		"draw_corner_height" 	"2"
+		
+		"if_special_classes"
+		{
+				"tall"			"33"
+		}
+	}
+	
 	"engineer"
 	{
 		"ControlName"		"CExImageButton"
@@ -615,10 +770,10 @@
 		"pin_to_sibling"    "heavyweapons"
         "pin_to_sibling_corner" "2"
 		"xpos"				"0"
-		"ypos"				"2"
+		"ypos"				"4"
 		"zpos"				"6"
 		"wide"				"230"
-		"tall"				"40"
+		"tall"				"38"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -651,6 +806,8 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"1"
+		"roundedcorners"	"0"
+		
 		"fgcolor"			"0 0 0 192"
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
@@ -678,7 +835,31 @@
 		
 		"if_special_classes"
 		{
-				"tall"			"35"
+				"tall"			"33"
+		}
+	}
+	"engineerShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"engineerShadow"
+		"pin_to_sibling"	"engineer"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"230"
+		"tall"			"38"
+		"image"			"../darhud/square_shadow_corner"
+		"scaleImage"		"1"
+		"visible"		"1"
+		
+		"src_corner_width"	"1"
+		"src_corner_height"	"1"
+		"draw_corner_width"	"2"
+		"draw_corner_height" 	"2"
+		
+		"if_special_classes"
+		{
+				"tall"			"33"
 		}
 	}
 	
@@ -735,7 +916,7 @@
 		"ypos"				"12"
 		"zpos"				"6"
 		"wide"				"230"
-		"tall"				"40"
+		"tall"				"38"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -767,6 +948,8 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"1"
+		"roundedcorners"	"0"
+		
 		"fgcolor"			"0 0 0 192"
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
@@ -794,9 +977,34 @@
 		
 		"if_special_classes"
 		{
-				"tall"			"35"
+				"tall"			"33"
 		}
 	}
+	"medicShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"medicShadow"
+		"pin_to_sibling"	"medic"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"230"
+		"tall"			"38"
+		"image"			"../darhud/square_shadow_corner"
+		"scaleImage"		"1"
+		"visible"		"1"
+		
+		"src_corner_width"	"1"
+		"src_corner_height"	"1"
+		"draw_corner_width"	"2"
+		"draw_corner_height" 	"2"
+		
+		"if_special_classes"
+		{
+				"tall"			"33"
+		}
+	}
+	
 	"sniper"
 	{
 		"ControlName"		"CExImageButton"
@@ -804,10 +1012,10 @@
 		"pin_to_sibling"    "medic"
         "pin_to_sibling_corner" "2"
 		"xpos"				"0"
-		"ypos"				"2"
+		"ypos"				"4"
 		"zpos"				"6"
 		"wide"				"230"
-		"tall"				"40"
+		"tall"				"38"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -839,6 +1047,8 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"1"
+		"roundedcorners"	"0"
+		
 		"fgcolor"			"0 0 0 192"
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
@@ -866,9 +1076,34 @@
 		
 		"if_special_classes"
 		{
-				"tall"			"35"
+				"tall"			"33"
 		}
 	}
+	"sniperShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"sniperShadow"
+		"pin_to_sibling"	"sniper"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"230"
+		"tall"			"38"
+		"image"			"../darhud/square_shadow_corner"
+		"scaleImage"		"1"
+		"visible"		"1"
+		
+		"src_corner_width"	"1"
+		"src_corner_height"	"1"
+		"draw_corner_width"	"2"
+		"draw_corner_height" 	"2"
+		
+		"if_special_classes"
+		{
+				"tall"			"33"
+		}
+	}
+	
 	"spy"
 	{
 		"ControlName"		"CExImageButton"
@@ -876,10 +1111,10 @@
 		"pin_to_sibling"    "sniper"
         "pin_to_sibling_corner" "2"
 		"xpos"				"0"
-		"ypos"				"2"
+		"ypos"				"4"
 		"zpos"				"6"
 		"wide"				"230"
-		"tall"				"40"
+		"tall"				"38"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -911,6 +1146,8 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"1"
+		"roundedcorners"	"0"
+		
 		"fgcolor"			"0 0 0 192"
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
@@ -938,7 +1175,31 @@
 		
 		"if_special_classes"
 		{
-				"tall"			"35"
+				"tall"			"33"
+		}
+	}
+	"spyShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"spyShadow"
+		"pin_to_sibling"	"spy"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"230"
+		"tall"			"38"
+		"image"			"../darhud/square_shadow_corner"
+		"scaleImage"		"1"
+		"visible"		"1"
+		
+		"src_corner_width"	"1"
+		"src_corner_height"	"1"
+		"draw_corner_width"	"2"
+		"draw_corner_height" 	"2"
+		
+		"if_special_classes"
+		{
+				"tall"			"33"
 		}
 	}
 	
@@ -1037,6 +1298,8 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"1"
+		"roundedcorners"	"0"
+		
 		"fgcolor"			"0 0 0 192"
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
@@ -1064,7 +1327,32 @@
 		
 		"if_special_classes"
 		{
-				"tall"			"35"
+				"tall"			"33"
+				"visible"		"1"
+		}
+	}
+	"civilianShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"civilianShadow"
+		"pin_to_sibling"	"civilian"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"230"
+		"tall"			"40"
+		"image"			"../darhud/square_shadow_corner"
+		"scaleImage"		"1"
+		"visible"		"0"
+		
+		"src_corner_width"	"1"
+		"src_corner_height"	"1"
+		"draw_corner_width"	"2"
+		"draw_corner_height" 	"2"
+		
+		"if_special_classes"
+		{
+				"tall"			"33"
 				"visible"		"1"
 		}
 	}
@@ -1088,6 +1376,7 @@
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 		
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -1125,7 +1414,8 @@
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" "White"
 		
-		"paintbackground"	"1"	
+		"paintbackground"	"1"
+		"roundedcorners"	"0"
 		
 		"defaultbgColor_override" "ButtonDefault"
 		"armedbgColor_override" "ButtonArmed"

@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"	"Background"
 		"xpos"		"0"
-		"ypos"		"30"
+		"ypos"		"33"
 		"zpos"		"0"
 		"wide"		"f0"
 		"tall"		"290"
@@ -77,10 +77,13 @@
 				{
 					"equippedlabel"
 					{
+						"wide"				"54"
 						"xpos"				"4"
 						"ypos"				"4"
-						"font"				"ItemFontAttribSmall"
+						"font"				"FontStorePriceShadow"
+						"textAlignment"		"center"
 						"fgcolor"			"LightRed"
+						"roundedcorners"		"0"
 					}
 				}
 			}
@@ -127,10 +130,13 @@
 				{
 					"equippedlabel"
 					{
+						"wide"				"54"
 						"xpos"				"4"
 						"ypos"				"4"
-						"font"				"ItemFontAttribSmall"
+						"font"				"FontStorePriceShadow"
+						"textAlignment"		"center"
 						"fgcolor"			"LightRed"
+						"roundedcorners"		"0"
 					}
 				}
 			}
@@ -142,7 +148,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SlotEquipLabel"
 		"xpos"				"-3"
-		"ypos"				"0"
+		"ypos"				"3"
 		"zpos"				"5"
 		"wide"				"558"
 		"tall"				"30"

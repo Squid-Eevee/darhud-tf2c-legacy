@@ -202,11 +202,12 @@
 		"xpos"				"c-275"
 		"ypos"				"125"
 		"zpos"				"1"
-		"wide"				"200"
+		"wide"				"199"
 		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"loadout_dotted_line"
+		"drawcolor"			"132 121 107 255"
 		"tileImage"			"1"
 		"tileVertically"	"0"
 	}	
@@ -1088,7 +1089,7 @@
 		"ypos"			"r42"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"26"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -1111,6 +1112,22 @@
 		"Command"		"vguicancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	"BackButtonShadow"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BackButtonShadow"
+		"pin_to_sibling"	"BackButton"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../darhud/square_white"
+		"scaleimage"		"1"
+		"drawcolor"		"ButtonMMShadow"
 	}
 	
 	"ResetInventoryButton"
@@ -1145,6 +1162,22 @@
 		"Command"		"resetinventory"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	"ResetInventoryButtonShadow"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ResetInventoryButtonShadow"
+		"pin_to_sibling"	"ResetInventoryButton"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"4"
+		"wide"			"146"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../darhud/square_white"
+		"scaleimage"		"1"
+		"drawcolor"		"ButtonMMShadow"
 	}
 	
 	"BackgroundFooter"

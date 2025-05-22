@@ -101,7 +101,7 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"120"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../darhud/mainmenu/striped_pattern"
@@ -1040,7 +1040,7 @@
 	
 	"ModelPanelBG"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"	"ModelPanelBG"
 		"xpos"		"c-174"
 		"ypos"		"134"
@@ -1049,7 +1049,9 @@
 		"tall"		"270"
 		"visible"	"1"
 		"enabled"	"1"
-		"bgcolor_override"	"ClassModelBackground"
+		"image"		"../darhud/mainmenu/striped_pattern"
+		"drawcolor"		"BackgroundDefault"
+		"tileImage"	"1"
 	}
 	
 	"ModelPanelInnershadow"

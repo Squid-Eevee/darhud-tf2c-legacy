@@ -1,6 +1,6 @@
 "."
 {
-    "DamageAccountValue"
+	"DamageAccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"DamageAccountValue"
@@ -14,7 +14,24 @@
 		"enabled"	"1"
 		"labelText"	"%metal%"
 		"textAlignment"	"west"
-		"font"		"HudFontMediumBigBoldShadow"
+		"font"		"HudFontMediumBigBold"
 		"fgcolor"	"HealthLow"
+	}
+	"DamageAccountValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"DamageAccountValueShadow"
+		"pin_to_sibling"	"DamageAccountValue"
+		"xpos"		"-2"
+		"ypos" 		"-2"
+		"zpos"		"1"
+		"wide"		"90"
+		"tall"		"25"
+		"visible"	"1"
+		"enabled"	"1"
+		"labelText"	"%metal%"
+		"textAlignment"	"west"
+		"font"		"HudFontMediumBigBold"
+		"fgcolor"	"HealthShadow"
 	}
 }

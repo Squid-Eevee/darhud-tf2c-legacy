@@ -723,43 +723,46 @@
 		"fieldName" "HudVoiceSelfStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "40"
+		"xpos" "r180"
 		"xpos_minmode" "c-320"
-		"ypos" "350"
-		"wide" "25"
-		"tall" "25"
+		"ypos" "340"
+		"wide" "24"
+		"tall" "24"
 	}
 
 	HudVoiceStatus
 	{
-		"fieldName" "HudVoiceStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "r145"
-		"ypos" "-10"
-		"wide" "145"
-		"tall" "370"
-
-		"item_wide"	"119"
-
+		"fieldName"		"HudVoiceStatus"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"r150"
+		"ypos"			"-10"
+		"wide"			"150"
+		"tall"			"370"
+		
+		"item_wide"		"150"
+		"item_tall"		"16"
+		
 		"show_avatar"		"1"
-		"show_friend"			"1"
-		"avatar_xpos"		"108"
-		"avatar_tall"		"17"
-
+		"show_friend"		"0"
+		"avatar_xpos"		"0"
+		"avatar_ypos"		"0"
+		"avatar_wide"		"16"
+		"avatar_tall"		"16"
+		
 		"show_dead_icon"	"1"
-		"dead_xpos"			"1"
-		"dead_ypos"			"0"
-		"dead_wide"			"16"
-		"dead_tall"			"16"
-
+		"dead_xpos"		"18"
+		"dead_ypos"		"2"
+		"dead_wide"		"12"
+		"dead_tall"		"12"
+		
 		"show_voice_icon"	"1"
-		"icon_ypos"			"0"
-		"icon_xpos"			"15"
-		"icon_tall"			"16"
-		"icon_wide"			"16"
-
-		"text_xpos"			"33"
+		"icon_ypos"		"2"
+		"icon_xpos"		"136"
+		"icon_wide"		"12"
+		"icon_tall"		"12"
+		
+		"text_xpos"		"32"
 
 		"fade_in_time"	"0"
 		"fade_out_time"	"0.1"

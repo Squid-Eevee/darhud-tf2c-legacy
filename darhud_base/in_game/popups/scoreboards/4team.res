@@ -1467,6 +1467,25 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	"PlayerNameLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"PlayerNameLabelShadow"
+		"font"			"ScoreboardMedium"
+		"labelText"		"%playername%"
+		"textAlignment"	"west"
+		"pin_to_sibling"	"PlayerNameLabel"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"3"
+		"wide"			"300"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"GeneralShadow"
+	}
 	"ServerLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -1491,7 +1510,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapName"
-		"font"			"ScoreboardMediumSmallShadow"
+		"font"			"ScoreboardMediumSmall"
 		"labelText"		"%mapname%"
 		"fgcolor"		"GeneralLabel"
 		"textAlignment"	"east"
@@ -1505,6 +1524,25 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"GeneralLabel"
+	}
+	"MapNameShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"MapNameShadow"
+		"font"			"ScoreboardMediumSmall"
+		"labelText"		"%mapname%"
+		"fgcolor"		"GeneralShadow"
+		"textAlignment"	"east"
+		"pin_to_sibling"	"MapName"
+ 		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"3"
+		"wide"			"218"
+		"tall"			"20"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 	"HorizontalLine"
 	{

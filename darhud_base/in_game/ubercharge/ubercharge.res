@@ -422,7 +422,7 @@
 		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
-		"image"			"../darhud/icons/invuln"
+		"image"			"../darhud/icons/uber/invuln"
 		"scaleImage"	"1"
 		"drawcolor"	"CounterIcon"
 	}
@@ -441,7 +441,7 @@
 		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
-		"image"			"../darhud/icons/kritz"
+		"image"			"../darhud/icons/uber/kritz"
 		"scaleImage"	"1"
 		"drawcolor"	"CounterIcon"
 	}
@@ -478,7 +478,7 @@
 		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
-		"image"			"../darhud/icons/invuln_shield"
+		"image"			"../darhud/icons/uber/invuln_shield"
 		"scaleImage"	"1"
 		"drawcolor"	"CounterIcon"
 	}

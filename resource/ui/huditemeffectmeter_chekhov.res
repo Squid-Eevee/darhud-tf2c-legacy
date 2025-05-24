@@ -16,7 +16,7 @@
 		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../darhud/icons/kritz"
+		"image"			"../darhud/icons/uber/kritz"
 		"fgcolor_override"	"CounterIcon"
 		"scaleImage"		"0"
 	}

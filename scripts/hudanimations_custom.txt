@@ -92,6 +92,8 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"			Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"				Linear 0.125 0.075
+
+	Animate	PlayerStatusHealthImageOverheal	Alpha		"0"			Linear 0.0 0.0
 	
 	Animate	PlayerHealthValue					FgColor		"HealthLow"	Accel 0.0 0.0
 	Animate PlayerStatusHealthValue 			FgColor		"HealthLow" Accel 0.0 0.0
@@ -106,6 +108,8 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 		0.0
 	StopEvent HudHealthDyingPulseLoop	0.0
+
+	Animate	PlayerStatusHealthImageOverheal	Alpha		"0"			Linear 0.0 0.0
 	
 	Animate	PlayerHealthValue					FgColor		"HealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValue 			FgColor		"HealthNormal" Accel 0.0 0.0
@@ -116,7 +120,6 @@ event HudHealthDyingPulseStop
 //==========================================================================================================================
 // UBERCHARGE ANIMATION
 //--------------------------------------------------------------------------------------------------------------------------
-//Health Bonus Pulse
 event HudMedicCharged
 {
 	Animate	ChargeLabel 	FgColor		"UberForeground"		Linear 0.0 0.1

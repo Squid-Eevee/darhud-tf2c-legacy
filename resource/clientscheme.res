@@ -2095,7 +2095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2C"
+				"name"		"TF2C Secondary"
 				"tall"		"14"
 				"weight"		"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2107,7 +2107,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2C"
+				"name"		"TF2C Secondary"
 				"tall"		"14"
 				"weight"		"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin

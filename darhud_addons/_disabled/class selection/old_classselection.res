@@ -1904,17 +1904,25 @@
 			"visible"		"1"
 		}
 	}
+	"spotlight"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"	"spotlight"
+		"visible"	"0"
+		"enabled"	"0"
+	}
 	
 	"TFPlayerModel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"		
-		"wide"			"480"
-		"tall"			"480"
+		"xpos"			"80"
+		"xpos_minmode"		"c-320"
+		"ypos"			"cs-0.5"
+		"zpos"			"1"
+		"wide"			"320"
+		"tall"			"320"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1944,8 +1952,50 @@
 			"frame_origin_z"	"0"
 			"spotlight" "1"
 		
-			"modelname"		""
-			"vcd"		"class_select.vcd"
+			"modelname"			"error.mdl"
+			"vcd"				"class_select.vcd"		
+			
+			"animation"
+			{
+				"name"			"PRIMARY"
+				"activity"		"ACT_MP_STAND_PRIMARY"
+				"default"		"1"
+			}
+			"animation"
+			{
+				"name"			"SECONDARY"
+				"activity"		"ACT_MP_STAND_SECONDARY"
+			}
+			"animation"
+			{
+				"name"			"MELEE"
+				"activity"		"ACT_MP_STAND_MELEE"
+			}
+			"animation"
+			{
+				"name"			"BUILDING"
+				"activity"		"ACT_MP_STAND_BUILDING"
+			}
+			"animation"
+			{
+				"name"			"PDA"
+				"activity"		"ACT_MP_STAND_PDA"
+			}
+			"animation"
+			{
+				"name"			"ITEM1"
+				"activity"		"ACT_MP_STAND_ITEM1"
+			}						
+			"animation"
+			{
+				"name"			"ITEM2"
+				"activity"		"ACT_MP_STAND_ITEM2"
+			}	
+			"animation"
+			{
+				"name"			"MELEE_ALLCLASS"
+				"activity"		"ACT_MP_STAND_MELEE_ALLCLASS"
+			}
 		}
 	}
 	
@@ -1953,6 +2003,7 @@
 	{
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
+		"xpos"			"c140"
 		"xpos"			"c140"
 		"ypos"			"cs-0.5"
 		"zpos"			"7"

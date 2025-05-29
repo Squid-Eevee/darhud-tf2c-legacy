@@ -2321,6 +2321,26 @@
 		}
 	}
 	
+	"spotlight"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"	"spotlight"
+		"xpos"	"50"
+		"xpos_minmode"	"c-380"
+		"ypos"	"0"
+		"wide"	"240"
+		"tall"	"240"
+		"visible"	"1"
+		"image"		"../models/vgui/light_random"
+		"scaleImage"	"1"
+		"teambg_0"	"../models/vgui/light_random"
+		"teambg_1"	"../models/vgui/light_random"
+		"teambg_2"	"../models/vgui/light_red"
+		"teambg_3"	"../models/vgui/light_blue"
+		"teambg_4"	"../models/vgui/light_green"
+		"teambg_5"	"../models/vgui/light_yellow"
+	}
+	
 	"TFPlayerModel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"

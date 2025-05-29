@@ -339,7 +339,7 @@
 		"alpha"				"255"
 		"labelText"			"%nickname%"
 		"textAlignment"		"center"
-		"font"				"HudFontMediumSmall"
+		"font"				"HudFontMediumSmallSecondary"
 		"fgcolor"			"NicknameLabel"
 		
 		"if_inlevel"

@@ -1918,7 +1918,7 @@
 		"fieldName"		"TFPlayerModel"
 		
 		"xpos"			"80"
-		"xpos_minmode"		"c-320"
+		"xpos_minmode"	"c-320"
 		"ypos"			"cs-0.5"
 		"zpos"			"1"
 		"wide"			"320"
@@ -1933,7 +1933,7 @@
 		"fov"			"30"
 		"allow_rot"		"1"
 
-		"paintbackground" "1"		
+		"paintbackground" "1"
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
 		
@@ -1944,7 +1944,7 @@
 			"angles_x" "0"
 			"angles_y" "180"
 			"angles_z" "0"
-			"origin_x" "320"
+			"origin_x" "250"
 			"origin_y" "20"
 			"origin_z" "-39"
 			"frame_origin_x"	"0"

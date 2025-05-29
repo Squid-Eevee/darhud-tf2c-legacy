@@ -147,7 +147,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SlotEquipLabel"
-		"xpos"				"-5"
+		"xpos"				"-2"
 		"ypos"				"3"
 		"zpos"				"5"
 		"wide"				"558"

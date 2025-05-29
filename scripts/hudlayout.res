@@ -1076,10 +1076,10 @@
 		"fieldName"				"HudTeamSwitch"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"128"
-		"wide"					"f0"
-		"tall"					"100"
+		"xpos"					"c-150"
+		"ypos"					"75"
+		"wide"					"302"
+		"tall"					"54"
 	}
 
 	HudArenaNotification
@@ -1360,10 +1360,10 @@
 		"fieldName"	"HudAlert"
 		"visible"	"0"
 		"enabled"	"1"
-		"xpos"		"0"
+		"xpos"		"c-150"
 		"ypos"		"128"
-		"wide"		"f0"
-		"tall"		"72"
+		"wide"		"302"
+		"tall"		"50"
 	}
 
 

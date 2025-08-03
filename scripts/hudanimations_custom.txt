@@ -92,7 +92,7 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"			Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"				Linear 0.125 0.075
-
+	
 	Animate	PlayerStatusHealthImageOverheal	Alpha		"0"			Linear 0.0 0.0
 	
 	Animate	PlayerHealthValue					FgColor		"HealthLow"	Accel 0.0 0.0
@@ -108,7 +108,7 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 		0.0
 	StopEvent HudHealthDyingPulseLoop	0.0
-
+	
 	Animate	PlayerStatusHealthImageOverheal	Alpha		"0"			Linear 0.0 0.0
 	
 	Animate	PlayerHealthValue					FgColor		"HealthNormal" Accel 0.0 0.0
@@ -120,7 +120,27 @@ event HudHealthDyingPulseStop
 //==========================================================================================================================
 // UBERCHARGE ANIMATION
 //--------------------------------------------------------------------------------------------------------------------------
+//Health Bonus Pulse
 event HudMedicCharged
+{
+	RunEvent HudMedicChargedStart 0.0
+}
+
+event HudMedicChargedStart
+{
+	Animate ChargedImage Alpha "255"	Linear	0.0 0.001
+	Animate ChargedImage Position "0 -52"	Linear	0.0 0.001
+	Animate	ChargedImagePanel	Position	"0 -54"	Linear	0.0 0.001
+	Animate	ChargedImagePanel	Size	"52 0"	Linear	0.0 0.001
+	
+	Animate	ChargedImagePanel	Position	"0 -2"	Linear	0.001 0.2
+	Animate	ChargedImagePanel	Size	"52 52"	Linear	0.001 0.2
+	Animate ChargedImage Position "0 0"	Linear	0.001 0.2
+	
+	RunEvent	HudMedicChargedLoop	0.2
+}
+
+event HudMedicChargedLoop
 {
 	Animate	ChargeLabel 	FgColor		"UberForeground"		Linear 0.0 0.1
 	Animate	ChargeLabel 	FgColor		"HealthGain"		Linear 0.3 0.4
@@ -131,24 +151,30 @@ event HudMedicCharged
 	Animate	ChargedImage 	Alpha		"255"	Linear 0.0 0.1
 	Animate	ChargedImage 	Alpha		"0"		Linear 0.3 0.4
 
-	RunEvent HudMedicChargedLoop	0.6
+	RunEvent HudMedicChargedRestart	0.6
 }
 
-// call to loop HudHealthBonusPulse
-event HudMedicChargedLoop
+// call to loop HudMedicChargedLoop
+event HudMedicChargedRestart
 {
-	RunEvent HudMedicCharged 0.0
+	RunEvent HudMedicChargedLoop 0.0
 }
 
 event HudMedicChargedStop
 {
 	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedStart 0.0
 	StopEvent HudMedicChargedLoop 0.0
+	StopEvent HudMedicChargedRestart 0.0
 	
 	Animate	ChargeLabel 		FgColor		"UberForeground"		Linear 0.0 0.0001
 	Animate	ChargeMeter 		FgColor		"UberForeground"		Linear 0.0 0.0001
 	
 	Animate	ChargedImage 	Alpha		"0"		Linear 0.0 0.2
+	Animate ChargedImage Position "0 -52"	Linear	0.2 0.001
+	
+	Animate	ChargedImagePanel	Position	"0 -54"	Linear	0.2 0.001
+	Animate	ChargedImagePanel	Size	"52 0"	Linear	0.2 0.001
 }
 
 event HudSnapShotReminderIn

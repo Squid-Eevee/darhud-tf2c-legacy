@@ -48,10 +48,16 @@
 		"visible"		"0"
 		"visible_minmode"	"0"
 	}
-	"ChargedImage"
+	"ChargedImagePanel"
 	{
 		"visible"		"0"
 		"visible_minmode"	"0"
+		
+		"ChargedImage"
+		{
+			"visible"		"0"
+			"enabled"		"0"
+		}
 	}
 	"ChargeLabelBgBorder"
 	{

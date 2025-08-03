@@ -1486,6 +1486,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 	}
 	"numScoutShadow"
 	{
@@ -1506,6 +1507,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 	}
 	
 	"numSoldier"
@@ -1529,6 +1531,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 	}
 	"numSoldierShadow"
 	{
@@ -1549,6 +1552,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 	}
 	
 	"numPyro"
@@ -1572,6 +1576,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 	}
 	"numPyroShadow"
 	{
@@ -1592,6 +1597,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 	}
 	
 	"numDemoman"
@@ -1615,6 +1621,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 	}
 	"numDemomanShadow"
 	{
@@ -1635,6 +1642,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 	}
 	
 	"numHeavy"
@@ -1658,6 +1666,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 	}
 	"numHeavyShadow"
 	{
@@ -1678,6 +1687,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 	}
 	
 	"numEngineer"
@@ -1701,6 +1711,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 	}
 	"numEngineerShadow"
 	{
@@ -1721,6 +1732,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 	}
 	
 	"numMedic"
@@ -1744,6 +1756,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 	}
 	"numMedicShadow"
 	{
@@ -1764,6 +1777,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 	}
 	
 	"numSniper"
@@ -1787,6 +1801,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 	}
 	"numSniperShadow"
 	{
@@ -1807,6 +1822,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 	}
 	
 	"numSpy"
@@ -1830,6 +1846,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 	}
 	"numSpyShadow"
 	{
@@ -1850,6 +1867,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 	}
 	
 	"numCivilian"
@@ -1873,6 +1891,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -1898,6 +1917,7 @@
 		"textAlignment"	"east"
 		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2130,3 +2150,4 @@
 		}
 	}		
 }
+

@@ -1810,6 +1810,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -1835,6 +1836,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -1863,6 +1865,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -1888,6 +1891,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -1916,6 +1920,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -1941,6 +1946,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -1969,6 +1975,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -1994,6 +2001,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2022,6 +2030,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2047,6 +2056,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2075,6 +2085,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2100,6 +2111,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2128,6 +2140,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2153,6 +2166,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2181,6 +2195,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2206,6 +2221,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2234,6 +2250,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2259,6 +2276,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2287,6 +2305,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{
@@ -2313,6 +2332,7 @@
 		"textAlignment"	"east"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralShadow"
+		"mouseinputenabled"	"0"
 		
 		"if_special_classes"
 		{

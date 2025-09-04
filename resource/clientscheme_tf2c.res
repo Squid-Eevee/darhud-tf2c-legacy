@@ -1,3 +1,4 @@
+#base "../darhud_addons/hue-6_colors.res"
 #base "../darhud_addons/hue24_colors.res"
 #base "../darhud_addons/gry_colors.res"
 #base "../darhud_addons/colorblind_grn_colors.res"
@@ -908,3 +909,4 @@ Scheme
 		}
 	}
 }
+

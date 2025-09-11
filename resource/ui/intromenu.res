@@ -68,6 +68,7 @@
 		"wrap"		"0"
 		"command"		"skip"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 	}
 
 	"Continue"
@@ -91,6 +92,7 @@
 		"wrap"		"0"
 		"command"		"skip"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 	}
 	
 	"Back"
@@ -112,6 +114,7 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 	}
 
 	"ReplayVideo"
@@ -133,6 +136,7 @@
 		"brighttext"	"0"
 		"command"		"replayVideo"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 	}
 	
 	"ShadedBar"

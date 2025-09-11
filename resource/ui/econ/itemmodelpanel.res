@@ -126,16 +126,14 @@
 			"ypos"			"28"
 			"zpos"			"2"
 			"wide"			"35"
-			"tall"			"10"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
 			"PaintBackgroundType"	"2"
+			"Border"		"EquippedBG"
 		}
 	
 		"paint_icon"

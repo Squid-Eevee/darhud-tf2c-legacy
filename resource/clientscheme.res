@@ -6187,5 +6187,13 @@ Scheme
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 		"2"
 		}
+		EquippedBg
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"color"					"0 0 0 255"
+			"image"					"../darhud/uber_red"
+		}
 	}
 }

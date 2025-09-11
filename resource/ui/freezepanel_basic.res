@@ -284,7 +284,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"itempanel_anchor"
 		"xpos"			"r200"
-		"ypos"			"c45"
+		"ypos"			"c55"
 		"wide"			"1"
 		"tall"			"1"
 		"visible"		"1"
@@ -292,9 +292,9 @@
 
 	"itempanel"
 	{
-		"ControlName"			"CItemModelPanel"
+		"ControlName"		"CItemModelPanel"
 		"fieldName"			"itempanel"
-		"pin_to_sibling"		"itempanel_anchor"
+		"pin_to_sibling"	"itempanel_anchor"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"10"

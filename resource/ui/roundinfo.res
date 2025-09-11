@@ -135,6 +135,7 @@
 		"command"		"continue"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 	}
 	
 	"MenuBG"
@@ -204,3 +205,4 @@
 		"enabled"		"0"
 	}
 }
+

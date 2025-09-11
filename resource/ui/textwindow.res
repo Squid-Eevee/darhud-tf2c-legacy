@@ -142,6 +142,7 @@
 		"command"		"okay"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 	}
 	
 	"MenuBG"

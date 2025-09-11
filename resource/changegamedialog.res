@@ -1964,6 +1964,7 @@
 		"enabled"			"1"
 		"Command"			"engine bot"
 		"actionsignallevel"	"2"
+		"textAlignment"		"center"
 		"labelText"			"#botcommands_addbot_random"
 		"tooltiptext"			"#botcommands_addbot_random_tip"
 	}

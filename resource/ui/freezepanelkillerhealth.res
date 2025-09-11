@@ -83,7 +83,7 @@
 		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 		"xpos"			"0"
-		"ypos"			"-2"
+		"ypos"			"-4"
 		"zpos"			"11"
 		"wide"			"48"
 		"tall"			"18"
@@ -91,7 +91,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"HealthNormal"
 	}
 	
@@ -111,7 +111,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"HealthShadow"
 	}
 }
+

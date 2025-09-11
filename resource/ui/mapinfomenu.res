@@ -144,6 +144,7 @@
 		"command"		"continue"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 	}
 	
 	"MapInfoWatchIntro"
@@ -166,6 +167,7 @@
 		"command"		"intro"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 	}
 	
 	"MapInfoBack"
@@ -187,6 +189,7 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 	}
 	
 	"MenuBG"

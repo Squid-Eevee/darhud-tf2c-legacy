@@ -7,7 +7,7 @@
 		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"298"
+		"wide"			"296"
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
@@ -28,7 +28,7 @@
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"-2"
-		"wide"			"298"
+		"wide"			"296"
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
@@ -85,3 +85,4 @@
 		"scaleImage"		"1"
 	}
 }
+

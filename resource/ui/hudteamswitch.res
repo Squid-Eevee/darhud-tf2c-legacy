@@ -68,6 +68,7 @@
 		"labelText"			"#TF_teambalanced"
 		"textAlignment"		"north-west"
 		"fgcolor_override"	"ObjectiveLabel"
+		"wrap"				"1"
 	}
 	"SwitchImage"
 	{
@@ -81,6 +82,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ico_teambalance"
+		"scaleImage"		"1"
+	}
+	"SwitchImageShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"SwitchImageShadow"
+		"pin_to_sibling"	"SwitchImage"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"-2"
+		"wide"			"54"
+		"tall"			"54"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../darhud/square_shadow"
 		"scaleImage"		"1"
 	}
 }

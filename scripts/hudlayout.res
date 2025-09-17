@@ -1055,7 +1055,7 @@
 		"xpos"					"cs-0.5"
 		"ypos"					"80"
 		"wide"					"302"
-		"tall"					"54"
+		"tall"					"56"
 	}
 
 
@@ -1079,7 +1079,7 @@
 		"xpos"					"c-150"
 		"ypos"					"80"
 		"wide"					"302"
-		"tall"					"54"
+		"tall"					"56"
 	}
 
 	HudArenaNotification
@@ -1361,9 +1361,9 @@
 		"visible"	"0"
 		"enabled"	"1"
 		"xpos"		"c-150"
-		"ypos"		"128"
+		"ypos"		"137"
 		"wide"		"302"
-		"tall"		"50"
+		"tall"		"52"
 	}
 
 

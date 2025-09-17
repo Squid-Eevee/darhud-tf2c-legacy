@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HudAlertBG"
-		"xpos"			"0"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"300"
+		"wide"			"298"
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
@@ -28,7 +28,7 @@
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"-2"
-		"wide"			"300"
+		"wide"			"298"
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
@@ -57,7 +57,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"AlertImage"
-		"xpos"			"0"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"50"
@@ -67,6 +67,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ico_teamswitch"
+		"scaleImage"		"1"
+	}
+	"AlertImageShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"AlertImageShadow"
+		"pin_to_sibling"	"AlertImage"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"-2"
+		"wide"			"50"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../darhud/square_shadow"
 		"scaleImage"		"1"
 	}
 }

@@ -35,6 +35,7 @@ Scheme
 		"AmmoNormal" 	"235 226 202 255"
 		"AmmoReserve"		"235 226 202 255"
 		"AmmoShadow" 	"0 0 0 240"
+		"AmmoLow"		"255 230 0 255"
 
 		//Additional (stickies, metal, ubercharge)
 		"AdditionalValue"		"235 226 202 255"

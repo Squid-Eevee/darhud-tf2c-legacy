@@ -20,14 +20,8 @@
 
 		"FreezePanelBG"
 		{
-			"visible"		"0"
-			"enabled"		"0"
-		}
-		
-		"FreezePanelBG1"
-		{
 			"ControlName"		"CTFImagePanel"
-			"fieldName"		"FreezePanelBG1"
+			"fieldName"		"FreezePanelBG"
 			"xpos"			"70"
 			"ypos"			"50"
 			"zpos"			"0"
@@ -37,6 +31,22 @@
 			"enabled"		"1"
 			"image"			"../darhud/meter_blue"
 			"scaleImage"	"1"	
+			"proportionaltoparent"	"1"
+		}
+		"FreezePanelBGShadow"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"FreezePanelBGShadow"
+			"pin_to_sibling"	"FreezePanelBG"
+			"xpos"			"-2"
+			"ypos"			"-2"
+			"zpos"			"-1"
+			"wide"			"260"
+			"tall"			"32"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../darhud/meter_shadow"
+			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 		}
 		
@@ -55,22 +65,6 @@
 			"scaleImage"	"1"
 		}
 		
-		"FreezePanelBG1Shadow"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"		"FreezePanelBG1Shadow"
-			"pin_to_sibling"	"FreezePanelBG1"
-			"xpos"			"-2"
-			"ypos"			"-2"
-			"zpos"			"-1"
-			"wide"			"260"
-			"tall"			"32"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../darhud/meter_shadow"
-			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
-		}
 		"FreezeLabel"
 		{	
 			"ControlName"		"Label"

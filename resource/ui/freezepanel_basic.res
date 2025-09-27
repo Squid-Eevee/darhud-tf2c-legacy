@@ -278,7 +278,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"itempanel_anchor"
 		"xpos"			"r200"
-		"ypos"			"c55"
+		"ypos"			"c130"
 		"wide"			"1"
 		"tall"			"1"
 		"visible"		"1"

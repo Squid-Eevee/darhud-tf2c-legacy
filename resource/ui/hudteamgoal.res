@@ -69,7 +69,7 @@
 		"textAlignment"		"north-west"
 		"fgcolor_override"	"ObjectiveLabel"
 		"wrap"				"1"
-		"textinsety"			"2"
+		"textinsety"			"3"
 	}
 	"GoalImage"
 	{
@@ -101,3 +101,4 @@
 		"scaleImage"		"1"
 	}
 }
+

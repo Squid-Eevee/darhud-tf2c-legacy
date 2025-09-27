@@ -22,11 +22,11 @@
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"FreezePanelBG"
-			"xpos"			"70"
+			"xpos"			"c-150"
 			"ypos"			"50"
 			"zpos"			"0"
-			"wide"			"260"
-			"tall"			"32"
+			"wide"			"300"
+			"tall"			"34"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../darhud/meter_blue"
@@ -41,8 +41,8 @@
 			"xpos"			"-2"
 			"ypos"			"-2"
 			"zpos"			"-1"
-			"wide"			"260"
-			"tall"			"32"
+			"wide"			"300"
+			"tall"			"34"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../darhud/meter_shadow"
@@ -54,7 +54,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MedalImage"
-			"xpos"			"40"
+			"xpos"			"20"
 			"ypos"			"40"
 			"zpos"			"1"
 			"wide"			"25"
@@ -71,8 +71,8 @@
 			"fieldName"		"FreezeLabel"
 			"font"			"TF2DefaultShadow"
 			"fgcolor_override"		"GeneralLabel"
-			"xpos"			"136"
-			"ypos"			"50"
+			"xpos"			"120"
+			"ypos"			"52"
 			"zpos"			"1"
 			"wide"			"200"
 			"tall"			"12"
@@ -91,8 +91,8 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"60"
-			"ypos"			"23"
+			"xpos"			"45"
+			"ypos"			"24"
 			"zpos"			"1"
 			"wide"			"90"
 			"tall"			"90"
@@ -107,19 +107,13 @@
 		}
 		
 		"FreezeLabelKiller"
-		{
-			"visible"	"0"
-			"enabled"	"0"
-		}
-
-		"FreezeLabelKiller1"
 		{	
 			"ControlName"			"Label"
-			"fieldName"			"FreezeLabelKiller1"
+			"fieldName"			"FreezeLabelKiller"
 			"fgcolor_override"	"GeneralLabel"
 			"font"				"HudFontSmall"
-			"xpos"				"156"
-			"ypos"				"64"
+			"xpos"				"140"
+			"ypos"				"65"
 			"zpos"				"2"
 			"wide"				"200"
 			"tall"				"16"
@@ -129,14 +123,15 @@
 			"enabled"			"1"
 			"labelText"			"%killername%"
 			"textAlignment"		"west"
+			"textinsetx"			"5"
 		}
-		"FreezeLabelKiller1Shadow"
+		"FreezeLabelKillerShadow"
 		{	
 			"ControlName"			"Label"
-			"fieldName"			"FreezeLabelKiller1Shadow"
+			"fieldName"			"FreezeLabelKillerShadow"
 			"fgcolor_override"	"GeneralShadow"
 			"font"				"HudFontSmall"
-			"pin_to_sibling"		"FreezeLabelKiller1"
+			"pin_to_sibling"		"FreezeLabelKiller"
 			"xpos"				"-1"
 			"ypos"				"-1"
 			"zpos"				"1"
@@ -148,14 +143,15 @@
 			"enabled"			"1"
 			"labelText"			"%killername%"
 			"textAlignment"		"west"
+			"textinsetx"			"5"
 		}
 
 		"AvatarImage"
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"136"
-			"ypos"			"63"
+			"xpos"			"120"
+			"ypos"			"64"
 			"zpos"			"1"
 			"wide"			"16"
 			"tall"			"16"
@@ -272,31 +268,20 @@
 			}
 		}
 	}
-	
-	"itempanel_anchor"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"itempanel_anchor"
-		"xpos"			"r200"
-		"ypos"			"c130"
-		"wide"			"1"
-		"tall"			"1"
-		"visible"		"1"
-	}
 
 	"itempanel"
 	{
-		"ControlName"		"CItemModelPanel"
+		"ControlName"			"CItemModelPanel"
 		"fieldName"			"itempanel"
-		"pin_to_sibling"	"itempanel_anchor"
-		"xpos"				"0"
+		"xpos"				"r200"
 		"ypos"				"0"
 		"zpos"				"10"
 		"wide"				"190"
 		"tall"				"90"
 		"visible"			"0"
-		"bgcolor_override"	"255 255 255 0"
+		"bgcolor_override"	"Tooltip"
 		"PaintBackgroundType"	"0"
+		"roundedcorners"		"0"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -306,7 +291,7 @@
 		"text_xpos"		"10"
 		"text_ypos"		"72"
 		"text_wide"		"170"
-		"text_center"	"1"
+		"text_center"		"1"
 		
 		"max_text_height"	"100"
 		"padding_height"	"10"
@@ -340,7 +325,7 @@
 			"brighttext"	"0"
 		}
 	}
-		
+	
 	"ScreenshotPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -361,7 +346,7 @@
 			"zpos"			"0"
 			"wide"			"166"
 			"tall"			"38"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../darhud/meter_shadow"
 			"scaleImage"		"1"
@@ -379,14 +364,33 @@
 			"enabled"		"1"
 			"image"			"../hud/ico_camera"
 			"scaleImage"	"1"	
-		}		
+		}
+		"ScreenshotIconShadow"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"ScreenshotIconShadow"
+			"pin_to_sibling"	"ScreenshotIcon"
+			"xpos"			"-2"
+			"ypos"			"-2"
+			"zpos"			"1"
+			"wide"			"36"
+			"tall"			"36"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/ico_camera"
+			"scaleImage"	"1"
+			"drawcolor"	"GeneralShadow"
+		}
 		"ScreenshotLabel"
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"ScreenshotLabel"
-			"font"			"SpectatorKeyHints"
-			"xpos"			"40"
-			"ypos"			"25"
+			"font"			"FontStorePrice"
+			"pin_to_sibling"	"ScreenshotIcon"
+			"pin_corner_to_sibling"	"pin_center_left"
+			"pin_to_sibling_corner"	"pin_center_right"
+			"xpos"			"4"
+			"ypos"			"11"
 			"zpos"			"2"
 			"wide"			"133"
 			"tall"			"12"
@@ -395,9 +399,31 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%text%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			"fgcolor_override"	"GeneralLabel"
+		}
+		"ScreenshotLabelShadow"
+		{	
+			"ControlName"		"Label"
+			"fieldName"		"ScreenshotLabelShadow"
+			"font"			"FontStorePrice"
+			"pin_to_sibling"	"ScreenshotLabel"
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"2"
+			"wide"			"133"
+			"tall"			"12"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%text%"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"		"0"
+			"fgcolor_override"	"GeneralShadow"
 		}
 	}
 	"FreezePanelModelBG"
@@ -406,7 +432,7 @@
 		"fieldName"		"FreezePanelModelBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-1"		
+		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"

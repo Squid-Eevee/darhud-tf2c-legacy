@@ -45,7 +45,9 @@ Scheme
 
 		//Meters
 		"MeterLabel"		"50 50 50 255"
-		"MeterBackground"	"255 255 255 24" //Also used as the background of the uber meter
+		"MeterBackground"	"255 255 255 48" //Also used as the background of the uber meter
+		// "MeterColor"		"235 226 202 255"
+		"ProgressOffWhite"	"235 226 202 255" //Certain meters are hard-coded to use the colour with this name
 
 		//Counter
 		"CounterValue"	"235 226 202 255"

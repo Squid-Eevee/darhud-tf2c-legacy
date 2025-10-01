@@ -31,7 +31,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
         "bgcolor_override" 		"MeterBackground"
-		"fgcolor_override" 		"White"
+		"fgcolor_override" 		"ProgressOffWhite"
 	}
 
     "ChargeMeterBG"
@@ -72,5 +72,4 @@
 		"image"			"../darhud/meter_shadow"
 		"scaleImage"	"1"	
 	}
-
 }

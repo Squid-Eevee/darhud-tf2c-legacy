@@ -1,4 +1,4 @@
-#base "../darhud_addons/hue-6_colors.res"
+#base "../darhud_addons/hue-6_colors"
 #base "../darhud_addons/hue24_colors.res"
 #base "../darhud_addons/gry_colors.res"
 #base "../darhud_addons/colorblind_grn_colors.res"
@@ -128,8 +128,7 @@ Scheme
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
 		//"ProgressOffWhite"	"251 235 202 255"
-		"ProgressOffWhite"	"255 255 255 255"
-		"ProgressBackground"	"250 234 201 51"
+		"ProgressBackground"	"255 255 255 48"
 		"HealthBgGrey"		"72 71 69 255"
 		
 		"ProgressOffWhiteTransparent"	"251 235 202 128"
@@ -759,9 +758,9 @@ Scheme
 			{
 				"name"		"TF2C Secondary"
 				"tall"		"11"
-				"weight"	"700"
+				"weight"		"700"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias"	"1"
 			}
 		}
 
@@ -6192,8 +6191,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"color"					"0 0 0 255"
-			"image"					"../darhud/uber_red"
+			"color"				"0 0 0 255"
+			"image"				"../darhud/uber_red"
 		}
 	}
 }

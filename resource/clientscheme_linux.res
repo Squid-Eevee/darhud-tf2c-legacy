@@ -1,4 +1,4 @@
-#base "../darhud_addons/hue-6_colors.res"
+#base "../darhud_addons/hue-6_colors"
 #base "../darhud_addons/hue24_colors.res"
 #base "../darhud_addons/gry_colors.res"
 #base "../darhud_addons/colorblind_grn_colors.res"
@@ -128,7 +128,6 @@ Scheme
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
 		//"ProgressOffWhite"	"251 235 202 255"
-		"ProgressOffWhite"	"255 255 255 255"
 		"ProgressBackground"	"250 234 201 51"
 		"HealthBgGrey"		"72 71 69 255"
 		
@@ -770,68 +769,64 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2C Secondary"
+				"name"		"Cantarell"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
-				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		"TF2C Secondary"
-				"tall"		"13"
+				"name"		"Cantarell"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
-				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"TF2C Secondary"
+				"name"		"Cantarell"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
-				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"TF2C Secondary"
+				"name"		"Cantarell"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
-				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		"TF2C Secondary"
+				"name"		"Cantarell"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
-				"dropshadow"	"1"
 			}
 			"6"
 			{
-				"name"		"TF2C Secondary"
+				"name"		"Cantarell"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
-				"dropshadow"	"1"
 			}
 			"7"
 			{
-				"name"		"TF2C Secondary"
+				"name"		"Arial"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
-				"dropshadow"	"1"
 			}
+
+
 		}
 		"DefaultUnderline"
 		{
@@ -2097,8 +2092,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2C Secondary"
-				"tall"		"15"
+				"name"		"TF2C"
+				"tall"		"14"
 				"weight"		"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias"	"1"
@@ -2109,8 +2104,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2C Secondary"
-				"tall"		"15"
+				"name"		"TF2C"
+				"tall"		"14"
 				"weight"		"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias"	"1"
@@ -6191,14 +6186,6 @@ Scheme
 			"src_corner_width"		"3"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 		"2"
-		}
-		EquippedBg
-		{
-			"bordertype"		"scalable_image"
-			"backgroundtype"	"2"
-			
-			"color"				"0 0 0 255"
-			"image"				"../darhud/uber_red"
 		}
 	}
 }

@@ -6,7 +6,7 @@
     "$vertexcolor"		"1"
     "$no_fullbright"	"1"
     "$ignorez"			"1"
-    "$color"			"{229 190 53}"
+    "$color"			"{206 171 48}"
     "%keywords"			"tf"
 	
 	//All this stuff makes the material's colour pulsate when the player is invulnerable
@@ -59,4 +59,5 @@
 			// "resultVar" "$color2" 
 		// }
 	// }
+
 }

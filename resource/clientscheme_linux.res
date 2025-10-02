@@ -2042,12 +2042,12 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		"ScoreboardVerySmall"
+		"ScoreboardVerySmall"	//This is used for the "No time limit" text on the scoreboard
 		{
 			"1"
 			{
-				"name"		"Cantarell"
-				"tall"		"8"
+				"name"		"TF2C Secondary"
+				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"

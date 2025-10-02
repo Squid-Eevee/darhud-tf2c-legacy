@@ -230,7 +230,19 @@
 			"icon"		"obj_status_icon_sapper"
 			"iconColor"	"255 255 255 255"
 		}
-
+		
+		"HealthBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"			"HealthBG"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"0"
+			"wide"				"12"
+			"tall"				"30"
+			"visible"			"1"
+			"bgcolor_override"	"0 0 0 128"
+		}
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
@@ -238,6 +250,7 @@
 			"font"		"Default"
 			"xpos"		"2"
 			"ypos"		"11"
+			"zpos"		"1"
 			"wide"		"8"
 			"tall"		"19"
 			"visible"	"1"
@@ -247,9 +260,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"	"BuildingPanel"
-			"xpos"		"60"
+			"xpos"		"0"
 			"ypos"		"0"
-			"wide"		"100"
+			"zpos"		"1"
+			"wide"		"160"
 			"tall"		"31"
 			"visible"	"0"
 
@@ -257,12 +271,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"FontStorePrice"
-				"xpos"			"0"
-				"ypos"			"6"
+				"font"			"HudFontSmallest"
+				"xpos"			"60"
+				"ypos"			"5"
 				"zpos"			"1"
 				"wide"			"200"
-				"tall"			"8"
+				"tall"			"12"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
@@ -273,13 +287,13 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabelShadow"
-				"font"			"FontStorePrice"
+				"font"			"HudFontSmallest"
 				"pin_to_sibling"	"BuildingLabel"
 				"xpos"			"-1"
 				"ypos"			"-1"
 				"zpos"			"0"
 				"wide"			"200"
-				"tall"			"8"
+				"tall"			"12"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
@@ -293,11 +307,26 @@
 				"fieldName"			"BuildingProgress"
 				"bgcolor_override"	"MeterBackground"
 				"fgcolor_override"	"ProgressOffWhite"
-				"xpos"				"0"
-				"ypos"				"16"
-				"wide"				"45"
+				"xpos"				"60"
+				"ypos"				"17"
+				"wide"				"47"
 				"tall"				"8"
 				"visible"			"1"
+			}
+
+			"Level1"
+			{
+				"ControlName"	"CIconPanel"
+				"fieldName"	"Level1"
+				"xpos"		"1"
+				"ypos"		"1"
+				"zpos"		"1"
+				"wide"		"10"
+				"tall"		"10"
+				"visible"	"1"
+				"scaleImage"	"1"	
+				"icon"		"obj_status_upgrade_1"
+				"iconColor"	"AdditionalIcon"
 			}
 		}
 	

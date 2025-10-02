@@ -385,7 +385,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"	"KillsLabel"
-				"font"		"FontStorePrice"
+				"font"		"HudFontSmallest"
 				"fgcolor"	"AdditionalValue"
 				"xpos"		"12"
 				"ypos"		"7"
@@ -397,11 +397,11 @@
 				"labelText"	"#Building_hud_sentry_kills_assists"
 				"textAlignment"	"west"
 			}
-			"KillsShadow"
+			"KillsLabelShadow"
 			{	
 				"ControlName"	"CExLabel"
-				"fieldName"		"KillsShadow"
-				"font"			"FontStorePrice"
+				"fieldName"		"KillsLabelShadow"
+				"font"			"HudFontSmallest"
 				"fgcolor"		"AdditionalShadow"
 				"pin_to_sibling"	"KillsLabel"
 				"xpos"			"-1"

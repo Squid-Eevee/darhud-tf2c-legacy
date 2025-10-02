@@ -22,6 +22,10 @@
 			"visible"		"1"
 			"alpha"			"64"
 		}
+		"PipeIconShadow"
+		{
+			"visible"		"0"
+		}
 		
 		"NumPipesLabel"
 		{
@@ -84,7 +88,11 @@
 			"tall"			"16"
 			"visible"		"1"
 			"alpha"			"64"
-		}	
+		}
+		"MineIconShadow"
+		{
+			"visible"		"0"
+		}
 		
 		"NumMinesLabel"
 		{

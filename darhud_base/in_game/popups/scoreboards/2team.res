@@ -414,24 +414,46 @@
 		"visible"				"1"
 		"enabled"				"1"
 	}
-
+	
 	"TimerBG"
 	{
-		"visible"	"0"
-		"enabled"	"0"
+		"ControlName"	"EditablePanel"
+		"fieldName"	"TimerBG"
+		"xpos"		"cs-0.5"
+		"ypos"		"0"
+		"wide"		"80"
+		"tall"		"35"
+		"bgcolor_override"	"GeneralBackground"
+		"PaintBackgroundType"		"0"	
+		"visible"	"1"
+		"enabled"	"1"
 	}
-
+	"TimerBGBorder"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"			"TimerBGBorder"
+		"xpos"				"cs-0.5"
+		"ypos"				"-6"
+		"zpos"				"-1"
+		"wide"				"89"
+		"tall"				"45"
+		"autoResize"			"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"border"				"OuterShadowBorder"
+		"RoundedCorners"		"0"
+	}
 	"ServerTimeLeftInsetBG"
 	{	
 		"visible"	"0"
 		"enabled"	"0"
 	}
-
 	"ServerTimeLeftLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftLabel"
-		"font"			"TF2DefaultSmallShadow"
+		"font"			"TF2DefaultSmall"
 		"labelText"		"#Scoreboard_TimeLeftLabel"
 		"textAlignment"	"center"
 		"fgcolor"		"GeneralLabel"
@@ -445,7 +467,38 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-
+	"ServerTimeLeftLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerTimeLeftLabelShadow"
+		"font"			"TF2DefaultSmall"
+		"labelText"		"#Scoreboard_TimeLeftLabel"
+		"textAlignment"	"center"
+		"fgcolor"		"GeneralShadow"
+		"pin_to_sibling"	"ServerTimeLeftLabel"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"2"
+		"wide"			"72"
+		"tall"			"10"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	"ServerTimeLeftLabelBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"			"ServerTimeLeftLabelBG"
+		"bgcolor_override"	"GeneralBackground"
+		"xpos"				"cs-0.5"
+		"ypos"				"2"
+		"zpos"				"2"
+		"wide"				"80"
+		"tall"				"10"
+		"visible"			"1"
+		"enabled"			"1"
+	}
 	"ServerTimeLeftValue"
 	{
 		"ControlName"			"CExLabel"
@@ -456,19 +509,18 @@
 		"xpos"				"cs-0.5"
 		"ypos"				"12"
 		"zpos"				"2"
-		"wide"				"55"
-		"tall"				"15"
+		"wide"				"80"
+		"tall"				"23"
 		"autoResize"			"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"fgcolor"			"BrightYellow"
 		"centerwrap"			"1"
-		"bgcolor_override"	"GeneralBackground"
-		"PaintBackgroundType"	"2"
-		"RoundedCorners"		"15"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0"
+		"RoundedCorners"		"0"
 	}
-
 	"ServerTimeLeft"
 	{
 		"ControlName"		"CExLabel"
@@ -2202,3 +2254,4 @@
 		}
 	}
 }
+

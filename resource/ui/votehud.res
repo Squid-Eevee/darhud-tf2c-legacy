@@ -59,7 +59,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"TFFontSmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 			"noshortcutsyntax" "1"
@@ -92,7 +92,7 @@
 			"textAlignment"		"north-west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"TFFontSmall"
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
 		}
@@ -162,7 +162,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"TFFontSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -213,7 +213,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"TFFontSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -264,7 +264,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"TFFontSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -296,7 +296,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"TFFontSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -328,7 +328,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"TFFontSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -372,7 +372,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"TFFontSmall"
 			"fgcolor_override"	"128 128 128 255"
 		}
 		
@@ -456,7 +456,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"TFFontSmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}		
@@ -522,7 +522,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"TFFontSmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}		

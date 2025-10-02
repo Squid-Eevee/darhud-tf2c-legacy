@@ -72,4 +72,5 @@
 		"image"			"../darhud/meter_shadow"
 		"scaleImage"	"1"	
 	}
+
 }

@@ -82,7 +82,6 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"bgcolor_override" 		"MeterBackground"
-		"fgcolor_override" 		"ProgressOffWhite"
 		"pin_to_sibling" 		"ItemEffectMeterLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"

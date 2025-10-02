@@ -80,6 +80,23 @@
 		"scaleImage"	"1"
 		"drawcolor"	"CounterIcon"
 	}
+	"ChargeIconShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ChargeIconShadow"
+		"pin_to_sibling"	"ChargeIcon"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"28"
+		"tall"			"28"
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"
+		"image"			"../darhud/icons/earthquake"
+		"scaleImage"	"1"
+		"drawcolor"	"GeneralShadow"
+	}
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"

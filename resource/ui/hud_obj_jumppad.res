@@ -350,7 +350,7 @@
 				{	
 					"ControlName"		"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"FontStorePrice"
+					"font"			"HudFontSmallest"
 					"fgcolor"		"AdditionalValue"
 					"xpos"			"12"
 					"ypos"			"11"
@@ -362,11 +362,11 @@
 					"labelText"		"%timesused%"
 					"textAlignment"	"west"
 				}
-				"TimesUsedShadow"
+				"TimesUsedLabelShadow"
 				{	
 					"ControlName"		"CExLabel"
-					"fieldName"		"TimesUsedShadow"
-					"font"			"FontStorePrice"
+					"fieldName"		"TimesUsedLabelShadow"
+					"font"			"HudFontSmallest"
 					"fgcolor"		"AdditionalShadow"
 					"pin_to_sibling"	"TimesUsedLabel"
 					"xpos"			"-1"
@@ -382,4 +382,5 @@
 			}	
 		}
 	}
+
 }

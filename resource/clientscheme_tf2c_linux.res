@@ -410,7 +410,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../darhud/mainmenu/button_items"
-			"color"					"141 21 0 255"
+			"color"					"ButtonQuit"
 			//"src_corner_height"		"9"			// pixels inside the image
 			//"src_corner_width"		"12"
 			//"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
@@ -422,7 +422,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../darhud/mainmenu/button_items"
-			"color"					"192 28 0 255"
+			"color"					"ButtonQuitArmed"
 			//"src_corner_height"		"9"			// pixels inside the image
 			//"src_corner_width"		"12"
 			//"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
@@ -434,7 +434,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../darhud/mainmenu/button_items"
-			"color"					"90 13 0 255"
+			"color"					"ButtonQuitDepressed"
 			//"src_corner_height"		"9"			// pixels inside the image
 			//"src_corner_width"		"12"
 			//"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
@@ -446,7 +446,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../darhud/square_white"
-			"color"					"141 21 0 255"
+			"color"					"ButtonQuit"
 			//"src_corner_height"		"9"			// pixels inside the image
 			//"src_corner_width"		"12"
 			//"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
@@ -458,7 +458,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../darhud/square_white"
-			"color"					"192 28 0 255"
+			"color"					"ButtonQuitArmed"
 			//"src_corner_height"		"9"			// pixels inside the image
 			//"src_corner_width"		"12"
 			//"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
@@ -470,7 +470,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../darhud/square_white"
-			"color"					"90 13 0 255"
+			"color"					"ButtonQuitDepressed"
 			//"src_corner_height"		"9"			// pixels inside the image
 			//"src_corner_width"		"12"
 			//"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional

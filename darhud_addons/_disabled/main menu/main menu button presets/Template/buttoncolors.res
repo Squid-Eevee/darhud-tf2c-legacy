@@ -18,5 +18,9 @@ Scheme
 		"ButtonDepressedLabelMM"	"<r> <g> <b> 255"
 		
 		"ButtonMMShadow"	"<r> <g> <b> 200" //Drop shadow behind buttons
+		
+		"ButtonQuit"			"141 21 0 255" //Quit button colours
+		"ButtonQuitArmed"		"192 28 0 255"
+		"ButtonQuitDepressed"	"90 13 0 255"
 	}
 }

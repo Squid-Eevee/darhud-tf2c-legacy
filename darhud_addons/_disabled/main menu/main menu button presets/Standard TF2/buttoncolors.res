@@ -1,3 +1,5 @@
+#base "quitbuttons.res"
+
 Scheme
 {
 	Colors

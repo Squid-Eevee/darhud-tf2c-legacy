@@ -1,3 +1,5 @@
+#base "quitbuttons.res"
+
 Scheme
 {
 	Colors
@@ -15,9 +17,5 @@ Scheme
 		"ButtonDepressedLabelMM"	"34 34 34 255"
 		
 		"ButtonMMShadow"	"10 10 10 0" //Drop shadow behind buttons
-		
-		"ButtonQuit"			"141 21 0 255" //Quit button colours
-		"ButtonQuitArmed"		"192 28 0 255"
-		"ButtonQuitDepressed"	"90 13 0 255"
 	}
 }

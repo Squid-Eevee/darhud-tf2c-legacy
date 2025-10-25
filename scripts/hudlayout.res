@@ -742,27 +742,28 @@
 		
 		"item_wide"		"150"
 		"item_tall"		"16"
+		"item_spacing"	"1"
 		
 		"show_avatar"		"1"
 		"show_friend"		"0"
-		"avatar_xpos"		"0"
+		"avatar_xpos"		"12"
 		"avatar_ypos"		"0"
 		"avatar_wide"		"16"
 		"avatar_tall"		"16"
 		
 		"show_dead_icon"	"1"
-		"dead_xpos"		"18"
+		"dead_xpos"		"28"
 		"dead_ypos"		"2"
 		"dead_wide"		"12"
 		"dead_tall"		"12"
 		
 		"show_voice_icon"	"1"
 		"icon_ypos"		"2"
-		"icon_xpos"		"136"
+		"icon_xpos"		"0"
 		"icon_wide"		"12"
 		"icon_tall"		"12"
 		
-		"text_xpos"		"32"
+		"text_xpos"		"40"
 
 		"fade_in_time"	"0"
 		"fade_out_time"	"0.1"

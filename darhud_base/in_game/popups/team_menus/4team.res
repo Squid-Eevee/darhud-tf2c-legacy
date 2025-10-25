@@ -132,6 +132,8 @@
 
 		"defaultbgColor_override" "HUDBlueTeam"
 		"armedbgColor_override" "HUDBlueTeamSolid"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelDefault"
 		
 		//0-BLU 1-RED 2-GRN 3-YLW 4-Random 5-Spectate
 		"NavLeft"		"teambutton3"
@@ -191,6 +193,8 @@
 
 		"defaultbgColor_override" "HUDRedTeam"
 		"armedbgColor_override" "HUDRedTeamSolid"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelDefault"
 		
 		//0-BLU 1-RED 2-GRN 3-YLW 4-Random 5-Spectate
 		"NavLeft"		"teambutton0"
@@ -250,6 +254,8 @@
 
 		"defaultbgColor_override" "HUDGreenTeam"
 		"armedbgColor_override" "HUDGreenTeamSolid"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelDefault"
 		
 		//0-BLU 1-RED 2-GRN 3-YLW 4-Random 5-Spectate
 		"NavLeft"		"teambutton4"
@@ -309,6 +315,8 @@
 
 		"defaultbgColor_override" "HUDYellowTeam"
 		"armedbgColor_override" "HUDYellowTeamSolid"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelDefault"
 		
 		//0-BLU 1-RED 2-GRN 3-YLW 4-Random 5-Spectate
 		"NavLeft"		"teambutton2"
@@ -365,7 +373,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 		
-		"defaultbgColor_override" "61 60 59 127"
+		"defaultbgColor_override" "ButtonDefault"
 		"armedbgColor_override" "ButtonArmed"
 
 		"defaultfgColor_override" "ButtonLabelDefault"
@@ -423,7 +431,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 		
-		"defaultbgColor_override" "61 60 59 127"
+		"defaultbgColor_override" "ButtonDefault"
 		"armedbgColor_override" "ButtonArmed"
 		
 		"defaultfgColor_override" "ButtonLabelDefault"

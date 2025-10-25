@@ -574,6 +574,8 @@
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
 		"ItemFontPulsing"		"Default"
+		
+		"roundedcorners"	"0"
 	}
 
 	HudSpellMenu

@@ -834,6 +834,7 @@
 			"Command"		"CallVote"
 			"Default"		"0"
 			"font"			"HudFontSmallBold"
+			"roundedcorners"	"0"
 		}
 		"Button1"
 		{
@@ -856,6 +857,7 @@
 			"Command"		"Close"
 			"Default"		"0"
 			"font"			"HudFontSmallBold"
+			"roundedcorners"	"0"
 		}
 	}
 }

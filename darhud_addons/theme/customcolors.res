@@ -67,6 +67,9 @@ Scheme
 		"ChatBackground"	"0 0 0 255"	//the alpha value doesn't seem to do anything to the chat window itself but this colour is shared with the chat filters window, which is fixed at 50% opacity for readability
 							//so if you want your background opacities to match, leave the alpha at 255
 
+		//Vote selection
+		"VoteSelect"		"88 119 140 180"
+
 		//Menus
 
 		//Main Menu

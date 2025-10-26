@@ -1350,7 +1350,7 @@
 		"xpos_minmode"	"c-300"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"640"
+		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"

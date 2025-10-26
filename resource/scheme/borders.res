@@ -1740,14 +1740,6 @@ Scheme
 			"image"			"../darhud/scoreboard/score_middle_shadow"
 		}
 		
-		VoteBorder
-		{
-			"bordertype"		"scalable_image"
-			"backgroundtype"	"2"
-			
-			"image"		"../darhud/square_shadow_opaque"
-		}
-		
 		UberRateBonusBorder
 		{
 			"bordertype"		"scalable_image"
@@ -1789,4 +1781,5 @@ Scheme
 			"image"				"../darhud/uber_red"
 		}
 	}
+
 }

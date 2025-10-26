@@ -19,7 +19,7 @@
 //		borders			- description of all the borders
 //
 //
-#base "ClientScheme.res"
+#base "clientscheme.res"
 
 Scheme
 {
@@ -909,4 +909,5 @@ Scheme
 		}
 	}
 }
+
 

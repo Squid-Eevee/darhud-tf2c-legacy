@@ -221,7 +221,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2C"
-				"tall"		"54"
+				"tall"		"46"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -909,5 +909,6 @@ Scheme
 		}
 	}
 }
+
 
 

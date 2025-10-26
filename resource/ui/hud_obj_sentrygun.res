@@ -65,7 +65,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"160"
-		"tall"		"60"
+		"tall"		"51"
 		"visible"	"1"
 		
 		"Background"

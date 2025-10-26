@@ -142,7 +142,7 @@
 			"wide"				"12"
 			"tall"				"24"
 			"visible"			"1"
-			"bgcolor_override"	"0 0 0 128"
+			"bgcolor_override"	"0 0 0 127"
 		}
 		"Health"
 		{	

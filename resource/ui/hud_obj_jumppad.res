@@ -131,6 +131,32 @@
 			"image"		"../darhud/building/build_alt_shadow"
 			"scaleImage"	"1"	
 		}
+		
+		"HealthBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"			"HealthBG"
+			"proportionaltoparent"	"1"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"0"
+			"wide"				"12"
+			"tall"				"30"
+			"visible"			"1"
+			"bgcolor_override"	"0 0 0 127"
+		}
+		"Health"
+		{	
+			"ControlName"	"CBuildingHealthBar"
+			"fieldName"	"Health"
+			"font"		"Default"
+			"xpos"		"2"
+			"ypos"		"11"
+			"zpos"		"2"
+			"wide"		"8"
+			"tall"		"19"
+			"visible"	"1"
+		}
 
 		"Icon_Upgrade_1"
 		{
@@ -151,11 +177,14 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"	"Icon_Jumppad_Mode_A"
-			"xpos"		"1"
-			"ypos"		"1"
+			"pin_to_sibling"	"Health"
+			"pin_corner_to_sibling"	"pin_center_bottom"
+			"pin_to_sibling_corner"	"pin_center_top"
+			"xpos"		"0"
+			"ypos"		"0"
 			"zpos"		"1"
-			"wide"		"10"
-			"tall"		"10"
+			"wide"		"9"
+			"tall"		"9"
 			"visible"	"0"
 			"scaleImage"	"1"	
 			"icon"		"obj_status_upgrade_a"
@@ -166,11 +195,14 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"	"Icon_Jumppad_Mode_B"
-			"xpos"		"1"
-			"ypos"		"1"
+			"pin_to_sibling"	"Health"
+			"pin_corner_to_sibling"	"pin_center_bottom"
+			"pin_to_sibling_corner"	"pin_center_top"
+			"xpos"		"0"
+			"ypos"		"0"
 			"zpos"		"1"
-			"wide"		"10"
-			"tall"		"10"
+			"wide"		"9"
+			"tall"		"9"
 			"visible"	"0"
 			"scaleImage"	"1"	
 			"icon"		"obj_status_upgrade_b"
@@ -181,10 +213,10 @@
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"	"AlertTray"
-			"xpos"		"110"
+			"xpos"		"114"
 			"ypos"		"0"
 			"zpos"		"-2"
-			"wide"		"60"
+			"wide"		"39"
 			"tall"		"30"
 			"visible"	"1"
 			"icon"		"obj_status_alert_background"
@@ -194,11 +226,11 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"	"WrenchIcon"
-			"xpos"		"125"
-			"ypos"		"4"
+			"xpos"		"123"
+			"ypos"		"5"
 			"zpos"		"1"
-			"wide"		"21"
-			"tall"		"21"
+			"wide"		"20"
+			"tall"		"20"
 			"visible"	"0"
 			"scaleImage"	"1"	
 			"icon"		"obj_status_icon_wrench"
@@ -209,7 +241,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"	"SapperIcon"
-			"xpos"		"124"
+			"xpos"		"122"
 			"ypos"		"4"
 			"zpos"		"1"
 			"wide"		"23"
@@ -219,32 +251,6 @@
 			"icon"		"obj_status_icon_sapper"
 			"iconColor"	"255 255 255 255"
 		}
-		
-		"HealthBG"
-		{
-			"ControlName"			"EditablePanel"
-			"fieldName"			"HealthBG"
-			"proportionaltoparent"	"1"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"0"
-			"wide"				"12"
-			"tall"				"30"
-			"visible"			"1"
-			"bgcolor_override"	"0 0 0 128"
-		}
-		"Health"
-		{	
-			"ControlName"	"CBuildingHealthBar"
-			"fieldName"	"Health"
-			"font"		"Default"
-			"xpos"		"2"
-			"ypos"		"11"
-			"zpos"		"2"
-			"wide"		"8"
-			"tall"		"19"
-			"visible"	"1"
-		}
 
 		"BuildingPanel"
 		{
@@ -252,7 +258,7 @@
 			"fieldName"	"BuildingPanel"
 			"xpos"		"0"
 			"ypos"		"0"
-			"zpos"		"1"
+			"zpos"		"2"
 			"wide"		"160"
 			"tall"		"31"
 			"visible"	"0"
@@ -302,6 +308,33 @@
 				"wide"				"47"
 				"tall"				"8"
 				"visible"			"1"
+			}
+
+			"LevelAnchor"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"LevelAnchor"
+				"xpos"		"2"
+				"ypos"		"11"
+				"wide"		"8"
+				"tall"		"0"
+			}
+			"Level"
+			{
+				"ControlName"	"CTFImagePanel"
+				"fieldName"	"Level"
+				"pin_to_sibling"	"LevelAnchor"
+				"pin_corner_to_sibling"	"pin_center_bottom"
+				"pin_to_sibling_corner"	"pin_center_top"
+				"xpos"		"0"
+				"ypos"		"0"
+				"zpos"		"1"
+				"wide"		"9"
+				"tall"		"9"
+				"visible"	"1"
+				"scaleImage"	"1"	
+				"image"		"../darhud/square_white"
+				"fgcolor_override"	"HealthBgGrey"
 			}
 		}
 	
@@ -362,10 +395,10 @@
 					"labelText"		"%timesused%"
 					"textAlignment"	"west"
 				}
-				"TimesUsedLabelShadow"
+				"TimesUsedShadow"
 				{	
 					"ControlName"		"CExLabel"
-					"fieldName"		"TimesUsedLabelShadow"
+					"fieldName"		"TimesUsedShadow"
 					"font"			"HudFontSmallest"
 					"fgcolor"		"AdditionalShadow"
 					"pin_to_sibling"	"TimesUsedLabel"
@@ -382,5 +415,4 @@
 			}	
 		}
 	}
-
 }

@@ -1173,9 +1173,9 @@
 		"fieldName"				"AchievementNotificationPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"180"
-		"wide"					"f0"
+		"xpos"					"r220"
+		"ypos"					"c-50"
+		"wide"					"220"
 		"tall"					"100"
 	}
 

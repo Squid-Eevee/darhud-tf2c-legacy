@@ -71,6 +71,10 @@ Scheme
 
 		//Vote selection
 		"VoteSelect"		"88 119 140 180"
+		
+		//Achievement notification background
+		//Reminder: the last value is transparency, so you can set it to 0 if you don't want to see it
+		"AchievementBackground"	"60 68 52 60"
 
 		//Menus
 

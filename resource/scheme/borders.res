@@ -1661,28 +1661,28 @@ Scheme
 			"draw_corner_height" 	"8"	
 		}
 		
-		// ArmoryScrollbarBox
-		// {
-			// "bordertype"			"scalable_image"
-			// "backgroundtype"		"2"
+		ArmoryScrollbarBox
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
 			
-			// "image"					"scroll_button_off"
-			// "src_corner_height"		"16"				// pixels inside the image
-			// "src_corner_width"		"16"
-			// "draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			// "draw_corner_height" 	"8"	
-		// }
-		// ArmoryScrollbarWell
-		// {
-			// "bordertype"			"scalable_image"
-			// "backgroundtype"		"2"
+			"image"					"scroll_button_off"
+			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_width"		"16"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		ArmoryScrollbarWell
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
 			
-			// "image"					"scroll_well"
-			// "src_corner_height"		"16"				// pixels inside the image
-			// "src_corner_width"		"16"
-			// "draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			// "draw_corner_height" 	"8"	
-		// }
+			"image"					"scroll_well"
+			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_width"		"16"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
 
 		InnerShadowBorder
 		{
@@ -1781,5 +1781,4 @@ Scheme
 			"image"				"../darhud/uber_red"
 		}
 	}
-
 }

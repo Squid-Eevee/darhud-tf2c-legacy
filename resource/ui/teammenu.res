@@ -250,7 +250,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 		
-		"defaultbgColor_override" "ButtonDefault"
+		"defaultbgColor_override" "HUDTeamButton"
 		"armedbgColor_override" "ButtonArmed"
 
 		"defaultfgColor_override" "ButtonLabelDefault"
@@ -310,7 +310,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 		
-		"defaultbgColor_override" "ButtonDefault"
+		"defaultbgColor_override" "HUDTeamButton"
 		"armedbgColor_override" "ButtonArmed"
 		
 		"defaultfgColor_override" "ButtonLabelDefault"

@@ -34,7 +34,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CalloutLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallShadow"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -65,7 +65,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"DistanceLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFontSmallestShadow"
 		"xpos"			"0"
 		"ypos"			"28"
 		"zpos"			"2"
@@ -81,3 +81,4 @@
 		"brighttext"	"0"
 	}
 }
+

@@ -488,6 +488,8 @@
 		
 		"NavUp"			"teambutton5"
 		"NavDown"		"teambutton4"
+
+		"roundedcorners"	"0"
 	}
 	
 	"TeamMenuSelect"

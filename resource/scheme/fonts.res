@@ -1448,16 +1448,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"AchievementNotification"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"14"
-				"weight"	"900"
-				"antialias" "1"
-			}
-		}
 		"SpectatorVerySmall"
 		{
 			"1"
@@ -1616,4 +1606,5 @@ Scheme
 			}
 		}
 	}
+
 }

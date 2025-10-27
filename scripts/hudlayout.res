@@ -1173,10 +1173,10 @@
 		"fieldName"				"AchievementNotificationPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r220"
-		"ypos"					"c-50"
-		"wide"					"220"
-		"tall"					"100"
+		"xpos"					"0"
+		"ypos"					"c-20"
+		"wide"					"f0"
+		"tall"					"42"
 	}
 
 	CriticalPanel [$WIN32]

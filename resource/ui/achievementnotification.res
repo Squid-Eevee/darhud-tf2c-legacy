@@ -1,21 +1,32 @@
 "Resource/UI/AchievementNotification.res"
 {
-	//fuck this thing fr
-	//can't change it's colour no matter what i try
 	"Notification_Background"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"Notification_Background"
 		"xpos"		"r250"
 		"ypos"		"0"
-		"zpos"		"-1"
-		"wide"		"240"
+		"zpos"		"-3"
+		"wide"		"f0"
 		"tall"		"40"
-		"visible"	"0"
-		"paintbackgroundtype"	"2"
+		"visible"	"1"
+		"paintbackground"	"0"
+		"paintbackgroundtype"	"0"
+		
+		"Color"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"	"Color"
+			"xpos"		"0"
+			"ypos"		"0"
+			"wide"		"f0"
+			"tall"		"40"
+			"bgcolor_override"	"AchievementBackground"
+			"visible"	"1"
+		}
 	}
 	
-	"Notification_Icon"	
+	"Notification_Icon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"	"Notification_Icon"
@@ -28,6 +39,19 @@
 		"scaleImage"	"1"	
 		"icon"		""
 	}
+	"IconShadow"
+	{
+		"ControlName"			"CTFImagePanel"
+		"fieldName"			"IconShadow"
+		"pin_to_sibling"		"Notification_Icon"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"0"
+		"wide"				"16"
+		"tall"				"16"
+		"visible"			"1"
+		"image"				"../darhud/square_shadow"
+	}
 	
 	"Background"
 	{
@@ -36,7 +60,7 @@
 		"pin_to_sibling"	"Notification_Icon"
 		"xpos"			"12"
 		"ypos"			"12"
-		"zpos"			"0"
+		"zpos"			"-1"
 		"wide"			"40"
 		"tall"			"40"
 		"image"			"../darhud/achievement_bg"
@@ -49,7 +73,7 @@
 		"pin_to_sibling"	"Background"
 		"xpos"			"-2"
 		"ypos"			"-2"
-		"zpos"			"-1"
+		"zpos"			"-2"
 		"wide"			"40"
 		"tall"			"40"
 		"image"			"../darhud/achievement_shadow"

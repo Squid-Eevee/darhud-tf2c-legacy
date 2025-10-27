@@ -370,6 +370,8 @@
 		//0-BLU 1-RED 2-Random 3-Spectate
 		"NavUp"			"teambutton3"
 		"NavDown"		"teambutton2"
+
+		"roundedcorners"	"0"
 	}
 	
 	"TeamMenuSelect"

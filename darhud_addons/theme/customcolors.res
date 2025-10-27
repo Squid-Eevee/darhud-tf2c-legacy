@@ -74,7 +74,7 @@ Scheme
 		
 		//Achievement notification background
 		//Reminder: the last value is transparency, so you can set it to 0 if you don't want to see it
-		"AchievementBackground"	"60 68 52 60"
+		"AchievementBackground"	"60 68 52 127"
 
 		//Menus
 

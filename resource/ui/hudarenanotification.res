@@ -85,7 +85,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"TFFontMedium"
+		"font"			"TF2DefaultLarge"
 		"xpos"			"0"
 		"ypos"			"16"
 		"zpos"			"1"
@@ -148,3 +148,4 @@
 		"scaleImage"	"1"
 	}
 }
+

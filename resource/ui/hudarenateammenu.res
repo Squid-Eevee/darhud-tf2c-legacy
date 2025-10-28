@@ -86,11 +86,50 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"defaultbgColor_override" "HUDArenaTeamButton"
-		"armedbgColor_override" "HUDArenaTeamButtonSolid"
+		"defaultbgColor_override" "HUDTeamButton"
+		"armedbgColor_override" "ButtonArmed"
 
 		"defaultfgColor_override" "ButtonLabelDefault"
 		"armedfgColor_override" "ButtonLabelArmed"
+	}
+	
+	"teambutton2blood"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"			"teambutton2blood"
+		"pin_to_sibling"		"teambutton2"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"4"
+		"wide"				"140"
+		"tall"				"80"
+		"visible"			"1"
+		"mouseinputenabled"	"0"
+		
+		"splat1"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"splat1"
+			"xpos"			"-20"
+			"ypos"			"0"
+			"wide"			"40"
+			"tall"			"40"
+			"visible"		"1"
+			"image"			"../darhud/arena/blood_splat001"
+			"scaleImage"		"1"
+		}
+		"splat2"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"splat2"
+			"xpos"			"125"
+			"ypos"			"60"
+			"wide"			"30"
+			"tall"			"40"
+			"visible"		"1"
+			"image"			"../darhud/arena/blood_splat001"
+			"scaleImage"		"1"
+		}
 	}
 	
 	"teambutton3"
@@ -194,4 +233,3 @@
 		"enabled"		"0"
 	}
 }
-

@@ -86,8 +86,8 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"defaultbgColor_override" "HalloweenThemeColor2015"
-		"armedbgColor_override" "ButtonArmed"
+		"defaultbgColor_override" "HUDArenaTeamButton"
+		"armedbgColor_override" "HUDArenaTeamButtonSolid"
 
 		"defaultfgColor_override" "ButtonLabelDefault"
 		"armedfgColor_override" "ButtonLabelArmed"

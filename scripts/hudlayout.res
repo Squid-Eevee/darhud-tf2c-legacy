@@ -879,9 +879,9 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"cs-0.5"
-		"ypos"					"cs-0.5"
-		"wide"					"350"
+		"xpos"					"c-185"
+		"ypos"					"0"
+		"wide"					"372"
 		"tall"					"480"
 		"zpos"					"3000"
 	}

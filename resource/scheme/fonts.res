@@ -504,7 +504,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"16"
 				"weight"	"900"
 				"antialias" "1"
@@ -1622,4 +1622,5 @@ Scheme
 	}
 
 }
+
 

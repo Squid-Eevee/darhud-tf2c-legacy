@@ -627,6 +627,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontMediumSecondary"	//This font is used for the context menu on the scoreboard
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontMediumBold"
 		{
 			"1"
@@ -1622,5 +1633,6 @@ Scheme
 	}
 
 }
+
 
 

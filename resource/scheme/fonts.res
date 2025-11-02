@@ -1067,6 +1067,20 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 			}
 		}
+		"Trebuchet24"	//This font is used for CCenterStringLabel
+						//...according to the sdk. can't get it to work for some reason.
+						//it works in live tf2 so idk what the problem is.
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
 		"MenuMainTitle"
 		{
 			"1"
@@ -1608,3 +1622,4 @@ Scheme
 	}
 
 }
+

@@ -523,6 +523,49 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		HudHintText
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"weight"	"700"
+				"yres"	"480 599"
+				"antialias" "1"
+			}
+			"2"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"13"
+				"weight"	"700"
+				"yres"	"600 767"
+				"antialias" "1"
+			}
+			"3"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"14"
+				"weight"	"700"
+				"yres"	"768 1023"
+				"antialias" "1"
+			}
+			"4"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"20"
+				"weight"	"700"
+				"yres"	"1024 1199"
+				"antialias" "1"
+			}
+			"5"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"24"
+				"weight"	"700"
+				"yres"	"1200 10000"
+				"antialias" "1"
+			}
+		}
 		"HudFontGiant"
 		{
 			"1"
@@ -1633,5 +1676,6 @@ Scheme
 	}
 
 }
+
 
 

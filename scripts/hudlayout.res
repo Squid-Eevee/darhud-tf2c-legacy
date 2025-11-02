@@ -1,7 +1,9 @@
 #base "hudlayout_tf2c.res"
 #base "../darhud_addons/default_close_captions_hudlayout.res"
+#base "../darhud_addons/hint_display.res"
 #base "../darhud_addons/statpanel.res"
 
+#base "../darhud_base/in_game/popups/hint_display.res"
 #base "../darhud_base/in_game/popups/statpanel.res"
 #base "../darhud_base/in_game/close_captions/close_captions_hudlayout.res"
 

@@ -310,6 +310,18 @@
 				"textAlignment"	"west"
 				"fgcolor"		"AdditionalShadow"
 			}
+			"BuildingProgress"
+			{	
+				"ControlName"			"ContinuousProgressBar"
+				"fieldName"			"BuildingProgress"
+				"bgcolor_override"	"MeterBackground"
+				"fgcolor_override"	"ProgressOffWhite"
+				"xpos"				"60"
+				"ypos"				"17"
+				"wide"				"47"
+				"tall"				"8"
+				"visible"			"1"
+			}
 
 			"LevelAnchor"
 			{

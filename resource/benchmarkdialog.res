@@ -606,7 +606,7 @@
 		"xpos"			"8"
 		"ypos"			"334"
 		"wide"			"208"
-		"tall"			"30"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"0"
 		"leftText"		"0.10"
@@ -1843,3 +1843,4 @@
 		"enabled"		"0"
 	}
 }
+

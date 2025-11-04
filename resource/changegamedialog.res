@@ -2237,7 +2237,7 @@
 		"xpos"			"304"
 		"ypos"			"308"
 		"wide"			"148"
-		"tall"			"30"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"0"
 		"leftText"		"0.00"

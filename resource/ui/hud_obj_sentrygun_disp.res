@@ -111,7 +111,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"26"
+		"tall"			"24"
 		"visible"		"0"
 		
 		"BackgroundContainer"
@@ -254,7 +254,7 @@
 			"ypos"		"0"
 			"zpos"		"1"
 			"wide"		"160"
-			"tall"		"60"
+			"tall"		"24"
 			"visible"	"0"
 
 			"BuildingLabel"

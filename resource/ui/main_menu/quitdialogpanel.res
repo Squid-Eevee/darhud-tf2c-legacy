@@ -110,8 +110,13 @@
 		"labelText" 		"#GameUI_Yes"
 		"textAlignment"		"center"
 		"font"				"TF2CMenuButton"
+		
+		"defaultFgColor_override"		"ButtonQuitLabel"
+		"armedBgColor_override"		"ButtonQuitArmedLabel"
+		"depressedFgColor_override"	"ButtonQuitDepressedLabel"
+
 		"border_default"	"MainMenuQuitButtonSquareDefault"
-		"border_armed"	"MainMenuQuitButtonSquareArmed"
+		"border_armed"		"MainMenuQuitButtonSquareArmed"
 		"border_depressed"	"MainMenuQuitButtonSquareDepressed"
 
 		"default"		"1"
@@ -146,3 +151,4 @@
 		"navLeft"		"ConfirmButton"
 	}
 }
+

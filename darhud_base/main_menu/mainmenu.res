@@ -1164,19 +1164,17 @@
 		"textAlignment"			"west"
 		"font"					"TF2CMainMenuButton"
 		
-		// "defaultFgColor_override"		"ButtonLabelMM"
-		// "armedBgColor_override"		"ButtonArmedLabelMM"
-		// "depressedFgColor_override"	"ButtonDepressedLabelMM"
+		"image_drawcolor"			"ButtonQuitLabel"
+		"image_armedcolor"		"ButtonQuitArmedLabel"
+		"image_depressedcolor"		"ButtonQuitDepressedLabel"
 		
-		"defaultBgColor_override"	"141 21 0 255"
+		"defaultFgColor_override"		"ButtonQuitLabel"
+		"armedBgColor_override"		"ButtonQuitArmedLabel"
+		"depressedFgColor_override"	"ButtonQuitDepressedLabel"
 		
 		"border_default"			"MainMenuQuitButtonDefault"
 		"border_armed"			"MainMenuQuitButtonArmed"
 		"border_depressed" 		"MainMenuQuitButtonDepressed"
-		// "image_drawcolor"			"ButtonLabelMM"
-		// "image_armedcolor"		"ButtonArmedLabelMM"
-		// "image_depressedcolor"		"ButtonDepressedLabelMM"
-		// "image_disabledcolor"		"ButtonDisabledLabelMM"
 		
 		"xshift"				"5"
 		"yshift"				"0"
@@ -1796,3 +1794,4 @@
 		"font"				"TF2CVersion"
 	}
 }
+

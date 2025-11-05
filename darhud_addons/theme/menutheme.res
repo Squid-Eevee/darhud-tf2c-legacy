@@ -8,7 +8,7 @@ Scheme
 		"HeaderLabel"			"235 226 202 255"
 		"WelcomeLabel"		"255 255 255 255"
 		"NicknameLabel"		"235 226 202 255"
-		"Tooltip"			"46 43 42 255"
+		"Tooltip"			"20 20 20 255"
 		
 		//Loadout Screen
 		"LoadoutBackground"	"31 31 31 255"
@@ -19,3 +19,4 @@ Scheme
 		"OptionsBackground"	"31 31 31 255"
 	}
 }
+

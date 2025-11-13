@@ -139,10 +139,10 @@
 		"fieldname"		"VerticalBGBorder"
 		"xpos"			"80"
 		"xpos_minmode"	"c-347"
-		"ypos"			"-5"
+		"ypos"			"-15"
 		"zpos"			"1"
 		"wide"			"300"
-		"tall"			"490"
+		"tall"			"500"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"OuterShadowBorder"
@@ -1794,4 +1794,5 @@
 		"font"				"TF2CVersion"
 	}
 }
+
 

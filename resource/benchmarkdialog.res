@@ -1145,7 +1145,7 @@
 	{
 		"ControlName"		"Divider"
 		"fieldName"		"verticalDivider"
-		"xpos"			"399"
+		"xpos"			"384"
 		"ypos"			"203"
 		"wide"			"2"
 		"tall"			"329"
@@ -1158,7 +1158,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"			"CondLabel"
-		"xpos"				"417"
+		"xpos"				"392"
 		"ypos"				"192"
 		"wide"				"200"
 		"tall"				"24"
@@ -1172,7 +1172,7 @@
 	{
 		"ControlName"			"Button"
 		"fieldName"			"RemoveUber"
-		"xpos"				"409"
+		"xpos"				"394"
 		"ypos"				"226"
 		"wide"				"24"
 		"tall"				"24"
@@ -1193,9 +1193,9 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"UberLabel"
-		"xpos"			"433"
+		"xpos"			"418"
 		"ypos"			"226"
-		"wide"			"135"
+		"wide"			"150"
 		"tall"			"24"
 		"labelText"		"#commands_cond_uber"
 		"textAlignment"	"center"
@@ -1228,7 +1228,7 @@
 	{
 		"ControlName"			"Button"
 		"fieldName"			"RemoveHiddenUber"
-		"xpos"				"409"
+		"xpos"				"394"
 		"ypos"				"250"
 		"wide"				"24"
 		"tall"				"24"
@@ -1249,9 +1249,9 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"HiddenUberLabel"
-		"xpos"			"433"
+		"xpos"			"418"
 		"ypos"			"250"
-		"wide"			"135"
+		"wide"			"150"
 		"tall"			"24"
 		"labelText"		"#commands_cond_hiddenuber"
 		"textAlignment"	"center"
@@ -1284,7 +1284,7 @@
 	{
 		"ControlName"			"Button"
 		"fieldName"			"RemoveCrits"
-		"xpos"				"409"
+		"xpos"				"394"
 		"ypos"				"274"
 		"wide"				"24"
 		"tall"				"24"
@@ -1305,9 +1305,9 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"CritsLabel"
-		"xpos"			"433"
+		"xpos"			"418"
 		"ypos"			"274"
-		"wide"			"135"
+		"wide"			"150"
 		"tall"			"24"
 		"labelText"		"#commands_cond_crits"
 		"textAlignment"	"center"
@@ -1340,7 +1340,7 @@
 	{
 		"ControlName"			"Button"
 		"fieldName"			"RemoveHiddenCrits"
-		"xpos"				"409"
+		"xpos"				"394"
 		"ypos"				"298"
 		"wide"				"24"
 		"tall"				"24"
@@ -1361,9 +1361,9 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"HiddenCritsLabel"
-		"xpos"			"433"
+		"xpos"			"418"
 		"ypos"			"298"
-		"wide"			"135"
+		"wide"			"150"
 		"tall"			"24"
 		"labelText"		"#commands_cond_hiddencrits"
 		"textAlignment"	"center"
@@ -1396,7 +1396,7 @@
 	{
 		"ControlName"			"Button"
 		"fieldName"			"RemoveMiniCrits"
-		"xpos"				"409"
+		"xpos"				"394"
 		"ypos"				"322"
 		"wide"				"24"
 		"tall"				"24"
@@ -1417,9 +1417,9 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"MiniCritsLabel"
-		"xpos"			"433"
+		"xpos"			"418"
 		"ypos"			"322"
-		"wide"			"135"
+		"wide"			"150"
 		"tall"			"24"
 		"labelText"		"#commands_cond_minicrits"
 		"textAlignment"	"center"
@@ -1452,7 +1452,7 @@
 	{
 		"ControlName"			"Button"
 		"fieldName"			"RemoveHaste"
-		"xpos"				"409"
+		"xpos"				"394"
 		"ypos"				"346"
 		"wide"				"24"
 		"tall"				"24"
@@ -1473,9 +1473,9 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"HasteLabel"
-		"xpos"			"433"
+		"xpos"			"418"
 		"ypos"			"346"
-		"wide"			"135"
+		"wide"			"150"
 		"tall"			"24"
 		"labelText"		"#commands_cond_haste"
 		"textAlignment"	"center"
@@ -1508,7 +1508,7 @@
 	{
 		"ControlName"			"Button"
 		"fieldName"			"RemoveInvis"
-		"xpos"				"409"
+		"xpos"				"394"
 		"ypos"				"370"
 		"wide"				"24"
 		"tall"				"24"
@@ -1529,9 +1529,9 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"InvisLabel"
-		"xpos"			"433"
+		"xpos"			"418"
 		"ypos"			"370"
-		"wide"			"135"
+		"wide"			"150"
 		"tall"			"24"
 		"labelText"		"#commands_cond_invis"
 		"textAlignment"	"center"
@@ -1564,7 +1564,7 @@
 	{
 		"ControlName"			"Button"
 		"fieldName"			"RemoveGiant"
-		"xpos"				"409"
+		"xpos"				"394"
 		"ypos"				"394"
 		"wide"				"24"
 		"tall"				"24"
@@ -1585,9 +1585,9 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"GiantLabel"
-		"xpos"			"433"
+		"xpos"			"418"
 		"ypos"			"394"
-		"wide"			"135"
+		"wide"			"150"
 		"tall"			"24"
 		"labelText"		"#commands_cond_giant"
 		"textAlignment"	"center"
@@ -1620,7 +1620,7 @@
 	{
 		"ControlName"			"Button"
 		"fieldName"			"RemoveTiny"
-		"xpos"				"409"
+		"xpos"				"394"
 		"ypos"				"418"
 		"wide"				"24"
 		"tall"				"24"
@@ -1641,9 +1641,9 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TinyLabel"
-		"xpos"			"433"
+		"xpos"			"418"
 		"ypos"			"418"
-		"wide"			"135"
+		"wide"			"150"
 		"tall"			"24"
 		"labelText"		"#commands_cond_tiny"
 		"textAlignment"	"center"
@@ -1676,7 +1676,7 @@
 	{
 		"ControlName"			"Button"
 		"fieldName"			"RemoveSpeed"
-		"xpos"				"409"
+		"xpos"				"394"
 		"ypos"				"442"
 		"wide"				"24"
 		"tall"				"24"
@@ -1697,9 +1697,9 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"SpeedLabel"
-		"xpos"			"433"
+		"xpos"			"418"
 		"ypos"			"442"
-		"wide"			"135"
+		"wide"			"150"
 		"tall"			"24"
 		"labelText"		"#commands_cond_speed"
 		"textAlignment"	"center"
@@ -1843,4 +1843,3 @@
 		"enabled"		"0"
 	}
 }
-

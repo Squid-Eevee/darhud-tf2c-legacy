@@ -233,6 +233,19 @@
 			"iconColor"		"255 255 255 255"
 		}
 		
+		"HealthBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"			"HealthBG"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"0"
+			"wide"				"12"
+			"tall"				"24"
+			"visible"			"1"
+			"bgcolor_override"	"0 0 0 127"
+		}
+		
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"

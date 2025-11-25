@@ -142,7 +142,7 @@
 			"ypos"				"0"
 			"zpos"				"0"
 			"wide"				"12"
-			"tall"				"f0"
+			"tall"				"30"
 			"visible"			"1"
 			"bgcolor_override"	"0 0 0 127"
 		}

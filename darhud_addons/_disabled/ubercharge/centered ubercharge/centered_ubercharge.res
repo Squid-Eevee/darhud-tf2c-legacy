@@ -125,7 +125,7 @@
 		"fgcolor"		"AdditionalShadow"
 	}
 	
-	//this element doesn't seem to do anything at the moment
+	//this element is tied to the "uber build bonus on hit" attribute which isn't used by any vanilla weapons at the moment
 	"RateBonusLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -133,10 +133,10 @@
 		"proportionaltoparent"	"1"
 		"xpos"			"cs-0.5"
 		"xpos_minmode"	"cs-0.5"
-		"ypos"			"c52"
-		"ypos_minmode"	"c52"
+		"ypos"			"c28"
+		"ypos_minmode"	"c28"
 		"zpos"			"2"
-		"wide"			"30"
+		"wide"			"36"
 		"tall"			"8"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -148,7 +148,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallestShadow"
-		"border"		""
+		"font_minmode"			"HudFontSmallestShadow"
+		"border"			"NoBorder"
+		"border_minmode"		"NoBorder"
 		"textinsetx"	"0"
 		"textinsety"	"0"
 	}
@@ -160,10 +162,10 @@
 		"proportionaltoparent"	"1"
 		"xpos"			"cs-0.5"
 		"xpos_minmode"	"cs-0.5"
-		"ypos"			"c52"
-		"ypos_minmode"	"c52"
+		"ypos"			"c28"
+		"ypos_minmode"	"c28"
 		"zpos"			"2"
-		"wide"			"30"
+		"wide"			"36"
 		"tall"			"8"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -175,7 +177,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallestShadow"
-		"border"		""
+		"font_minmode"			"HudFontSmallestShadow"
+		"border"			"NoBorder"
+		"border_minmode"		"NoBorder"
 		"textinsetx"	"0"
 		"textinsety"	"0"
 	}

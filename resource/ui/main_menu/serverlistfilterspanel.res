@@ -33,13 +33,13 @@
 		"fieldName"			"FilterBG"
 		"xpos"				"5"
 		"ypos"				"10"
-		"zpos"				"4"
+		"zpos"				"5"
 		"wide"				"128"
 		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
 		// "border"			"MainMenuAdvBGBorderAlpha"
-		"bgcolor_override"	"36 33 32 255"
+		"bgcolor_override"	"Header"
 	}
 	
 	"FilterLabel"

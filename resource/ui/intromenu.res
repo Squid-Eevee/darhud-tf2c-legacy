@@ -69,6 +69,10 @@
 		"command"		"skip"
 		"font"			"HudFontSmallBold"
 		"roundedcorners"	"0"
+		
+		"sound_armed"		"ui/buttonrollover.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"Continue"
@@ -93,6 +97,10 @@
 		"command"		"skip"
 		"font"			"HudFontSmallBold"
 		"roundedcorners"	"0"
+		
+		"sound_armed"		"ui/buttonrollover.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 	
 	"Back"
@@ -115,6 +123,10 @@
 		"command"		"back"
 		"font"			"HudFontSmallBold"
 		"roundedcorners"	"0"
+		
+		"sound_armed"		"ui/buttonrollover.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"ReplayVideo"
@@ -137,6 +149,10 @@
 		"command"		"replayVideo"
 		"font"			"HudFontSmallBold"
 		"roundedcorners"	"0"
+		
+		"sound_armed"		"ui/buttonrollover.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 	
 	"ShadedBar"

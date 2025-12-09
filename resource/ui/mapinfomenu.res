@@ -145,6 +145,10 @@
 		"default"		"1"
 		"font"			"HudFontSmallBold"
 		"roundedcorners"	"0"
+		
+		"sound_armed"		"ui/buttonrollover.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 	
 	"MapInfoWatchIntro"
@@ -168,6 +172,10 @@
 		"default"		"1"
 		"font"			"HudFontSmallBold"
 		"roundedcorners"	"0"
+		
+		"sound_armed"		"ui/buttonrollover.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 	
 	"MapInfoBack"
@@ -190,6 +198,10 @@
 		"command"		"back"
 		"font"			"HudFontSmallBold"
 		"roundedcorners"	"0"
+		
+		"sound_armed"		"ui/buttonrollover.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 	
 	"MenuBG"

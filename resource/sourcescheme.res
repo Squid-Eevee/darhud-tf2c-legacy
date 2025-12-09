@@ -445,8 +445,8 @@ Scheme
 	{
 		"6" 
 		{
-			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
+			"font" "resource/TF2CBuild.ttf"
+			"name" "TF2C Build"
 			"turkish"
 			{
 				"range" "0x0000 0x015F"

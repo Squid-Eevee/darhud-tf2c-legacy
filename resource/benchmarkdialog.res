@@ -1409,7 +1409,7 @@
 		"dulltext"			"0"
 		"brighttext"			"0"
 		"wrap"				"0"
-		"Command"			"engine removecond 123"
+		"Command"			"engine removecond 112"
 		"actionsignallevel"	"2"
 		"tooltiptext"			"#commands_addremovecond_remove_tip"
 	}
@@ -1444,7 +1444,7 @@
 		"dulltext"			"0"
 		"brighttext"			"0"
 		"wrap"				"0"
-		"Command"			"engine addcond 123"
+		"Command"			"engine addcond 112"
 		"actionsignallevel"	"2"
 		"tooltiptext"			"#commands_addremovecond_add_tip"
 	}
@@ -1843,3 +1843,4 @@
 		"enabled"		"0"
 	}
 }
+

@@ -37,7 +37,7 @@
 	"progress"
 	{
 		"ControlName"		"ProgressBar"
-		"fieldName"		"Progress"
+		"fieldName"		"progress"
 		"xpos"		"20"
 		"ypos"		"72"
 		"wide"		"250"
@@ -139,3 +139,4 @@
 		"tabPosition"		"0"
 	}
 }
+

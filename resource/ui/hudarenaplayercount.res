@@ -99,6 +99,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"image"					"../darhud/arena/player_icon"
+			"drawcolor"				"ObjectiveLabel"
 			"scaleImage"				"1"
 		}
 		"playerimageshadow"
@@ -231,6 +232,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"image"					"../darhud/arena/player_icon"
+			"drawcolor"				"ObjectiveLabel"
 			"scaleImage"				"1"
 			"if_fourteams"
 			{
@@ -354,6 +356,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"image"					"../darhud/arena/player_icon"
+			"drawcolor"				"ObjectiveLabel"
 			"scaleImage"				"1"
 		}
 		"playerimageshadow"
@@ -473,6 +476,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"image"					"../darhud/arena/player_icon"
+			"drawcolor"				"ObjectiveLabel"
 			"scaleImage"				"1"
 		}
 		"playerimageshadow"

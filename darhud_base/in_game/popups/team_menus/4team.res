@@ -496,7 +496,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSelect"
 		"xpos"			"cs-0.5"
-		"ypos"			"c-140"
+		"ypos"			"c-90"
 		"zpos"			"5"
 		"wide"			"450"
 		"tall"			"30"

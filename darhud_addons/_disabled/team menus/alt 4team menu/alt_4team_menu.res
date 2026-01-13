@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"paintBackground"	"0"
-	}	
+	}
 	
 	"bg"
 	{		
@@ -44,6 +44,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentStripe"
+	}
+	"StripeBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Stripe"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5-5"
+		"zpos"			"-1"
+		"wide"			"f-20"
+		"tall"			"174"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"OuterShadowBorder"
 	}
 
 	"SysMenu"
@@ -552,6 +565,16 @@
 		"enabled"		"0"
 	}		
 	
+	"BlueX"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"BluePlayerIcon"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
 	"BlueCount"
 	{
 		"ControlName"	"CExLabel"
@@ -574,6 +597,16 @@
 		"fgcolor"		"HUDBlueTeamSolid"
 	}
 	
+	"RedX"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"RedPlayerIcon"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
 	"RedCount"
 	{
 		"ControlName"	"CExLabel"
@@ -596,6 +629,16 @@
 		"fgcolor"		"HUDRedTeamSolid"
 	}
 	
+	"GreenX"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"GreenPlayerIcon"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
 	"GreenCount"
 	{
 		"ControlName"	"CExLabel"
@@ -618,6 +661,16 @@
 		"fgcolor"		"HUDGreenTeamSolid"
 	}
 	
+	"YellowX"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"YellowPlayerIcon"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
 	"YellowCount"
 	{
 		"ControlName"	"CExLabel"

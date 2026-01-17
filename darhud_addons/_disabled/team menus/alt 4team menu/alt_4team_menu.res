@@ -173,6 +173,24 @@
 		"visible"	"1"
 		"enabled"	"1"
 	}
+	"BLULogoShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"BLULogoShadow"
+		"pin_to_sibling"	"BLULogo"
+		"xpos"		"-2"
+		"ypos"		"-2"
+		"zpos"		"4"
+		"wide"		"90"
+		"tall"		"90"
+		"mouseinputenabled"	"0"
+		"image"		"../darhud/team_logos/blu_transparent"
+		"drawcolor"	"0 0 0 255"
+		"alpha"		"191"
+		"scaleimage"	"1"
+		"visible"	"1"
+		"enabled"	"1"
+	}
 
 	"teambutton1" //RED
 	{
@@ -230,6 +248,24 @@
 		"tall"		"80"
 		"mouseinputenabled"	"0"
 		"image"		"../darhud/team_logos/red_transparent"
+		"scaleimage"	"1"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	"REDLogoShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"REDLogoShadow"
+		"pin_to_sibling"	"REDLogo"
+		"xpos"		"-2"
+		"ypos"		"-2"
+		"zpos"		"4"
+		"wide"		"80"
+		"tall"		"80"
+		"mouseinputenabled"	"0"
+		"image"		"../darhud/team_logos/red_transparent"
+		"drawcolor"	"0 0 0 255"
+		"alpha"		"191"
 		"scaleimage"	"1"
 		"visible"	"1"
 		"enabled"	"1"
@@ -295,6 +331,24 @@
 		"visible"	"1"
 		"enabled"	"1"
 	}
+	"GRNLogoShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"GRNLogoShadow"
+		"pin_to_sibling"	"GRNLogo"
+		"xpos"		"-2"
+		"ypos"		"-2"
+		"zpos"		"4"
+		"wide"		"70"
+		"tall"		"70"
+		"mouseinputenabled"	"0"
+		"image"		"../darhud/team_logos/grn_transparent"
+		"drawcolor"	"0 0 0 255"
+		"alpha"		"191"
+		"scaleimage"	"1"
+		"visible"	"1"
+		"enabled"	"1"
+	}
 	
 	"teambutton3" //YLW
 	{
@@ -356,6 +410,24 @@
 		"visible"	"1"
 		"enabled"	"1"
 	}
+	"YLWLogoShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"YLWLogoShadow"
+		"pin_to_sibling"	"YLWLogo"
+		"xpos"		"-2"
+		"ypos"		"-2"
+		"zpos"		"4"
+		"wide"		"100"
+		"tall"		"100"
+		"mouseinputenabled"	"0"
+		"image"		"../darhud/team_logos/ylw_transparent"
+		"drawcolor"	"0 0 0 255"
+		"alpha"		"191"
+		"scaleimage"	"1"
+		"visible"	"1"
+		"enabled"	"1"
+	}
 
 	"teambutton4" //Random
 	{
@@ -412,6 +484,24 @@
 		"labelText"	"?"
 		"font"		"HudFontGiantBold"
 		"textAlignment"	"center"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	"RandomLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"RandomLabelShadow"
+		"pin_to_sibling"	"RandomLabel"
+		"xpos"		"-2"
+		"ypos"		"-2"
+		"zpos"		"4"
+		"wide"		"50"
+		"tall"		"60"
+		"mouseinputenabled"	"0"
+		"labelText"	"?"
+		"font"		"HudFontGiantBold"
+		"textAlignment"	"center"
+		"fgcolor"	"GeneralShadow"
 		"visible"	"1"
 		"enabled"	"1"
 	}

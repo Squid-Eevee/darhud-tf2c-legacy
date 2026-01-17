@@ -173,6 +173,24 @@
 		"visible"	"1"
 		"enabled"	"1"
 	}
+	"BLULogoShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"BLULogoShadow"
+		"pin_to_sibling"	"BLULogo"
+		"xpos"		"-2"
+		"ypos"		"-2"
+		"zpos"		"4"
+		"wide"		"90"
+		"tall"		"90"
+		"mouseinputenabled"	"0"
+		"image"		"../darhud/team_logos/blu_transparent"
+		"drawcolor"	"0 0 0 255"
+		"alpha"		"191"
+		"scaleimage"	"1"
+		"visible"	"1"
+		"enabled"	"1"
+	}
 
 	"teambutton1"
 	{
@@ -225,11 +243,29 @@
 		"pin_to_sibling_corner"	"pin_center_left"
 		"xpos"		"-10"
 		"ypos"		"0"
+		"zpos"		"5"
+		"wide"		"80"
+		"tall"		"80"
+		"mouseinputenabled"	"0"
+		"image"		"../darhud/team_logos/red_transparent"
+		"scaleimage"	"1"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	"REDLogoShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"REDLogoShadow"
+		"pin_to_sibling"	"REDLogo"
+		"xpos"		"-2"
+		"ypos"		"-2"
 		"zpos"		"4"
 		"wide"		"80"
 		"tall"		"80"
 		"mouseinputenabled"	"0"
 		"image"		"../darhud/team_logos/red_transparent"
+		"drawcolor"	"0 0 0 255"
+		"alpha"		"191"
 		"scaleimage"	"1"
 		"visible"	"1"
 		"enabled"	"1"
@@ -294,6 +330,24 @@
 		"visible"	"1"
 		"enabled"	"1"
 	}
+	"RandomLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"RandomLabelShadow"
+		"pin_to_sibling"	"RandomLabel"
+		"xpos"		"-2"
+		"ypos"		"-2"
+		"zpos"		"4"
+		"wide"		"50"
+		"tall"		"60"
+		"mouseinputenabled"	"0"
+		"labelText"	"?"
+		"font"		"HudFontGiantBold"
+		"textAlignment"	"center"
+		"fgcolor"	"GeneralShadow"
+		"visible"	"1"
+		"enabled"	"1"
+	}
 	
 	"teambutton3"
 	{
@@ -350,6 +404,7 @@
 		"labelText"	"#TF_Spectate"
 		"font"		"HudFontMediumSmallBold"
 		"textAlignment"	"center"
+		"fgcolor"	"GeneralLabel"
 		"visible"	"1"
 		"enabled"	"1"
 	}
@@ -402,7 +457,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"GeneralLabel"
 	}
 	"TeamMenuSelectShadow"
@@ -421,7 +476,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"GeneralShadow"
 	}
 	

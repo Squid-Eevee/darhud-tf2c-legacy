@@ -1774,25 +1774,29 @@
 		"textAlignment"		"north-east"
 		"fgcolor"			"GeneralLabel"
 		"font"				"TF2CVersion"
+		
+		"if_inlevel"
+		{
+			"ypos"	"14"
+		}
 	}
 	"VersionLabelShadow"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"VersionLabelShadow"
-		"xpos"				"r167"
-		"ypos"				"9"
-		"zpos"				"5"
-		"wide"				"160"
-		"tall"				"40"
+		"fieldName"		"VersionLabelShadow"
+		"pin_to_sibling"	"VersionLabel"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"5"
+		"wide"			"160"
+		"tall"			"40"
 		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"#TF_Menu_Version"
-		"textAlignment"		"north-east"
-		"fgcolor"			"GeneralShadow"
-		"font"				"TF2CVersion"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Menu_Version"
+		"textAlignment"	"north-east"
+		"fgcolor"		"GeneralShadow"
+		"font"			"TF2CVersion"
 	}
 }
-
-
